@@ -1138,8 +1138,8 @@ reply(cpref)
 cpref = ` *Prefix Saat ini: ( ${prefix} )*`
 reply(cpref)
 }
-if(budy.includes('Indrhi')){
-cpref = `Hayo Ngomongin Indrhi Cantik Yaaa Aowkowkwoo`
+if(budy.includes('Indri')){
+cpref = `Hayo Ngomongin Indri Cantik Yaaa Aowkowkwoo`
 reply(cpref)
 }
 if(budy.includes('Akbar')){
@@ -1355,422 +1355,422 @@ runtime = process.uptime()
                 stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
-       menu = ` [ *冬ALL MENU冬* ]
+       menu = ` [ *き⃟🦈ALL MENUき⃟🦈* ]
 
-*冬OWNER: ${NamaOwner}*
-*冬NOMER OWNER: ${NomorOwner}*
-*冬Lib: Baileys*
-*冬speed bot: ${latensyi.toFixed(4)} Second*
-*冬prefix : Multi Prefix* 
-*冬runtime : ${waktu(runtime)}* 
+*き⃟🦈OWNER: ${NamaOwner}*
+*き⃟🦈NOMER OWNER: ${NomorOwner}*
+*き⃟🦈Lib: Baileys*
+*き⃟🦈speed bot: ${latensyi.toFixed(4)} Second*
+*き⃟🦈prefix : Multi Prefix* 
+*き⃟🦈runtime : ${waktu(runtime)}* 
 
 ─❒ FUN MENU NEW
-冬 ${prefix}bego
-冬 ${prefix}tolol
-冬 ${prefix}pinter
-冬 ${prefix}pintar
-冬 ${prefix}asu
-冬 ${prefix}bodoh
-冬 ${prefix}gay
-冬 ${prefix}lesby
-冬 ${prefix}bajingan
-冬 ${prefix}jancok
-冬 ${prefix}anjing
-冬 ${prefix}ngentod
-冬 ${prefix}ngentot
-冬 ${prefix}monyet
-冬 ${prefix}mastah
-冬 ${prefix}newbie
-冬 ${prefix}bangsat
-冬 ${prefix}bangke
-冬 ${prefix}sange
-冬 ${prefix}sangean
-冬 ${prefix}dakjal
-冬 ${prefix}horny
-冬 ${prefix}wibu
-冬 ${prefix}puki
-冬 ${prefix}pantexpantek
+き⃟🦈 ${prefix}bego
+き⃟🦈 ${prefix}tolol
+き⃟🦈 ${prefix}pinter
+き⃟🦈 ${prefix}pintar
+き⃟🦈 ${prefix}asu
+き⃟🦈 ${prefix}bodoh
+き⃟🦈 ${prefix}gay
+き⃟🦈 ${prefix}lesby
+き⃟🦈 ${prefix}bajingan
+き⃟🦈 ${prefix}jancok
+き⃟🦈 ${prefix}anjing
+き⃟🦈 ${prefix}ngentod
+き⃟🦈 ${prefix}ngentot
+き⃟🦈 ${prefix}monyet
+き⃟🦈 ${prefix}mastah
+き⃟🦈 ${prefix}newbie
+き⃟🦈 ${prefix}bangsat
+き⃟🦈 ${prefix}bangke
+き⃟🦈 ${prefix}sange
+き⃟🦈 ${prefix}sangean
+き⃟🦈 ${prefix}dakjal
+き⃟🦈 ${prefix}horny
+き⃟🦈 ${prefix}wibu
+き⃟🦈 ${prefix}puki
+き⃟🦈 ${prefix}pantexpantek
 │
 ─❒ OWNER
-冬 ${prefix}autorespon [ _on/off_ ]
-冬 ${prefix}bc [ _teks/reply gif/image/video with caption_ ]
-冬 ${prefix}tobc [ _reply sticker/audio with caption_ ]
-冬 ${prefix}return [ _javascript_ ]
-冬 ${prefix}clearall
-冬 ${prefix}delchat
-冬 ${prefix}mute
-冬 ${prefix}unmute
-冬 ${prefix}public
-冬 ${prefix}self
-冬 ${prefix}spam [ _teks|jumlah_ ]
-冬 ${prefix}addcmd [ _teks reply stc_ ]
-冬 ${prefix}delcmd [ _reply stc_ ]
-冬 ${prefix}listcmd
-冬 ${prefix}spamsw [ _teks|jumlah_ ]
-冬 ${prefix}upswteks [ _teks_ ]
-冬 ${prefix}upswlokasi [ _teks_ ]
-冬 ${prefix}upswaudio [ _reply audio_ ]
-冬 ${prefix}upswvoice [ _reply audio_ ]
-冬 ${prefix}upswsticker [ _reply sticker_ ]
-冬 ${prefix}upswimage [ _reply image with caption_ ]
-冬 ${prefix}upswgif [ _reply gif with caption_ ]
-冬 ${prefix}upswvideo [ _reply video with caption_ ]
-冬 ${prefix}shutdown
-冬 ${prefix}offline [ _alasan_ ]
-冬 ${prefix}online
-冬 ${prefix}exif [ _nama|author_ ]
-冬 ${prefix}setprofile [ _reply image_ ]
-冬 ${prefix}setname [ _teks_ ]
-冬 ${prefix}setprefix [ _multi/nopref/prefix_ ]
-冬 ${prefix}setbio [ _teks_ ]
-冬 ${prefix}leave
-冬 ${prefix}restart
-冬 ${prefix}addrespon [ _tanya|jawab_ ]
-冬 ${prefix}delrespon [ _nama_ ]
-冬 ${prefix}listrespon
-冬 ${prefix}readall
-冬 ${prefix}unreadall
-冬 ${prefix}archive
-冬 ${prefix}unarchiveall
-冬 ${prefix}pin
-冬 ${prefix}unpin
-冬 ${prefix}setmenu [ _ori/simpel_ ]
-冬 ${prefix}setallmenu [ _ori/simpel_ ]
-冬 ${prefix}leavetime [ _detik/menit/jam_ ]
-冬 ${prefix}bukatime [ _detik/menit/jam_ ]
-冬 ${prefix}tutuptime [ _detik/menit/jam_ ]
-冬 ${prefix}nano [ _nama file_ ]
+き⃟🦈 ${prefix}autorespon [ _on/off_ ]
+き⃟🦈 ${prefix}bc [ _teks/reply gif/image/video with caption_ ]
+き⃟🦈 ${prefix}tobc [ _reply sticker/audio with caption_ ]
+き⃟🦈 ${prefix}return [ _javascript_ ]
+き⃟🦈 ${prefix}clearall
+き⃟🦈 ${prefix}delchat
+き⃟🦈 ${prefix}mute
+き⃟🦈 ${prefix}unmute
+き⃟🦈 ${prefix}public
+き⃟🦈 ${prefix}self
+き⃟🦈 ${prefix}spam [ _teks|jumlah_ ]
+き⃟🦈 ${prefix}addcmd [ _teks reply stc_ ]
+き⃟🦈 ${prefix}delcmd [ _reply stc_ ]
+き⃟🦈 ${prefix}listcmd
+き⃟🦈 ${prefix}spamsw [ _teks|jumlah_ ]
+き⃟🦈 ${prefix}upswteks [ _teks_ ]
+き⃟🦈 ${prefix}upswlokasi [ _teks_ ]
+き⃟🦈 ${prefix}upswaudio [ _reply audio_ ]
+き⃟🦈 ${prefix}upswvoice [ _reply audio_ ]
+き⃟🦈 ${prefix}upswsticker [ _reply sticker_ ]
+き⃟🦈 ${prefix}upswimage [ _reply image with caption_ ]
+き⃟🦈 ${prefix}upswgif [ _reply gif with caption_ ]
+き⃟🦈 ${prefix}upswvideo [ _reply video with caption_ ]
+き⃟🦈 ${prefix}shutdown
+き⃟🦈 ${prefix}offline [ _alasan_ ]
+き⃟🦈 ${prefix}online
+き⃟🦈 ${prefix}exif [ _nama|author_ ]
+き⃟🦈 ${prefix}setprofile [ _reply image_ ]
+き⃟🦈 ${prefix}setname [ _teks_ ]
+き⃟🦈 ${prefix}setprefix [ _multi/nopref/prefix_ ]
+き⃟🦈 ${prefix}setbio [ _teks_ ]
+き⃟🦈 ${prefix}leave
+き⃟🦈 ${prefix}restart
+き⃟🦈 ${prefix}addrespon [ _tanya|jawab_ ]
+き⃟🦈 ${prefix}delrespon [ _nama_ ]
+き⃟🦈 ${prefix}listrespon
+き⃟🦈 ${prefix}readall
+き⃟🦈 ${prefix}unreadall
+き⃟🦈 ${prefix}archive
+き⃟🦈 ${prefix}unarchiveall
+き⃟🦈 ${prefix}pin
+き⃟🦈 ${prefix}unpin
+き⃟🦈 ${prefix}setmenu [ _ori/simpel_ ]
+き⃟🦈 ${prefix}setallmenu [ _ori/simpel_ ]
+き⃟🦈 ${prefix}leavetime [ _detik/menit/jam_ ]
+き⃟🦈 ${prefix}bukatime [ _detik/menit/jam_ ]
+き⃟🦈 ${prefix}tutuptime [ _detik/menit/jam_ ]
+き⃟🦈 ${prefix}nano [ _nama file_ ]
 │
 ─❒GAME MENU
-冬 ${prefix}tebakgambar
-冬 ${prefix}caklontong
+き⃟🦈 ${prefix}tebakgambar
+き⃟🦈 ${prefix}caklontong
 │
 ─❒ WIBU
-冬 ${prefix}loli
-冬 ${prefix}husbu
-冬 ${prefix}milf
-冬 ${prefix}cosplay
-冬 ${prefix}wallml
+き⃟🦈 ${prefix}loli
+き⃟🦈 ${prefix}husbu
+き⃟🦈 ${prefix}milf
+き⃟🦈 ${prefix}cosplay
+き⃟🦈 ${prefix}wallml
 │
 ─❒ DOWNLOAD
-冬 ${prefix}infogempa
-冬 ${prefix}pinterest
-冬 ${prefix}herolist
-冬 ${prefix}herodetail [ _hero_ ]
-冬 ${prefix}google [ _search_ ]
-冬 ${prefix}gimage [ _search_ ]
-冬 ${prefix}wiki [ _search_ ]
-冬 ${prefix}mediafire [ _link_ ]
-冬 ${prefix}ytsearch [ _judul_ ]
-冬 ${prefix}ytmp4 [ _link yt_ ]
-冬 ${prefix}ytmp3 [ _link yt_ ]
-冬 ${prefix}play [ _judul lagu_ ]
-冬 ${prefix}video [ _judul video_ ]
-冬 ${prefix}tinyurl [ _link_ ]
-冬 ${prefix}fetch [ _link_ ]
-冬 ${prefix}igdl [ _link_ ]
-冬 ${prefix}tiktokdl [ _link_ ]
-冬 ${prefix}pinterest [ _search_ ]
-冬 ${prefix}lirik [ _judul_ ]
-冬 ${prefix}tourl [ _reply image/video_ ]
-冬 ${prefix}resepmasakan [ _judul_ ]
-冬 ${prefix}artimimpi [ _teks_ ]
-冬 ${prefix}bilangangka [ _angka_ ]
-冬 ${prefix}kalkulator [ _angka_ ]
-冬 ${prefix}fancytext [ _teks_ ]
-冬 ${prefix}githubstalk [ _username_ ]
-冬 ${prefix}translate [ _teks kodebhs_ ]
-冬 ${prefix}ss [ _link_ ]
-冬 ${prefix}playstore [ _search_ ]
-冬 ${prefix}tiktokaudio [ _link_ ]
-冬 ${prefix}brainly [ _search_ ]
-冬 ${prefix}igstory [ _search_ ]
-冬 ${prefix}igstalk [ _link_ ]
-冬 ${prefix}twitter [ _link_ ]
-冬 ${prefix}twmp3 [ _link_ ]
-冬 ${prefix}linkwa [ _search_ ]
-冬 ${prefix}fb [ _link_ ]
-冬 ${prefix}chara [ _search_ ]
-冬 ${prefix}otaku [ _search_ ]
-冬 ${prefix}komiku [ _search_ ]
+き⃟🦈 ${prefix}infogempa
+き⃟🦈 ${prefix}pinterest
+き⃟🦈 ${prefix}herolist
+き⃟🦈 ${prefix}herodetail [ _hero_ ]
+き⃟🦈 ${prefix}google [ _search_ ]
+き⃟🦈 ${prefix}gimage [ _search_ ]
+き⃟🦈 ${prefix}wiki [ _search_ ]
+き⃟🦈 ${prefix}mediafire [ _link_ ]
+き⃟🦈 ${prefix}ytsearch [ _judul_ ]
+き⃟🦈 ${prefix}ytmp4 [ _link yt_ ]
+き⃟🦈 ${prefix}ytmp3 [ _link yt_ ]
+き⃟🦈 ${prefix}play [ _judul lagu_ ]
+き⃟🦈 ${prefix}video [ _judul video_ ]
+き⃟🦈 ${prefix}tinyurl [ _link_ ]
+き⃟🦈 ${prefix}fetch [ _link_ ]
+き⃟🦈 ${prefix}igdl [ _link_ ]
+き⃟🦈 ${prefix}tiktokdl [ _link_ ]
+き⃟🦈 ${prefix}pinterest [ _search_ ]
+き⃟🦈 ${prefix}lirik [ _judul_ ]
+き⃟🦈 ${prefix}tourl [ _reply image/video_ ]
+き⃟🦈 ${prefix}resepmasakan [ _judul_ ]
+き⃟🦈 ${prefix}artimimpi [ _teks_ ]
+き⃟🦈 ${prefix}bilangangka [ _angka_ ]
+き⃟🦈 ${prefix}kalkulator [ _angka_ ]
+き⃟🦈 ${prefix}fancytext [ _teks_ ]
+き⃟🦈 ${prefix}githubstalk [ _username_ ]
+き⃟🦈 ${prefix}translate [ _teks kodebhs_ ]
+き⃟🦈 ${prefix}ss [ _link_ ]
+き⃟🦈 ${prefix}playstore [ _search_ ]
+き⃟🦈 ${prefix}tiktokaudio [ _link_ ]
+き⃟🦈 ${prefix}brainly [ _search_ ]
+き⃟🦈 ${prefix}igstory [ _search_ ]
+き⃟🦈 ${prefix}igstalk [ _link_ ]
+き⃟🦈 ${prefix}twitter [ _link_ ]
+き⃟🦈 ${prefix}twmp3 [ _link_ ]
+き⃟🦈 ${prefix}linkwa [ _search_ ]
+き⃟🦈 ${prefix}fb [ _link_ ]
+き⃟🦈 ${prefix}chara [ _search_ ]
+き⃟🦈 ${prefix}otaku [ _search_ ]
+き⃟🦈 ${prefix}komiku [ _search_ ]
 │
 ─❒ MAKER
-冬 ${prefix}blackpink
-冬 ${prefix}neon
-冬 ${prefix}greenneon
-冬 ${prefix}advanceglow
-冬 ${prefix}futureneon
-冬 ${prefix}sandwriting
-冬 ${prefix}sandsummer
-冬 ${prefix}sandengraved
-冬 ${prefix}metaldark
-冬 ${prefix}neonlight
-冬 ${prefix}holographic
-冬 ${prefix}text1917
-冬 ${prefix}minion
-冬 ${prefix}deluxesilver
-冬 ${prefix}newyearcard
-冬 ${prefix}bloodfrosted
-冬 ${prefix}halloween
-冬 ${prefix}jokerlogo
-冬 ${prefix}fireworksparkle
-冬 ${prefix}natureleaves
-冬 ${prefix}bokeh
-冬 ${prefix}toxic
-冬 ${prefix}strawberry
-冬 ${prefix}box3d
-冬 ${prefix}roadwarning
-冬 ${prefix}breakwall
-冬 ${prefix}icecold
-冬 ${prefix}luxury
-冬 ${prefix}cloud
-冬 ${prefix}summersand
-冬 ${prefix}horrorblood
-冬 ${prefix}thunder
-冬 ${prefix}pornhub
-冬 ${prefix}glitch
-冬 ${prefix}avenger
-冬 ${prefix}space
-冬 ${prefix}ninjalogo
-冬 ${prefix}marvelstudio
-冬 ${prefix}lionlogo
-冬 ${prefix}wolflogo
-冬 ${prefix}steel3d
-冬 ${prefix}wallgravity
-冬 ${prefix}shadow
-冬 ${prefix}cup
-冬 ${prefix}cup1
-冬 ${prefix}romance
-冬 ${prefix}smoke
-冬 ${prefix}burnpaper
-冬 ${prefix}lovemessage
-冬 ${prefix}undergrass
-冬 ${prefix}love
-冬 ${prefix}coffe
-冬 ${prefix}woodheart
-冬 ${prefix}woodenboard
-冬 ${prefix}summer3d
-冬 ${prefix}wolfmetal
-冬 ${prefix}nature3d
-冬 ${prefix}underwater
-冬 ${prefix}golderrose
-冬 ${prefix}summernature
-冬 ${prefix}letterleaves
-冬 ${prefix}glowingneon
-冬 ${prefix}fallleaves
-冬 ${prefix}flamming
-冬 ${prefix}harrypotter
-冬 ${prefix}carvedwood
-冬 ${prefix}arcade8bit
-冬 ${prefix}battlefield4
-冬 ${prefix}pubg
-冬 ${prefix}wetglass
-冬 ${prefix}multicolor3d
-冬 ${prefix}watercolor
-冬 ${prefix}luxurygold
-冬 ${prefix}galaxywallpaper
-冬 ${prefix}lighttext
-冬 ${prefix}beautifulflower
-冬 ${prefix}puppycute
-冬 ${prefix}royaltext
-冬 ${prefix}heartshaped
-冬 ${prefix}birthdaycake
-冬 ${prefix}galaxystyle
-冬 ${prefix}hologram3d
-冬 ${prefix}greenneon
-冬 ${prefix}glossychrome
-冬 ${prefix}greenbush
-冬 ${prefix}metallogo
-冬 ${prefix}noeltext
-冬 ${prefix}glittergold
-冬 ${prefix}textcake
-冬 ${prefix}starsnight
-冬 ${prefix}wooden3d
-冬 ${prefix}textbyname
-冬 ${prefix}writegalacy
-冬 ${prefix}galaxybat
-冬 ${prefix}snow3d
-冬 ${prefix}birthdayday
-冬 ${prefix}goldplaybutton
-冬 ${prefix}silverplaybutton
-冬 ${prefix}freefire
-冬 ${prefix}foliokanan [ _text_ ]
-冬 ${prefix}foliokiri [ _text_ ]
-冬 ${prefix}nuliskanan [ _text_ ]
-冬 ${prefix}nuliskiri [ _text_ ]
-冬 ${prefix}maker3d [ _text_ ]
-冬 ${prefix}maker2d [ _text_ ]
-冬 ${prefix}epepserti [ _text_ ]
+き⃟🦈 ${prefix}blackpink
+き⃟🦈 ${prefix}neon
+き⃟🦈 ${prefix}greenneon
+き⃟🦈 ${prefix}advanceglow
+き⃟🦈 ${prefix}futureneon
+き⃟🦈 ${prefix}sandwriting
+き⃟🦈 ${prefix}sandsummer
+き⃟🦈 ${prefix}sandengraved
+き⃟🦈 ${prefix}metaldark
+き⃟🦈 ${prefix}neonlight
+き⃟🦈 ${prefix}holographic
+き⃟🦈 ${prefix}text1917
+き⃟🦈 ${prefix}minion
+き⃟🦈 ${prefix}deluxesilver
+き⃟🦈 ${prefix}newyearcard
+き⃟🦈 ${prefix}bloodfrosted
+き⃟🦈 ${prefix}halloween
+き⃟🦈 ${prefix}jokerlogo
+き⃟🦈 ${prefix}fireworksparkle
+き⃟🦈 ${prefix}natureleaves
+き⃟🦈 ${prefix}bokeh
+き⃟🦈 ${prefix}toxic
+き⃟🦈 ${prefix}strawberry
+き⃟🦈 ${prefix}box3d
+き⃟🦈 ${prefix}roadwarning
+き⃟🦈 ${prefix}breakwall
+き⃟🦈 ${prefix}icecold
+き⃟🦈 ${prefix}luxury
+き⃟🦈 ${prefix}cloud
+き⃟🦈 ${prefix}summersand
+き⃟🦈 ${prefix}horrorblood
+き⃟🦈 ${prefix}thunder
+き⃟🦈 ${prefix}pornhub
+き⃟🦈 ${prefix}glitch
+き⃟🦈 ${prefix}avenger
+き⃟🦈 ${prefix}space
+き⃟🦈 ${prefix}ninjalogo
+き⃟🦈 ${prefix}marvelstudio
+き⃟🦈 ${prefix}lionlogo
+き⃟🦈 ${prefix}wolflogo
+き⃟🦈 ${prefix}steel3d
+き⃟🦈 ${prefix}wallgravity
+き⃟🦈 ${prefix}shadow
+き⃟🦈 ${prefix}cup
+き⃟🦈 ${prefix}cup1
+き⃟🦈 ${prefix}romance
+き⃟🦈 ${prefix}smoke
+き⃟🦈 ${prefix}burnpaper
+き⃟🦈 ${prefix}lovemessage
+き⃟🦈 ${prefix}undergrass
+き⃟🦈 ${prefix}love
+き⃟🦈 ${prefix}coffe
+き⃟🦈 ${prefix}woodheart
+き⃟🦈 ${prefix}woodenboard
+き⃟🦈 ${prefix}summer3d
+き⃟🦈 ${prefix}wolfmetal
+き⃟🦈 ${prefix}nature3d
+き⃟🦈 ${prefix}underwater
+き⃟🦈 ${prefix}golderrose
+き⃟🦈 ${prefix}summernature
+き⃟🦈 ${prefix}letterleaves
+き⃟🦈 ${prefix}glowingneon
+き⃟🦈 ${prefix}fallleaves
+き⃟🦈 ${prefix}flamming
+き⃟🦈 ${prefix}harrypotter
+き⃟🦈 ${prefix}carvedwood
+き⃟🦈 ${prefix}arcade8bit
+き⃟🦈 ${prefix}battlefield4
+き⃟🦈 ${prefix}pubg
+き⃟🦈 ${prefix}wetglass
+き⃟🦈 ${prefix}multicolor3d
+き⃟🦈 ${prefix}watercolor
+き⃟🦈 ${prefix}luxurygold
+き⃟🦈 ${prefix}galaxywallpaper
+き⃟🦈 ${prefix}lighttext
+き⃟🦈 ${prefix}beautifulflower
+き⃟🦈 ${prefix}puppycute
+き⃟🦈 ${prefix}royaltext
+き⃟🦈 ${prefix}heartshaped
+き⃟🦈 ${prefix}birthdaycake
+き⃟🦈 ${prefix}galaxystyle
+き⃟🦈 ${prefix}hologram3d
+き⃟🦈 ${prefix}greenneon
+き⃟🦈 ${prefix}glossychrome
+き⃟🦈 ${prefix}greenbush
+き⃟🦈 ${prefix}metallogo
+き⃟🦈 ${prefix}noeltext
+き⃟🦈 ${prefix}glittergold
+き⃟🦈 ${prefix}textcake
+き⃟🦈 ${prefix}starsnight
+き⃟🦈 ${prefix}wooden3d
+き⃟🦈 ${prefix}textbyname
+き⃟🦈 ${prefix}writegalacy
+き⃟🦈 ${prefix}galaxybat
+き⃟🦈 ${prefix}snow3d
+き⃟🦈 ${prefix}birthdayday
+き⃟🦈 ${prefix}goldplaybutton
+き⃟🦈 ${prefix}silverplaybutton
+き⃟🦈 ${prefix}freefire
+き⃟🦈 ${prefix}foliokanan [ _text_ ]
+き⃟🦈 ${prefix}foliokiri [ _text_ ]
+き⃟🦈 ${prefix}nuliskanan [ _text_ ]
+き⃟🦈 ${prefix}nuliskiri [ _text_ ]
+き⃟🦈 ${prefix}maker3d [ _text_ ]
+き⃟🦈 ${prefix}maker2d [ _text_ ]
+き⃟🦈 ${prefix}epepserti [ _text_ ]
 │
 ──❒ GROUP
-冬 ${prefix}getpict [ _@tag_ ]
-冬 ${prefix}getname [ _reply target_ ]
-冬 ${prefix}getbio [ _reply target_ ]
-冬 ${prefix}antilink [ _on/off_ ]
-冬 ${prefix}antivirtex [ _on/off_ ]
-冬 ${prefix}antiwame [ _on/off_ ]
-冬 ${prefix} welcome [ _on/off_ ]
-冬 ${prefix}creategrup [ _nama|@tag_ ]
-冬 ${prefix}tictactoe [ _@tag_ ]
-冬 ${prefix}delttt
-冬 ${prefix}kick
-冬 ${prefix}add
-冬 ${prefix}setgrupname
-冬 ${prefix}getpp
-冬 ${prefix}antiwame
-冬 ${prefix}getdeskgc
-冬 ${prefix}sider [ _reply pesan bot_ ]
-冬 ${prefix}hacked [ _teks_ ]
-冬 ${prefix}setnamegc [ _teks_ ]
-冬 ${prefix}setdeskgc [ _teks_ ]
-冬 ${prefix}fitnah [ _@tag|teks1|teks2_ ]
-冬 ${prefix}kontak [ _@tag|nama_ ]
-冬 ${prefix}kontag [ _@tag|nama_ ]
-冬 ${prefix}opengc
-冬 ${prefix}closegc
-冬 ${prefix}resetlinkgc
-冬 ${prefix}linkgrup
-冬 ${prefix}hidetag [ _teks_ ]
-冬 ${prefix}sticktag [ _nama sticker_ ]
-冬 ${prefix}totag [ _reply media_ ]
+き⃟🦈 ${prefix}getpict [ _@tag_ ]
+き⃟🦈 ${prefix}getname [ _reply target_ ]
+き⃟🦈 ${prefix}getbio [ _reply target_ ]
+き⃟🦈 ${prefix}antilink [ _on/off_ ]
+き⃟🦈 ${prefix}antivirtex [ _on/off_ ]
+き⃟🦈 ${prefix}antiwame [ _on/off_ ]
+き⃟🦈 ${prefix} welcome [ _on/off_ ]
+き⃟🦈 ${prefix}creategrup [ _nama|@tag_ ]
+き⃟🦈 ${prefix}tictactoe [ _@tag_ ]
+き⃟🦈 ${prefix}delttt
+き⃟🦈 ${prefix}kick
+き⃟🦈 ${prefix}add
+き⃟🦈 ${prefix}setgrupname
+き⃟🦈 ${prefix}getpp
+き⃟🦈 ${prefix}antiwame
+き⃟🦈 ${prefix}getdeskgc
+き⃟🦈 ${prefix}sider [ _reply pesan bot_ ]
+き⃟🦈 ${prefix}hacked [ _teks_ ]
+き⃟🦈 ${prefix}setnamegc [ _teks_ ]
+き⃟🦈 ${prefix}setdeskgc [ _teks_ ]
+き⃟🦈 ${prefix}fitnah [ _@tag|teks1|teks2_ ]
+き⃟🦈 ${prefix}kontak [ _@tag|nama_ ]
+き⃟🦈 ${prefix}kontag [ _@tag|nama_ ]
+き⃟🦈 ${prefix}opengc
+き⃟🦈 ${prefix}closegc
+き⃟🦈 ${prefix}resetlinkgc
+き⃟🦈 ${prefix}linkgrup
+き⃟🦈 ${prefix}hidetag [ _teks_ ]
+き⃟🦈 ${prefix}sticktag [ _nama sticker_ ]
+き⃟🦈 ${prefix}totag [ _reply media_ ]
 │
 ─❒ TOOLS
-冬 ${prefix}sticker
-冬 ${prefix}stickerwm [ _nama|author_ ]
-冬 ${prefix}dadu
-冬 ${prefix}semoji [ _emoji_ ]
-冬 ${prefix}attp [ _teks_ ]
-冬 ${prefix}ttp [ _teks_ ]
-冬 ${prefix}ttp2 [ _teks_ ]
-冬 ${prefix}ttp3 [ _teks_ ]
-冬 ${prefix}ttp4 [ _teks_ ]
-冬 ${prefix}toimg
-冬 ${prefix}tomp3 [ _reply video_ ]
-冬 ${prefix}tomp4 [ _reply sticker gif_ ]
-冬 ${prefix}robot [ _reply audio_ ]
-冬 ${prefix}balik [ _reply audio_ ]
-冬 ${prefix}bass [ _reply audio_ ]
-冬 ${prefix}gemuk [ _reply audio_ ]
-冬 ${prefix}detikvn [ _reply audio caption angka_ ]
-冬 ${prefix}detikvideo [ _reply video caption angka_ ]
+き⃟🦈 ${prefix}sticker
+き⃟🦈 ${prefix}stickerwm [ _nama|author_ ]
+き⃟🦈 ${prefix}dadu
+き⃟🦈 ${prefix}semoji [ _emoji_ ]
+き⃟🦈 ${prefix}attp [ _teks_ ]
+き⃟🦈 ${prefix}ttp [ _teks_ ]
+き⃟🦈 ${prefix}ttp2 [ _teks_ ]
+き⃟🦈 ${prefix}ttp3 [ _teks_ ]
+き⃟🦈 ${prefix}ttp4 [ _teks_ ]
+き⃟🦈 ${prefix}toimg
+き⃟🦈 ${prefix}tomp3 [ _reply video_ ]
+き⃟🦈 ${prefix}tomp4 [ _reply sticker gif_ ]
+き⃟🦈 ${prefix}robot [ _reply audio_ ]
+き⃟🦈 ${prefix}balik [ _reply audio_ ]
+き⃟🦈 ${prefix}bass [ _reply audio_ ]
+き⃟🦈 ${prefix}gemuk [ _reply audio_ ]
+き⃟🦈 ${prefix}detikvn [ _reply audio caption angka_ ]
+き⃟🦈 ${prefix}detikvideo [ _reply video caption angka_ ]
 │
 │
 ─❒ STORAGE
-冬 ${prefix}listimage
-冬 ${prefix}liststicker
-冬 ${prefix}listvn
-冬 ${prefix}addsticker [ _nama_ ]
-冬 ${prefix}delsticker [ _nama_ ]
-冬 ${prefix}addvn [ _nama_ ]
-冬 ${prefix}delvn [ _nama_ ]
-冬 ${prefix}addimage [ _nama_ ]
-冬 ${prefix}delimage [ _nama_ ]
+き⃟🦈 ${prefix}listimage
+き⃟🦈 ${prefix}liststicker
+き⃟🦈 ${prefix}listvn
+き⃟🦈 ${prefix}addsticker [ _nama_ ]
+き⃟🦈 ${prefix}delsticker [ _nama_ ]
+き⃟🦈 ${prefix}addvn [ _nama_ ]
+き⃟🦈 ${prefix}delvn [ _nama_ ]
+き⃟🦈 ${prefix}addimage [ _nama_ ]
+き⃟🦈 ${prefix}delimage [ _nama_ ]
 │
 ─❒ MENU HARAM
-冬 ${prefix}bokep
-冬 ${prefix}neko
-冬 ${prefix}kanna
-冬 ${prefix}sagiri
-冬 ${prefix}megumin
-冬 ${prefix}wallnime
-冬 ${prefix}ass
-冬 ${prefix}ahegao
-冬 ${prefix}hentai
-冬 ${prefix}yuri
-冬 ${prefix}panties
-冬 ${prefix}neko
-冬 ${prefix}chiisaihentai
-冬 ${prefix}trap
-冬 ${prefix}blowjob
-冬 ${prefix}yaoi
-冬 ${prefix}ecchi
-冬 ${prefix}ahegao
-冬 ${prefix}hololewd
-冬 ${prefix}sideoppai
-冬 ${prefix}animefeets
-冬 ${prefix}animebooty
-冬 ${prefix}animethighss
-冬 ${prefix}hentaiparadise
-冬 ${prefix}animearmpits
-冬 ${prefix}hentaifemdom
-冬 ${prefix}lewdanimegirls
-冬 ${prefix}biganimetiddies
-冬 ${prefix}animebellybutton
-冬 ${prefix}hentai4everyone
-冬 ${prefix}bj
-冬 ${prefix}ero
-冬 ${prefix}cum
-冬 ${prefix}feet
-冬 ${prefix}yuri
-冬 ${prefix}trap
-冬 ${prefix}lewd
-冬 ${prefix}feed
-冬 ${prefix}eron
-冬 ${prefix}solo
-冬 ${prefix}gasm
-冬 ${prefix}poke
-冬 ${prefix}anal
-冬 ${prefix}holo
-冬 ${prefix}tits
-冬 ${prefix}kuni
-冬 ${prefix}kiss
-冬 ${prefix}erok
-冬 ${prefix}smug
-冬 ${prefix}baka
-冬 ${prefix}solog
-冬 ${prefix}feetg
-冬 ${prefix}lewdk
-冬 ${prefix}waifu
-冬 ${prefix}pussy
-冬 ${prefix}femdom
-冬 ${prefix}cuddle
-冬 ${prefix}eroyuri
-冬 ${prefix}cum_jpg
-冬 ${prefix}blowjob
-冬 ${prefix}erofeet
-冬 ${prefix}holoero
-冬 ${prefix}classic
-冬 ${prefix}erokemo
-冬 ${prefix}fox_girl
-冬 ${prefix}futanari
-冬 ${prefix}lewdkemo
-冬 ${prefix}wallpaper
-冬 ${prefix}pussy_jpg
-冬 ${prefix}kemonomimi
-冬 ${prefix}nsfw_avatar
+き⃟🦈 ${prefix}bokep
+き⃟🦈 ${prefix}neko
+き⃟🦈 ${prefix}kanna
+き⃟🦈 ${prefix}sagiri
+き⃟🦈 ${prefix}megumin
+き⃟🦈 ${prefix}wallnime
+き⃟🦈 ${prefix}ass
+き⃟🦈 ${prefix}ahegao
+き⃟🦈 ${prefix}hentai
+き⃟🦈 ${prefix}yuri
+き⃟🦈 ${prefix}panties
+き⃟🦈 ${prefix}neko
+き⃟🦈 ${prefix}chiisaihentai
+き⃟🦈 ${prefix}trap
+き⃟🦈 ${prefix}blowjob
+き⃟🦈 ${prefix}yaoi
+き⃟🦈 ${prefix}ecchi
+き⃟🦈 ${prefix}ahegao
+き⃟🦈 ${prefix}hololewd
+き⃟🦈 ${prefix}sideoppai
+き⃟🦈 ${prefix}animefeets
+き⃟🦈 ${prefix}animebooty
+き⃟🦈 ${prefix}animethighss
+き⃟🦈 ${prefix}hentaiparadise
+き⃟🦈 ${prefix}animearmpits
+き⃟🦈 ${prefix}hentaifemdom
+き⃟🦈 ${prefix}lewdanimegirls
+き⃟🦈 ${prefix}biganimetiddies
+き⃟🦈 ${prefix}animebellybutton
+き⃟🦈 ${prefix}hentai4everyone
+き⃟🦈 ${prefix}bj
+き⃟🦈 ${prefix}ero
+き⃟🦈 ${prefix}cum
+き⃟🦈 ${prefix}feet
+き⃟🦈 ${prefix}yuri
+き⃟🦈 ${prefix}trap
+き⃟🦈 ${prefix}lewd
+き⃟🦈 ${prefix}feed
+き⃟🦈 ${prefix}eron
+き⃟🦈 ${prefix}solo
+き⃟🦈 ${prefix}gasm
+き⃟🦈 ${prefix}poke
+き⃟🦈 ${prefix}anal
+き⃟🦈 ${prefix}holo
+き⃟🦈 ${prefix}tits
+き⃟🦈 ${prefix}kuni
+き⃟🦈 ${prefix}kiss
+き⃟🦈 ${prefix}erok
+き⃟🦈 ${prefix}smug
+き⃟🦈 ${prefix}baka
+き⃟🦈 ${prefix}solog
+き⃟🦈 ${prefix}feetg
+き⃟🦈 ${prefix}lewdk
+き⃟🦈 ${prefix}waifu
+き⃟🦈 ${prefix}pussy
+き⃟🦈 ${prefix}femdom
+き⃟🦈 ${prefix}cuddle
+き⃟🦈 ${prefix}eroyuri
+き⃟🦈 ${prefix}cum_jpg
+き⃟🦈 ${prefix}blowjob
+き⃟🦈 ${prefix}erofeet
+き⃟🦈 ${prefix}holoero
+き⃟🦈 ${prefix}classic
+き⃟🦈 ${prefix}erokemo
+き⃟🦈 ${prefix}fox_girl
+き⃟🦈 ${prefix}futanari
+き⃟🦈 ${prefix}lewdkemo
+き⃟🦈 ${prefix}wallpaper
+き⃟🦈 ${prefix}pussy_jpg
+き⃟🦈 ${prefix}kemonomimi
+き⃟🦈 ${prefix}nsfw_avatar
 │
 ─❒ EVAL
-冬 *x*
-冬 *>*
-冬 *=>*
-冬 *$*
+き⃟🦈 *x*
+き⃟🦈 *>*
+き⃟🦈 *=>*
+き⃟🦈 *$*
 │
 ─❒ OTHER / FUN
-冬 ${prefix}quotes
-冬 ${prefix}meme
-冬 ${prefix}darkjoke
-冬 ${prefix}rate
-冬 ${prefix}kapankah
-冬 ${prefix}apakah
-冬 ${prefix}bisakah
-冬 ${prefix}caripesan [ _teks|jumlah_ ]
-冬 ${prefix}slots
-冬 ${prefix}suit [ _gunting/batu/kertas_ ]
-冬 ${prefix}tag [ _nomor_ ]
-冬 ${prefix}tagme
-冬 ${prefix}tts [ _kodebhs teks_ ]
-冬 ${prefix}readmore [ _teks1|teks2_ ]
-冬 ${prefix}fitnahpc [ _nomor|teks1|teks2_ ]
-冬 ${prefix}chat [ _nomor|teks_ ]
-冬 ${prefix}fdeface [ _replyimg link|teks1|teks2_ ]
-冬 ${prefix}listgrup
-冬 ${prefix}baileys [ _reply message_ ]
-冬 ${prefix}q [ _reply message_ ]
-冬 ${prefix}getcaption [ _reply message_ ]
-冬 ${prefix}tospam [ _reply audio/sticker/image|jumlah_ ]
-冬 ${prefix}sharelock [ _teks1|teks2_ ]
+き⃟🦈 ${prefix}quotes
+き⃟🦈 ${prefix}meme
+き⃟🦈 ${prefix}darkjoke
+き⃟🦈 ${prefix}rate
+き⃟🦈 ${prefix}kapankah
+き⃟🦈 ${prefix}apakah
+き⃟🦈 ${prefix}bisakah
+き⃟🦈 ${prefix}caripesan [ _teks|jumlah_ ]
+き⃟🦈 ${prefix}slots
+き⃟🦈 ${prefix}suit [ _gunting/batu/kertas_ ]
+き⃟🦈 ${prefix}tag [ _nomor_ ]
+き⃟🦈 ${prefix}tagme
+き⃟🦈 ${prefix}tts [ _kodebhs teks_ ]
+き⃟🦈 ${prefix}readmore [ _teks1|teks2_ ]
+き⃟🦈 ${prefix}fitnahpc [ _nomor|teks1|teks2_ ]
+き⃟🦈 ${prefix}chat [ _nomor|teks_ ]
+き⃟🦈 ${prefix}fdeface [ _replyimg link|teks1|teks2_ ]
+き⃟🦈 ${prefix}listgrup
+き⃟🦈 ${prefix}baileys [ _reply message_ ]
+き⃟🦈 ${prefix}q [ _reply message_ ]
+き⃟🦈 ${prefix}getcaption [ _reply message_ ]
+き⃟🦈 ${prefix}tospam [ _reply audio/sticker/image|jumlah_ ]
+き⃟🦈 ${prefix}sharelock [ _teks1|teks2_ ]
 ─❒ SOUND MENU
-冬 ${prefix}sound1 - 冬 ${prefix}sound75
+き⃟🦈 ${prefix}sound1 - き⃟🦈 ${prefix}sound75
 
 𝘘𝘜𝘖𝘛𝘌𝘚  : ${quotes}
 └─────────────────❒`
@@ -1929,14 +1929,14 @@ runtime = process.uptime()
                 stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
-       menu = `╭─❒ 「 KurzBotz Assistan Info 」
-*冬TOTAL MENU :464*
-*冬OWNER: ${NamaOwner}*
-*冬NOMER OWNER: ${NomorOwner}*
-*冬Lib: Baileys*
-*冬speed bot: ${latensyi.toFixed(4)} Second*
-*冬prefix : Multi Prefix* 
-*冬runtime : ${waktu(runtime)}* 
+       menu = `╭─❒ 「 AkbarBotz Info 」
+*き⃟🦈TOTAL MENU :464*
+*き⃟🦈OWNER: ${NamaOwner}*
+*き⃟🦈NOMER OWNER: ${NomorOwner}*
+*き⃟🦈Lib: Baileys*
+*き⃟🦈speed bot: ${latensyi.toFixed(4)} Second*
+*き⃟🦈prefix : Multi Prefix* 
+*き⃟🦈runtime : ${waktu(runtime)}* 
 
 𝘘𝘜𝘖𝘛𝘌𝘚  : ${quotes}`
 sendButLocation(from, `${menu}`, "*_© Akbarbarz_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`allmenu`,buttonText:{displayText:'ALL MENU'},type:1},{buttonId:`rules`,buttonText:{displayText:'RULES'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
@@ -2028,414 +2028,414 @@ quotes = quotesnya.result.quotes
                 stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
-       menunya = ` [ *冬ALL MENU冬* ]
+       menunya = ` [ *き⃟🦈ALL MENUき⃟🦈* ]
 
 ─❒ FUN MENU NEW
-冬 ${prefix}bego
-冬 ${prefix}tolol
-冬 ${prefix}pinter
-冬 ${prefix}pintar
-冬 ${prefix}asu
-冬 ${prefix}bodoh
-冬 ${prefix}gay
-冬 ${prefix}lesby
-冬 ${prefix}bajingan
-冬 ${prefix}jancok
-冬 ${prefix}anjing
-冬 ${prefix}ngentod
-冬 ${prefix}ngentot
-冬 ${prefix}monyet
-冬 ${prefix}mastah
-冬 ${prefix}newbie
-冬 ${prefix}bangsat
-冬 ${prefix}bangke
-冬 ${prefix}sange
-冬 ${prefix}sangean
-冬 ${prefix}dakjal
-冬 ${prefix}horny
-冬 ${prefix}wibu
-冬 ${prefix}puki
-冬 ${prefix}pantexpantek
+き⃟🦈 ${prefix}bego
+き⃟🦈 ${prefix}tolol
+き⃟🦈 ${prefix}pinter
+き⃟🦈 ${prefix}pintar
+き⃟🦈 ${prefix}asu
+き⃟🦈 ${prefix}bodoh
+き⃟🦈 ${prefix}gay
+き⃟🦈 ${prefix}lesby
+き⃟🦈 ${prefix}bajingan
+き⃟🦈 ${prefix}jancok
+き⃟🦈 ${prefix}anjing
+き⃟🦈 ${prefix}ngentod
+き⃟🦈 ${prefix}ngentot
+き⃟🦈 ${prefix}monyet
+き⃟🦈 ${prefix}mastah
+き⃟🦈 ${prefix}newbie
+き⃟🦈 ${prefix}bangsat
+き⃟🦈 ${prefix}bangke
+き⃟🦈 ${prefix}sange
+き⃟🦈 ${prefix}sangean
+き⃟🦈 ${prefix}dakjal
+き⃟🦈 ${prefix}horny
+き⃟🦈 ${prefix}wibu
+き⃟🦈 ${prefix}puki
+き⃟🦈 ${prefix}pantexpantek
 │
 ─❒ OWNER
-冬 ${prefix}autorespon [ _on/off_ ]
-冬 ${prefix}bc [ _teks/reply gif/image/video with caption_ ]
-冬 ${prefix}tobc [ _reply sticker/audio with caption_ ]
-冬 ${prefix}return [ _javascript_ ]
-冬 ${prefix}clearall
-冬 ${prefix}delchat
-冬 ${prefix}mute
-冬 ${prefix}unmute
-冬 ${prefix}public
-冬 ${prefix}self
-冬 ${prefix}spam [ _teks|jumlah_ ]
-冬 ${prefix}addcmd [ _teks reply stc_ ]
-冬 ${prefix}delcmd [ _reply stc_ ]
-冬 ${prefix}listcmd
-冬 ${prefix}spamsw [ _teks|jumlah_ ]
-冬 ${prefix}upswteks [ _teks_ ]
-冬 ${prefix}upswlokasi [ _teks_ ]
-冬 ${prefix}upswaudio [ _reply audio_ ]
-冬 ${prefix}upswvoice [ _reply audio_ ]
-冬 ${prefix}upswsticker [ _reply sticker_ ]
-冬 ${prefix}upswimage [ _reply image with caption_ ]
-冬 ${prefix}upswgif [ _reply gif with caption_ ]
-冬 ${prefix}upswvideo [ _reply video with caption_ ]
-冬 ${prefix}shutdown
-冬 ${prefix}offline [ _alasan_ ]
-冬 ${prefix}online
-冬 ${prefix}exif [ _nama|author_ ]
-冬 ${prefix}setprofile [ _reply image_ ]
-冬 ${prefix}setname [ _teks_ ]
-冬 ${prefix}setprefix [ _multi/nopref/prefix_ ]
-冬 ${prefix}setbio [ _teks_ ]
-冬 ${prefix}leave
-冬 ${prefix}restart
-冬 ${prefix}addrespon [ _tanya|jawab_ ]
-冬 ${prefix}delrespon [ _nama_ ]
-冬 ${prefix}listrespon
-冬 ${prefix}readall
-冬 ${prefix}unreadall
-冬 ${prefix}archive
-冬 ${prefix}unarchiveall
-冬 ${prefix}pin
-冬 ${prefix}unpin
-冬 ${prefix}setmenu [ _ori/simpel_ ]
-冬 ${prefix}setallmenu [ _ori/simpel_ ]
-冬 ${prefix}leavetime [ _detik/menit/jam_ ]
-冬 ${prefix}bukatime [ _detik/menit/jam_ ]
-冬 ${prefix}tutuptime [ _detik/menit/jam_ ]
-冬 ${prefix}nano [ _nama file_ ]
+き⃟🦈 ${prefix}autorespon [ _on/off_ ]
+き⃟🦈 ${prefix}bc [ _teks/reply gif/image/video with caption_ ]
+き⃟🦈 ${prefix}tobc [ _reply sticker/audio with caption_ ]
+き⃟🦈 ${prefix}return [ _javascript_ ]
+き⃟🦈 ${prefix}clearall
+き⃟🦈 ${prefix}delchat
+き⃟🦈 ${prefix}mute
+き⃟🦈 ${prefix}unmute
+き⃟🦈 ${prefix}public
+き⃟🦈 ${prefix}self
+き⃟🦈 ${prefix}spam [ _teks|jumlah_ ]
+き⃟🦈 ${prefix}addcmd [ _teks reply stc_ ]
+き⃟🦈 ${prefix}delcmd [ _reply stc_ ]
+き⃟🦈 ${prefix}listcmd
+き⃟🦈 ${prefix}spamsw [ _teks|jumlah_ ]
+き⃟🦈 ${prefix}upswteks [ _teks_ ]
+き⃟🦈 ${prefix}upswlokasi [ _teks_ ]
+き⃟🦈 ${prefix}upswaudio [ _reply audio_ ]
+き⃟🦈 ${prefix}upswvoice [ _reply audio_ ]
+き⃟🦈 ${prefix}upswsticker [ _reply sticker_ ]
+き⃟🦈 ${prefix}upswimage [ _reply image with caption_ ]
+き⃟🦈 ${prefix}upswgif [ _reply gif with caption_ ]
+き⃟🦈 ${prefix}upswvideo [ _reply video with caption_ ]
+き⃟🦈 ${prefix}shutdown
+き⃟🦈 ${prefix}offline [ _alasan_ ]
+き⃟🦈 ${prefix}online
+き⃟🦈 ${prefix}exif [ _nama|author_ ]
+き⃟🦈 ${prefix}setprofile [ _reply image_ ]
+き⃟🦈 ${prefix}setname [ _teks_ ]
+き⃟🦈 ${prefix}setprefix [ _multi/nopref/prefix_ ]
+き⃟🦈 ${prefix}setbio [ _teks_ ]
+き⃟🦈 ${prefix}leave
+き⃟🦈 ${prefix}restart
+き⃟🦈 ${prefix}addrespon [ _tanya|jawab_ ]
+き⃟🦈 ${prefix}delrespon [ _nama_ ]
+き⃟🦈 ${prefix}listrespon
+き⃟🦈 ${prefix}readall
+き⃟🦈 ${prefix}unreadall
+き⃟🦈 ${prefix}archive
+き⃟🦈 ${prefix}unarchiveall
+き⃟🦈 ${prefix}pin
+き⃟🦈 ${prefix}unpin
+き⃟🦈 ${prefix}setmenu [ _ori/simpel_ ]
+き⃟🦈 ${prefix}setallmenu [ _ori/simpel_ ]
+き⃟🦈 ${prefix}leavetime [ _detik/menit/jam_ ]
+き⃟🦈 ${prefix}bukatime [ _detik/menit/jam_ ]
+き⃟🦈 ${prefix}tutuptime [ _detik/menit/jam_ ]
+き⃟🦈 ${prefix}nano [ _nama file_ ]
 │
 ─❒GAME MENU
-冬 ${prefix}tebakgambar
-冬 ${prefix}caklontong
+き⃟🦈 ${prefix}tebakgambar
+き⃟🦈 ${prefix}caklontong
 │
 ─❒ WIBU
-冬 ${prefix}loli
-冬 ${prefix}husbu
-冬 ${prefix}milf
-冬 ${prefix}cosplay
-冬 ${prefix}wallml
+き⃟🦈 ${prefix}loli
+き⃟🦈 ${prefix}husbu
+き⃟🦈 ${prefix}milf
+き⃟🦈 ${prefix}cosplay
+き⃟🦈 ${prefix}wallml
 │
 ─❒ DOWNLOAD
-冬 ${prefix}infogempa
-冬 ${prefix}pinterest
-冬 ${prefix}herolist
-冬 ${prefix}herodetail [ _hero_ ]
-冬 ${prefix}google [ _search_ ]
-冬 ${prefix}gimage [ _search_ ]
-冬 ${prefix}wiki [ _search_ ]
-冬 ${prefix}mediafire [ _link_ ]
-冬 ${prefix}ytsearch [ _judul_ ]
-冬 ${prefix}ytmp4 [ _link yt_ ]
-冬 ${prefix}ytmp3 [ _link yt_ ]
-冬 ${prefix}play [ _judul lagu_ ]
-冬 ${prefix}video [ _judul video_ ]
-冬 ${prefix}tinyurl [ _link_ ]
-冬 ${prefix}fetch [ _link_ ]
-冬 ${prefix}igdl [ _link_ ]
-冬 ${prefix}tiktokdl [ _link_ ]
-冬 ${prefix}pinterest [ _search_ ]
-冬 ${prefix}lirik [ _judul_ ]
-冬 ${prefix}tourl [ _reply image/video_ ]
-冬 ${prefix}resepmasakan [ _judul_ ]
-冬 ${prefix}artimimpi [ _teks_ ]
-冬 ${prefix}bilangangka [ _angka_ ]
-冬 ${prefix}kalkulator [ _angka_ ]
-冬 ${prefix}fancytext [ _teks_ ]
-冬 ${prefix}githubstalk [ _username_ ]
-冬 ${prefix}translate [ _teks kodebhs_ ]
-冬 ${prefix}ss [ _link_ ]
-冬 ${prefix}playstore [ _search_ ]
-冬 ${prefix}tiktokaudio [ _link_ ]
-冬 ${prefix}brainly [ _search_ ]
-冬 ${prefix}igstory [ _search_ ]
-冬 ${prefix}igstalk [ _link_ ]
-冬 ${prefix}twitter [ _link_ ]
-冬 ${prefix}twmp3 [ _link_ ]
-冬 ${prefix}linkwa [ _search_ ]
-冬 ${prefix}fb [ _link_ ]
-冬 ${prefix}chara [ _search_ ]
-冬 ${prefix}otaku [ _search_ ]
-冬 ${prefix}komiku [ _search_ ]
+き⃟🦈 ${prefix}infogempa
+き⃟🦈 ${prefix}pinterest
+き⃟🦈 ${prefix}herolist
+き⃟🦈 ${prefix}herodetail [ _hero_ ]
+き⃟🦈 ${prefix}google [ _search_ ]
+き⃟🦈 ${prefix}gimage [ _search_ ]
+き⃟🦈 ${prefix}wiki [ _search_ ]
+き⃟🦈 ${prefix}mediafire [ _link_ ]
+き⃟🦈 ${prefix}ytsearch [ _judul_ ]
+き⃟🦈 ${prefix}ytmp4 [ _link yt_ ]
+き⃟🦈 ${prefix}ytmp3 [ _link yt_ ]
+き⃟🦈 ${prefix}play [ _judul lagu_ ]
+き⃟🦈 ${prefix}video [ _judul video_ ]
+き⃟🦈 ${prefix}tinyurl [ _link_ ]
+き⃟🦈 ${prefix}fetch [ _link_ ]
+き⃟🦈 ${prefix}igdl [ _link_ ]
+き⃟🦈 ${prefix}tiktokdl [ _link_ ]
+き⃟🦈 ${prefix}pinterest [ _search_ ]
+き⃟🦈 ${prefix}lirik [ _judul_ ]
+き⃟🦈 ${prefix}tourl [ _reply image/video_ ]
+き⃟🦈 ${prefix}resepmasakan [ _judul_ ]
+き⃟🦈 ${prefix}artimimpi [ _teks_ ]
+き⃟🦈 ${prefix}bilangangka [ _angka_ ]
+き⃟🦈 ${prefix}kalkulator [ _angka_ ]
+き⃟🦈 ${prefix}fancytext [ _teks_ ]
+き⃟🦈 ${prefix}githubstalk [ _username_ ]
+き⃟🦈 ${prefix}translate [ _teks kodebhs_ ]
+き⃟🦈 ${prefix}ss [ _link_ ]
+き⃟🦈 ${prefix}playstore [ _search_ ]
+き⃟🦈 ${prefix}tiktokaudio [ _link_ ]
+き⃟🦈 ${prefix}brainly [ _search_ ]
+き⃟🦈 ${prefix}igstory [ _search_ ]
+き⃟🦈 ${prefix}igstalk [ _link_ ]
+き⃟🦈 ${prefix}twitter [ _link_ ]
+き⃟🦈 ${prefix}twmp3 [ _link_ ]
+き⃟🦈 ${prefix}linkwa [ _search_ ]
+き⃟🦈 ${prefix}fb [ _link_ ]
+き⃟🦈 ${prefix}chara [ _search_ ]
+き⃟🦈 ${prefix}otaku [ _search_ ]
+き⃟🦈 ${prefix}komiku [ _search_ ]
 │
 ─❒ MAKER
-冬 ${prefix}blackpink
-冬 ${prefix}neon
-冬 ${prefix}greenneon
-冬 ${prefix}advanceglow
-冬 ${prefix}futureneon
-冬 ${prefix}sandwriting
-冬 ${prefix}sandsummer
-冬 ${prefix}sandengraved
-冬 ${prefix}metaldark
-冬 ${prefix}neonlight
-冬 ${prefix}holographic
-冬 ${prefix}text1917
-冬 ${prefix}minion
-冬 ${prefix}deluxesilver
-冬 ${prefix}newyearcard
-冬 ${prefix}bloodfrosted
-冬 ${prefix}halloween
-冬 ${prefix}jokerlogo
-冬 ${prefix}fireworksparkle
-冬 ${prefix}natureleaves
-冬 ${prefix}bokeh
-冬 ${prefix}toxic
-冬 ${prefix}strawberry
-冬 ${prefix}box3d
-冬 ${prefix}roadwarning
-冬 ${prefix}breakwall
-冬 ${prefix}icecold
-冬 ${prefix}luxury
-冬 ${prefix}cloud
-冬 ${prefix}summersand
-冬 ${prefix}horrorblood
-冬 ${prefix}thunder
-冬 ${prefix}pornhub
-冬 ${prefix}glitch
-冬 ${prefix}avenger
-冬 ${prefix}space
-冬 ${prefix}ninjalogo
-冬 ${prefix}marvelstudio
-冬 ${prefix}lionlogo
-冬 ${prefix}wolflogo
-冬 ${prefix}steel3d
-冬 ${prefix}wallgravity
-冬 ${prefix}shadow
-冬 ${prefix}cup
-冬 ${prefix}cup1
-冬 ${prefix}romance
-冬 ${prefix}smoke
-冬 ${prefix}burnpaper
-冬 ${prefix}lovemessage
-冬 ${prefix}undergrass
-冬 ${prefix}love
-冬 ${prefix}coffe
-冬 ${prefix}woodheart
-冬 ${prefix}woodenboard
-冬 ${prefix}summer3d
-冬 ${prefix}wolfmetal
-冬 ${prefix}nature3d
-冬 ${prefix}underwater
-冬 ${prefix}golderrose
-冬 ${prefix}summernature
-冬 ${prefix}letterleaves
-冬 ${prefix}glowingneon
-冬 ${prefix}fallleaves
-冬 ${prefix}flamming
-冬 ${prefix}harrypotter
-冬 ${prefix}carvedwood
-冬 ${prefix}arcade8bit
-冬 ${prefix}battlefield4
-冬 ${prefix}pubg
-冬 ${prefix}wetglass
-冬 ${prefix}multicolor3d
-冬 ${prefix}watercolor
-冬 ${prefix}luxurygold
-冬 ${prefix}galaxywallpaper
-冬 ${prefix}lighttext
-冬 ${prefix}beautifulflower
-冬 ${prefix}puppycute
-冬 ${prefix}royaltext
-冬 ${prefix}heartshaped
-冬 ${prefix}birthdaycake
-冬 ${prefix}galaxystyle
-冬 ${prefix}hologram3d
-冬 ${prefix}greenneon
-冬 ${prefix}glossychrome
-冬 ${prefix}greenbush
-冬 ${prefix}metallogo
-冬 ${prefix}noeltext
-冬 ${prefix}glittergold
-冬 ${prefix}textcake
-冬 ${prefix}starsnight
-冬 ${prefix}wooden3d
-冬 ${prefix}textbyname
-冬 ${prefix}writegalacy
-冬 ${prefix}galaxybat
-冬 ${prefix}snow3d
-冬 ${prefix}birthdayday
-冬 ${prefix}goldplaybutton
-冬 ${prefix}silverplaybutton
-冬 ${prefix}freefire
-冬 ${prefix}foliokanan [ _text_ ]
-冬 ${prefix}foliokiri [ _text_ ]
-冬 ${prefix}nuliskanan [ _text_ ]
-冬 ${prefix}nuliskiri [ _text_ ]
-冬 ${prefix}maker3d [ _text_ ]
-冬 ${prefix}maker2d [ _text_ ]
-冬 ${prefix}epepserti [ _text_ ]
+き⃟🦈 ${prefix}blackpink
+き⃟🦈 ${prefix}neon
+き⃟🦈 ${prefix}greenneon
+き⃟🦈 ${prefix}advanceglow
+き⃟🦈 ${prefix}futureneon
+き⃟🦈 ${prefix}sandwriting
+き⃟🦈 ${prefix}sandsummer
+き⃟🦈 ${prefix}sandengraved
+き⃟🦈 ${prefix}metaldark
+き⃟🦈 ${prefix}neonlight
+き⃟🦈 ${prefix}holographic
+き⃟🦈 ${prefix}text1917
+き⃟🦈 ${prefix}minion
+き⃟🦈 ${prefix}deluxesilver
+き⃟🦈 ${prefix}newyearcard
+き⃟🦈 ${prefix}bloodfrosted
+き⃟🦈 ${prefix}halloween
+き⃟🦈 ${prefix}jokerlogo
+き⃟🦈 ${prefix}fireworksparkle
+き⃟🦈 ${prefix}natureleaves
+き⃟🦈 ${prefix}bokeh
+き⃟🦈 ${prefix}toxic
+き⃟🦈 ${prefix}strawberry
+き⃟🦈 ${prefix}box3d
+き⃟🦈 ${prefix}roadwarning
+き⃟🦈 ${prefix}breakwall
+き⃟🦈 ${prefix}icecold
+き⃟🦈 ${prefix}luxury
+き⃟🦈 ${prefix}cloud
+き⃟🦈 ${prefix}summersand
+き⃟🦈 ${prefix}horrorblood
+き⃟🦈 ${prefix}thunder
+き⃟🦈 ${prefix}pornhub
+き⃟🦈 ${prefix}glitch
+き⃟🦈 ${prefix}avenger
+き⃟🦈 ${prefix}space
+き⃟🦈 ${prefix}ninjalogo
+き⃟🦈 ${prefix}marvelstudio
+き⃟🦈 ${prefix}lionlogo
+き⃟🦈 ${prefix}wolflogo
+き⃟🦈 ${prefix}steel3d
+き⃟🦈 ${prefix}wallgravity
+き⃟🦈 ${prefix}shadow
+き⃟🦈 ${prefix}cup
+き⃟🦈 ${prefix}cup1
+き⃟🦈 ${prefix}romance
+き⃟🦈 ${prefix}smoke
+き⃟🦈 ${prefix}burnpaper
+き⃟🦈 ${prefix}lovemessage
+き⃟🦈 ${prefix}undergrass
+き⃟🦈 ${prefix}love
+き⃟🦈 ${prefix}coffe
+き⃟🦈 ${prefix}woodheart
+き⃟🦈 ${prefix}woodenboard
+き⃟🦈 ${prefix}summer3d
+き⃟🦈 ${prefix}wolfmetal
+き⃟🦈 ${prefix}nature3d
+き⃟🦈 ${prefix}underwater
+き⃟🦈 ${prefix}golderrose
+き⃟🦈 ${prefix}summernature
+き⃟🦈 ${prefix}letterleaves
+き⃟🦈 ${prefix}glowingneon
+き⃟🦈 ${prefix}fallleaves
+き⃟🦈 ${prefix}flamming
+き⃟🦈 ${prefix}harrypotter
+き⃟🦈 ${prefix}carvedwood
+き⃟🦈 ${prefix}arcade8bit
+き⃟🦈 ${prefix}battlefield4
+き⃟🦈 ${prefix}pubg
+き⃟🦈 ${prefix}wetglass
+き⃟🦈 ${prefix}multicolor3d
+き⃟🦈 ${prefix}watercolor
+き⃟🦈 ${prefix}luxurygold
+き⃟🦈 ${prefix}galaxywallpaper
+き⃟🦈 ${prefix}lighttext
+き⃟🦈 ${prefix}beautifulflower
+き⃟🦈 ${prefix}puppycute
+き⃟🦈 ${prefix}royaltext
+き⃟🦈 ${prefix}heartshaped
+き⃟🦈 ${prefix}birthdaycake
+き⃟🦈 ${prefix}galaxystyle
+き⃟🦈 ${prefix}hologram3d
+き⃟🦈 ${prefix}greenneon
+き⃟🦈 ${prefix}glossychrome
+き⃟🦈 ${prefix}greenbush
+き⃟🦈 ${prefix}metallogo
+き⃟🦈 ${prefix}noeltext
+き⃟🦈 ${prefix}glittergold
+き⃟🦈 ${prefix}textcake
+き⃟🦈 ${prefix}starsnight
+き⃟🦈 ${prefix}wooden3d
+き⃟🦈 ${prefix}textbyname
+き⃟🦈 ${prefix}writegalacy
+き⃟🦈 ${prefix}galaxybat
+き⃟🦈 ${prefix}snow3d
+き⃟🦈 ${prefix}birthdayday
+き⃟🦈 ${prefix}goldplaybutton
+き⃟🦈 ${prefix}silverplaybutton
+き⃟🦈 ${prefix}freefire
+き⃟🦈 ${prefix}foliokanan [ _text_ ]
+き⃟🦈 ${prefix}foliokiri [ _text_ ]
+き⃟🦈 ${prefix}nuliskanan [ _text_ ]
+き⃟🦈 ${prefix}nuliskiri [ _text_ ]
+き⃟🦈 ${prefix}maker3d [ _text_ ]
+き⃟🦈 ${prefix}maker2d [ _text_ ]
+き⃟🦈 ${prefix}epepserti [ _text_ ]
 │
 ──❒ GROUP
-冬 ${prefix}getpict [ _@tag_ ]
-冬 ${prefix}getname [ _reply target_ ]
-冬 ${prefix}getbio [ _reply target_ ]
-冬 ${prefix}antilink [ _on/off_ ]
-冬 ${prefix}antivirtex [ _on/off_ ]
-冬 ${prefix}antiwame [ _on/off_ ]
-冬 ${prefix} welcome [ _on/off_ ]
-冬 ${prefix}creategrup [ _nama|@tag_ ]
-冬 ${prefix}tictactoe [ _@tag_ ]
-冬 ${prefix}delttt
-冬 ${prefix}kick
-冬 ${prefix}add
-冬 ${prefix}getpp
-冬 ${prefix}antiwame
-冬 ${prefix}getdeskgc
-冬 ${prefix}sider [ _reply pesan bot_ ]
-冬 ${prefix}hacked [ _teks_ ]
-冬 ${prefix}setnamegc [ _teks_ ]
-冬 ${prefix}setdeskgc [ _teks_ ]
-冬 ${prefix}fitnah [ _@tag|teks1|teks2_ ]
-冬 ${prefix}kontak [ _@tag|nama_ ]
-冬 ${prefix}kontag [ _@tag|nama_ ]
-冬 ${prefix}opengc
-冬 ${prefix}closegc
-冬 ${prefix}resetlinkgc
-冬 ${prefix}linkgrup
-冬 ${prefix}hidetag [ _teks_ ]
-冬 ${prefix}sticktag [ _nama sticker_ ]
-冬 ${prefix}totag [ _reply media_ ]
+き⃟🦈 ${prefix}getpict [ _@tag_ ]
+き⃟🦈 ${prefix}getname [ _reply target_ ]
+き⃟🦈 ${prefix}getbio [ _reply target_ ]
+き⃟🦈 ${prefix}antilink [ _on/off_ ]
+き⃟🦈 ${prefix}antivirtex [ _on/off_ ]
+き⃟🦈 ${prefix}antiwame [ _on/off_ ]
+き⃟🦈 ${prefix} welcome [ _on/off_ ]
+き⃟🦈 ${prefix}creategrup [ _nama|@tag_ ]
+き⃟🦈 ${prefix}tictactoe [ _@tag_ ]
+き⃟🦈 ${prefix}delttt
+き⃟🦈 ${prefix}kick
+き⃟🦈 ${prefix}add
+き⃟🦈 ${prefix}getpp
+き⃟🦈 ${prefix}antiwame
+き⃟🦈 ${prefix}getdeskgc
+き⃟🦈 ${prefix}sider [ _reply pesan bot_ ]
+き⃟🦈 ${prefix}hacked [ _teks_ ]
+き⃟🦈 ${prefix}setnamegc [ _teks_ ]
+き⃟🦈 ${prefix}setdeskgc [ _teks_ ]
+き⃟🦈 ${prefix}fitnah [ _@tag|teks1|teks2_ ]
+き⃟🦈 ${prefix}kontak [ _@tag|nama_ ]
+き⃟🦈 ${prefix}kontag [ _@tag|nama_ ]
+き⃟🦈 ${prefix}opengc
+き⃟🦈 ${prefix}closegc
+き⃟🦈 ${prefix}resetlinkgc
+き⃟🦈 ${prefix}linkgrup
+き⃟🦈 ${prefix}hidetag [ _teks_ ]
+き⃟🦈 ${prefix}sticktag [ _nama sticker_ ]
+き⃟🦈 ${prefix}totag [ _reply media_ ]
 │
 ─❒ TOOLS
-冬 ${prefix}sticker
-冬 ${prefix}stickerwm [ _nama|author_ ]
-冬 ${prefix}dadu
-冬 ${prefix}semoji [ _emoji_ ]
-冬 ${prefix}attp [ _teks_ ]
-冬 ${prefix}ttp [ _teks_ ]
-冬 ${prefix}ttp2 [ _teks_ ]
-冬 ${prefix}ttp3 [ _teks_ ]
-冬 ${prefix}ttp4 [ _teks_ ]
-冬 ${prefix}toimg
-冬 ${prefix}tomp3 [ _reply video_ ]
-冬 ${prefix}tomp4 [ _reply sticker gif_ ]
-冬 ${prefix}robot [ _reply audio_ ]
-冬 ${prefix}balik [ _reply audio_ ]
-冬 ${prefix}bass [ _reply audio_ ]
-冬 ${prefix}gemuk [ _reply audio_ ]
-冬 ${prefix}detikvn [ _reply audio caption angka_ ]
-冬 ${prefix}detikvideo [ _reply video caption angka_ ]
+き⃟🦈 ${prefix}sticker
+き⃟🦈 ${prefix}stickerwm [ _nama|author_ ]
+き⃟🦈 ${prefix}dadu
+き⃟🦈 ${prefix}semoji [ _emoji_ ]
+き⃟🦈 ${prefix}attp [ _teks_ ]
+き⃟🦈 ${prefix}ttp [ _teks_ ]
+き⃟🦈 ${prefix}ttp2 [ _teks_ ]
+き⃟🦈 ${prefix}ttp3 [ _teks_ ]
+き⃟🦈 ${prefix}ttp4 [ _teks_ ]
+き⃟🦈 ${prefix}toimg
+き⃟🦈 ${prefix}tomp3 [ _reply video_ ]
+き⃟🦈 ${prefix}tomp4 [ _reply sticker gif_ ]
+き⃟🦈 ${prefix}robot [ _reply audio_ ]
+き⃟🦈 ${prefix}balik [ _reply audio_ ]
+き⃟🦈 ${prefix}bass [ _reply audio_ ]
+き⃟🦈 ${prefix}gemuk [ _reply audio_ ]
+き⃟🦈 ${prefix}detikvn [ _reply audio caption angka_ ]
+き⃟🦈 ${prefix}detikvideo [ _reply video caption angka_ ]
 │
 │
 ─❒ STORAGE
-冬 ${prefix}listimage
-冬 ${prefix}liststicker
-冬 ${prefix}listvn
-冬 ${prefix}addsticker [ _nama_ ]
-冬 ${prefix}delsticker [ _nama_ ]
-冬 ${prefix}addvn [ _nama_ ]
-冬 ${prefix}delvn [ _nama_ ]
-冬 ${prefix}addimage [ _nama_ ]
-冬 ${prefix}delimage [ _nama_ ]
+き⃟🦈 ${prefix}listimage
+き⃟🦈 ${prefix}liststicker
+き⃟🦈 ${prefix}listvn
+き⃟🦈 ${prefix}addsticker [ _nama_ ]
+き⃟🦈 ${prefix}delsticker [ _nama_ ]
+き⃟🦈 ${prefix}addvn [ _nama_ ]
+き⃟🦈 ${prefix}delvn [ _nama_ ]
+き⃟🦈 ${prefix}addimage [ _nama_ ]
+き⃟🦈 ${prefix}delimage [ _nama_ ]
 │
 ─❒ MENU HARAM
-冬 ${prefix}bokep
-冬 ${prefix}neko
-冬 ${prefix}kanna
-冬 ${prefix}sagiri
-冬 ${prefix}megumin
-冬 ${prefix}wallnime
-冬 ${prefix}ass
-冬 ${prefix}ahegao
-冬 ${prefix}hentai
-冬 ${prefix}yuri
-冬 ${prefix}panties
-冬 ${prefix}neko
-冬 ${prefix}chiisaihentai
-冬 ${prefix}trap
-冬 ${prefix}blowjob
-冬 ${prefix}yaoi
-冬 ${prefix}ecchi
-冬 ${prefix}ahegao
-冬 ${prefix}hololewd
-冬 ${prefix}sideoppai
-冬 ${prefix}animefeets
-冬 ${prefix}animebooty
-冬 ${prefix}animethighss
-冬 ${prefix}hentaiparadise
-冬 ${prefix}animearmpits
-冬 ${prefix}hentaifemdom
-冬 ${prefix}lewdanimegirls
-冬 ${prefix}biganimetiddies
-冬 ${prefix}animebellybutton
-冬 ${prefix}hentai4everyone
-冬 ${prefix}bj
-冬 ${prefix}ero
-冬 ${prefix}cum
-冬 ${prefix}feet
-冬 ${prefix}yuri
-冬 ${prefix}trap
-冬 ${prefix}lewd
-冬 ${prefix}feed
-冬 ${prefix}eron
-冬 ${prefix}solo
-冬 ${prefix}gasm
-冬 ${prefix}poke
-冬 ${prefix}anal
-冬 ${prefix}holo
-冬 ${prefix}tits
-冬 ${prefix}kuni
-冬 ${prefix}kiss
-冬 ${prefix}erok
-冬 ${prefix}smug
-冬 ${prefix}baka
-冬 ${prefix}solog
-冬 ${prefix}feetg
-冬 ${prefix}lewdk
-冬 ${prefix}waifu
-冬 ${prefix}pussy
-冬 ${prefix}femdom
-冬 ${prefix}cuddle
-冬 ${prefix}eroyuri
-冬 ${prefix}cum_jpg
-冬 ${prefix}blowjob
-冬 ${prefix}erofeet
-冬 ${prefix}holoero
-冬 ${prefix}classic
-冬 ${prefix}erokemo
-冬 ${prefix}fox_girl
-冬 ${prefix}futanari
-冬 ${prefix}lewdkemo
-冬 ${prefix}wallpaper
-冬 ${prefix}pussy_jpg
-冬 ${prefix}kemonomimi
-冬 ${prefix}nsfw_avatar
+き⃟🦈 ${prefix}bokep
+き⃟🦈 ${prefix}neko
+き⃟🦈 ${prefix}kanna
+き⃟🦈 ${prefix}sagiri
+き⃟🦈 ${prefix}megumin
+き⃟🦈 ${prefix}wallnime
+き⃟🦈 ${prefix}ass
+き⃟🦈 ${prefix}ahegao
+き⃟🦈 ${prefix}hentai
+き⃟🦈 ${prefix}yuri
+き⃟🦈 ${prefix}panties
+き⃟🦈 ${prefix}neko
+き⃟🦈 ${prefix}chiisaihentai
+き⃟🦈 ${prefix}trap
+き⃟🦈 ${prefix}blowjob
+き⃟🦈 ${prefix}yaoi
+き⃟🦈 ${prefix}ecchi
+き⃟🦈 ${prefix}ahegao
+き⃟🦈 ${prefix}hololewd
+き⃟🦈 ${prefix}sideoppai
+き⃟🦈 ${prefix}animefeets
+き⃟🦈 ${prefix}animebooty
+き⃟🦈 ${prefix}animethighss
+き⃟🦈 ${prefix}hentaiparadise
+き⃟🦈 ${prefix}animearmpits
+き⃟🦈 ${prefix}hentaifemdom
+き⃟🦈 ${prefix}lewdanimegirls
+き⃟🦈 ${prefix}biganimetiddies
+き⃟🦈 ${prefix}animebellybutton
+き⃟🦈 ${prefix}hentai4everyone
+き⃟🦈 ${prefix}bj
+き⃟🦈 ${prefix}ero
+き⃟🦈 ${prefix}cum
+き⃟🦈 ${prefix}feet
+き⃟🦈 ${prefix}yuri
+き⃟🦈 ${prefix}trap
+き⃟🦈 ${prefix}lewd
+き⃟🦈 ${prefix}feed
+き⃟🦈 ${prefix}eron
+き⃟🦈 ${prefix}solo
+き⃟🦈 ${prefix}gasm
+き⃟🦈 ${prefix}poke
+き⃟🦈 ${prefix}anal
+き⃟🦈 ${prefix}holo
+き⃟🦈 ${prefix}tits
+き⃟🦈 ${prefix}kuni
+き⃟🦈 ${prefix}kiss
+き⃟🦈 ${prefix}erok
+き⃟🦈 ${prefix}smug
+き⃟🦈 ${prefix}baka
+き⃟🦈 ${prefix}solog
+き⃟🦈 ${prefix}feetg
+き⃟🦈 ${prefix}lewdk
+き⃟🦈 ${prefix}waifu
+き⃟🦈 ${prefix}pussy
+き⃟🦈 ${prefix}femdom
+き⃟🦈 ${prefix}cuddle
+き⃟🦈 ${prefix}eroyuri
+き⃟🦈 ${prefix}cum_jpg
+き⃟🦈 ${prefix}blowjob
+き⃟🦈 ${prefix}erofeet
+き⃟🦈 ${prefix}holoero
+き⃟🦈 ${prefix}classic
+き⃟🦈 ${prefix}erokemo
+き⃟🦈 ${prefix}fox_girl
+き⃟🦈 ${prefix}futanari
+き⃟🦈 ${prefix}lewdkemo
+き⃟🦈 ${prefix}wallpaper
+き⃟🦈 ${prefix}pussy_jpg
+き⃟🦈 ${prefix}kemonomimi
+き⃟🦈 ${prefix}nsfw_avatar
 │
 ─❒ EVAL
-冬 *x*
-冬 *>*
-冬 *=>*
-冬 *$*
+き⃟🦈 *x*
+き⃟🦈 *>*
+き⃟🦈 *=>*
+き⃟🦈 *$*
 │
 ─❒ OTHER / FUN
-冬 ${prefix}quotes
-冬 ${prefix}meme
-冬 ${prefix}darkjoke
-冬 ${prefix}rate
-冬 ${prefix}kapankah
-冬 ${prefix}apakah
-冬 ${prefix}bisakah
-冬 ${prefix}caripesan [ _teks|jumlah_ ]
-冬 ${prefix}slots
-冬 ${prefix}suit [ _gunting/batu/kertas_ ]
-冬 ${prefix}tag [ _nomor_ ]
-冬 ${prefix}tagme
-冬 ${prefix}tts [ _kodebhs teks_ ]
-冬 ${prefix}readmore [ _teks1|teks2_ ]
-冬 ${prefix}fitnahpc [ _nomor|teks1|teks2_ ]
-冬 ${prefix}chat [ _nomor|teks_ ]
-冬 ${prefix}fdeface [ _replyimg link|teks1|teks2_ ]
-冬 ${prefix}listgrup
-冬 ${prefix}baileys [ _reply message_ ]
-冬 ${prefix}q [ _reply message_ ]
-冬 ${prefix}getcaption [ _reply message_ ]
-冬 ${prefix}tospam [ _reply audio/sticker/image|jumlah_ ]
-冬 ${prefix}sharelock [ _teks1|teks2_ ]
+き⃟🦈 ${prefix}quotes
+き⃟🦈 ${prefix}meme
+き⃟🦈 ${prefix}darkjoke
+き⃟🦈 ${prefix}rate
+き⃟🦈 ${prefix}kapankah
+き⃟🦈 ${prefix}apakah
+き⃟🦈 ${prefix}bisakah
+き⃟🦈 ${prefix}caripesan [ _teks|jumlah_ ]
+き⃟🦈 ${prefix}slots
+き⃟🦈 ${prefix}suit [ _gunting/batu/kertas_ ]
+き⃟🦈 ${prefix}tag [ _nomor_ ]
+き⃟🦈 ${prefix}tagme
+き⃟🦈 ${prefix}tts [ _kodebhs teks_ ]
+き⃟🦈 ${prefix}readmore [ _teks1|teks2_ ]
+き⃟🦈 ${prefix}fitnahpc [ _nomor|teks1|teks2_ ]
+き⃟🦈 ${prefix}chat [ _nomor|teks_ ]
+き⃟🦈 ${prefix}fdeface [ _replyimg link|teks1|teks2_ ]
+き⃟🦈 ${prefix}listgrup
+き⃟🦈 ${prefix}baileys [ _reply message_ ]
+き⃟🦈 ${prefix}q [ _reply message_ ]
+き⃟🦈 ${prefix}getcaption [ _reply message_ ]
+き⃟🦈 ${prefix}tospam [ _reply audio/sticker/image|jumlah_ ]
+き⃟🦈 ${prefix}sharelock [ _teks1|teks2_ ]
 ─❒ SOUND MENU
-冬 ${prefix}sound1 - 冬 ${prefix}sound75
+き⃟🦈 ${prefix}sound1 - き⃟🦈 ${prefix}sound75
 
 𝘘𝘜𝘖𝘛𝘌𝘚  : ${quotes}
 └─────────────────❒`
