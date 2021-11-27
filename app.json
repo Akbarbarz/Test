@@ -1,0 +1,1347 @@
+case 'menu':
+        case 'help':
+  if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+        if(menusimpel == false){               
+                quotesnya = await fetchJson(`https://xnxxapi.herokuapp.com/api/randomquote?apikey=xnxx`)
+quotes = quotesnya.result.quotes
+                nomor = 1
+                stod = `${sender}`
+       stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status
+       menu = `╭─❒ 「 Bot Info 」 ❒
+き⃟🦈️ _Creator : *Akbarbarz*
+き⃟🦈️ _Battery : *35*_
+き⃟🦈️ _Battery : ${baterai.battery}_
+き⃟🦈️ _Mode : ${publik ? 'Public' : 'Self'}_
+き⃟🦈️ _Total Hit : ${cmhit.length}_
+き⃟🦈️ _Total menu : 385_
+き⃟🦈️ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
+き⃟🦈️ _Nama Bot : Akbar Botz AB07_
+き⃟🦈️ _Nama Owner : ${NamaOwner}_
+き⃟🦈️ _Nomor Owner : Akbarbarz
+き⃟🦈️ _Auto Composing : ${settings.autocomposing}_
+き⃟🦈️ _Auto Recording : ${settings.autorecording}_
+└❏
+
+╭─❒ 「 User Info 」 ❒
+き⃟🦈️ _Status : ${isOwner ? 'Owner' : 'User'}_
+き⃟🦈️ _Nama : ${pushname}_
+き⃟🦈️ _Bio : ${stst}_
+き⃟🦈️ _Nomor : @${stod.split('@')[0]}_
+└❏
+
+┌❏ TO DAY
+│ ${tampilUcapan}
+き⃟🦈️ Jam : ${jmn}
+き⃟🦈️ Hari : ${week} ${weton}
+き⃟🦈️ Tanggal : ${calender}
+└❏
+
+┌❏ INDONESIA TIME
+き⃟🦈️ Wib : ${timeWib}
+き⃟🦈️ Wita : ${timeWita}
+き⃟🦈️ Wit : ${timeWit}  
+└❏
+
+╭─❒ LIST MENU
+${nomor++}. き⃟🦈️ ${prefix}funmenu
+${nomor++}. き⃟🦈️ ${prefix}ownermenu
+${nomor++}. き⃟🦈️ ${prefix}downloadmenu
+${nomor++}. き⃟🦈️ ${prefix}gamemenu
+${nomor++}. き⃟🦈️ ${prefix}makermenu
+${nomor++}. き⃟🦈️ ${prefix}wibumenu
+${nomor++}. き⃟🦈️ ${prefix}harammenu
+${nomor++}. き⃟🦈️ ${prefix}othermenu
+${nomor++}. き⃟🦈️ ${prefix}toolsmenu
+${nomor++}. き⃟🦈️ ${prefix}storagemenu
+${nomor++}. き⃟🦈️ ${prefix}grupmenu
+𝘘𝘜𝘖𝘛𝘌𝘚  : ${quotes}
+└─────────────────❒`
+sendButLocation(from, `${menu}`, "*_© Akbar Botz AB07_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`store`,buttonText:{displayText:'𝙨𝙩𝙤𝙧𝙚 𝙢𝙚𝙣𝙪'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1},{buttonId:`allmenu`,buttonText:{displayText:'CATALOG MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+}
+else if(menusimpel = true){
+        stod = `${sender}`
+fill =`Hai Kak ${pushname}, ${tampilUcapan}
+Silahkan Pilih Untuk Menampilkan Menu
+
+Jika Button Tidak Muncul Ketik .allmenu`
+menu =` Akbar Botz AB07き⃟🦈️`
+gbutsan = [
+{buttonId:`allmenu`,buttonText:{displayText:'き⃟🦈️SHOW MENUき⃟🦈️'},type:1},
+{buttonId:`store`,buttonText:{displayText:'🔰STORE MENU🔰'},type:1},
+{buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
+]
+mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
+const btnmenu = {
+imageMessage: mhan.message.imageMessage,
+contentText: `${fill}`,
+footerText: `${menu}`,
+buttons: gbutsan,
+headerType: 4
+}
+kurr.sendMessage(from, btnmenu, MessageType.buttonsMessage, {contextInfo :{text: 'hi',
+"forwardingScore": 1000000000,
+isForwarded: false,
+sendEphemeral: false,
+"externalAdReply": {
+"title": `hallo ${pushname}` ,
+"body": `${jmn} - ${week} ${weton} - ${calender}`,
+"mediaType": "2",
+"thumbnail": pporigi,
+},mentionedJid:[stod]}, quoted : ftrol})
+}
+break
+
+case 'makermenu':
+  if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+        if(menusimpel == false){               
+                quotesnya = await fetchJson(`https://xnxxapi.herokuapp.com/api/randomquote?apikey=xnxx`)
+quotes = quotesnya.result.quotes
+                nomor = 1
+                stod = `${sender}`
+       stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status
+       menu = `╭─❒ 「 Bot Info 」 ❒
+き⃟🦈️ _Creator : *Akbarbarz*
+き⃟🦈️ _Battery : *35*_
+き⃟🦈️ _Battery : ${baterai.battery}_
+き⃟🦈️ _Mode : ${publik ? 'Public' : 'Self'}_
+き⃟🦈️ _Total Hit : ${cmhit.length}_
+き⃟🦈️ _Total menu : 385_
+き⃟🦈️ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
+き⃟🦈️ _Nama Bot : Akbar Botz AB07_
+き⃟🦈️ _Nama Owner : ${NamaOwner}_
+き⃟🦈️ _Nomor Owner : Akbarbarz
+き⃟🦈️ _Auto Composing : ${settings.autocomposing}_
+き⃟🦈️ _Auto Recording : ${settings.autorecording}_
+└❏
+
+╭─❒ 「 User Info 」 ❒
+き⃟🦈️ _Status : ${isOwner ? 'Owner' : 'User'}_
+き⃟🦈️ _Nama : ${pushname}_
+き⃟🦈️ _Bio : ${stst}_
+き⃟🦈️ _Nomor : @${stod.split('@')[0]}_
+└❏
+
+┌❏ TO DAY
+│ ${tampilUcapan}
+き⃟🦈️ Jam : ${jmn}
+き⃟🦈️ Hari : ${week} ${weton}
+き⃟🦈️ Tanggal : ${calender}
+└❏
+
+┌❏ INDONESIA TIME
+き⃟🦈️ Wib : ${timeWib}
+き⃟🦈️ Wita : ${timeWita}
+き⃟🦈️ Wit : ${timeWit}  
+└❏
+
+き⃟🦈️─❒ MAKER
+${nomor++}. き⃟🦈️ ${prefix}blackpink
+${nomor++}. き⃟🦈️ ${prefix}neon
+${nomor++}. き⃟🦈️ ${prefix}greenneon
+${nomor++}. き⃟🦈️ ${prefix}advanceglow
+${nomor++}. き⃟🦈️ ${prefix}futureneon
+${nomor++}. き⃟🦈️ ${prefix}sandwriting
+${nomor++}. き⃟🦈️ ${prefix}sandsummer
+${nomor++}. き⃟🦈️ ${prefix}sandengraved
+${nomor++}. き⃟🦈️ ${prefix}metaldark
+${nomor++}. き⃟🦈️ ${prefix}neonlight
+${nomor++}. き⃟🦈️ ${prefix}holographic
+${nomor++}. き⃟🦈️ ${prefix}text1917
+${nomor++}. き⃟🦈️ ${prefix}minion
+${nomor++}. き⃟🦈️ ${prefix}deluxesilver
+${nomor++}. き⃟🦈️ ${prefix}newyearcard
+${nomor++}. き⃟🦈️ ${prefix}bloodfrosted
+${nomor++}. き⃟🦈️ ${prefix}halloween
+${nomor++}. き⃟🦈️ ${prefix}jokerlogo
+${nomor++}. き⃟🦈️ ${prefix}fireworksparkle
+${nomor++}. き⃟🦈️ ${prefix}natureleaves
+${nomor++}. き⃟🦈️ ${prefix}bokeh
+${nomor++}. き⃟🦈️ ${prefix}toxic
+${nomor++}. き⃟🦈️ ${prefix}strawberry
+${nomor++}. き⃟🦈️ ${prefix}box3d
+${nomor++}. き⃟🦈️ ${prefix}roadwarning
+${nomor++}. き⃟🦈️ ${prefix}breakwall
+${nomor++}. き⃟🦈️ ${prefix}icecold
+${nomor++}. き⃟🦈️ ${prefix}luxury
+${nomor++}. き⃟🦈️ ${prefix}cloud
+${nomor++}. き⃟🦈️ ${prefix}summersand
+${nomor++}. き⃟🦈️ ${prefix}horrorblood
+${nomor++}. き⃟🦈️ ${prefix}thunder
+${nomor++}. き⃟🦈️ ${prefix}pornhub
+${nomor++}. き⃟🦈️ ${prefix}glitch
+${nomor++}. き⃟🦈️ ${prefix}avenger
+${nomor++}. き⃟🦈️ ${prefix}space
+${nomor++}. き⃟🦈️ ${prefix}ninjalogo
+${nomor++}. き⃟🦈️ ${prefix}marvelstudio
+${nomor++}. き⃟🦈️ ${prefix}lionlogo
+${nomor++}. き⃟🦈️ ${prefix}wolflogo
+${nomor++}. き⃟🦈️ ${prefix}steel3d
+${nomor++}. き⃟🦈️ ${prefix}wallgravity
+${nomor++}. き⃟🦈️ ${prefix}shadow
+${nomor++}. き⃟🦈️ ${prefix}cup
+${nomor++}. き⃟🦈️ ${prefix}cup1
+${nomor++}. き⃟🦈️ ${prefix}romance
+${nomor++}. き⃟🦈️ ${prefix}smoke
+${nomor++}. き⃟🦈️ ${prefix}burnpaper
+${nomor++}. き⃟🦈️ ${prefix}lovemessage
+${nomor++}. き⃟🦈️ ${prefix}undergrass
+${nomor++}. き⃟🦈️ ${prefix}love
+${nomor++}. き⃟🦈️ ${prefix}coffe
+${nomor++}. き⃟🦈️ ${prefix}woodheart
+${nomor++}. き⃟🦈️ ${prefix}woodenboard
+${nomor++}. き⃟🦈️ ${prefix}summer3d
+${nomor++}. き⃟🦈️ ${prefix}wolfmetal
+${nomor++}. き⃟🦈️ ${prefix}nature3d
+${nomor++}. き⃟🦈️ ${prefix}underwater
+${nomor++}. き⃟🦈️ ${prefix}golderrose
+${nomor++}. き⃟🦈️ ${prefix}summernature
+${nomor++}. き⃟🦈️ ${prefix}letterleaves
+${nomor++}. き⃟🦈️ ${prefix}glowingneon
+${nomor++}. き⃟🦈️ ${prefix}fallleaves
+${nomor++}. き⃟🦈️ ${prefix}flamming
+${nomor++}. き⃟🦈️ ${prefix}harrypotter
+${nomor++}. き⃟🦈️ ${prefix}carvedwood
+${nomor++}. き⃟🦈️ ${prefix}arcade8bit
+${nomor++}. き⃟🦈️ ${prefix}battlefield4
+${nomor++}. き⃟🦈️ ${prefix}pubg
+${nomor++}. き⃟🦈️ ${prefix}wetglass
+${nomor++}. き⃟🦈️ ${prefix}multicolor3d
+${nomor++}. き⃟🦈️ ${prefix}watercolor
+${nomor++}. き⃟🦈️ ${prefix}luxurygold
+${nomor++}. き⃟🦈️ ${prefix}galaxywallpaper
+${nomor++}. き⃟🦈️ ${prefix}lighttext
+${nomor++}. き⃟🦈️ ${prefix}beautifulflower
+${nomor++}. き⃟🦈️ ${prefix}puppycute
+${nomor++}. き⃟🦈️ ${prefix}royaltext
+${nomor++}. き⃟🦈️ ${prefix}heartshaped
+${nomor++}. き⃟🦈️ ${prefix}birthdaycake
+${nomor++}. き⃟🦈️ ${prefix}galaxystyle
+${nomor++}. き⃟🦈️ ${prefix}hologram3d
+${nomor++}. き⃟🦈️ ${prefix}greenneon
+${nomor++}. き⃟🦈️ ${prefix}glossychrome
+${nomor++}. き⃟🦈️ ${prefix}greenbush
+${nomor++}. き⃟🦈️ ${prefix}metallogo
+${nomor++}. き⃟🦈️ ${prefix}noeltext
+${nomor++}. き⃟🦈️ ${prefix}glittergold
+${nomor++}. き⃟🦈️ ${prefix}textcake
+${nomor++}. き⃟🦈️ ${prefix}starsnight
+${nomor++}. き⃟🦈️ ${prefix}wooden3d
+${nomor++}. き⃟🦈️ ${prefix}textbyname
+${nomor++}. き⃟🦈️ ${prefix}writegalacy
+${nomor++}. き⃟🦈️ ${prefix}galaxybat
+${nomor++}. き⃟🦈️ ${prefix}snow3d
+${nomor++}. き⃟🦈️ ${prefix}birthdayday
+${nomor++}. き⃟🦈️ ${prefix}goldplaybutton
+${nomor++}. き⃟🦈️ ${prefix}silverplaybutton
+${nomor++}. き⃟🦈️ ${prefix}freefire
+${nomor++}. き⃟🦈️ ${prefix}foliokanan [ _text_ ]
+${nomor++}. き⃟🦈️ ${prefix}foliokiri [ _text_ ]
+${nomor++}. き⃟🦈️ ${prefix}nuliskanan [ _text_ ]
+${nomor++}. き⃟🦈️ ${prefix}nuliskiri [ _text_ ]
+${nomor++}. き⃟🦈️ ${prefix}maker3d [ _text_ ]
+${nomor++}. き⃟🦈️ ${prefix}maker2d [ _text_ ]
+${nomor++}. き⃟🦈️ ${prefix}epepserti [ _text_ ]`
+sendButLocation(from, `${menu}`, "*_© Akbar Botz AB07_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'back to menu'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+}
+else if(menusimpel = true){
+        stod = `${sender}`
+fill =`Hai Kak ${pushname}, ${tampilUcapan}
+Silahkan Pilih Untuk Menampilkan Menu
+
+Jika Button Tidak Muncul Ketik .allmenu`
+menu =` Akbar Botz AB07き⃟🦈️`
+gbutsan = [
+{buttonId:`allmenu`,buttonText:{displayText:'き⃟🦈️SHOW MENUき⃟🦈️'},type:1},
+{buttonId:`store`,buttonText:{displayText:'🔰STORE MENU🔰'},type:1},
+{buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
+]
+mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
+const btnmenu = {
+imageMessage: mhan.message.imageMessage,
+contentText: `${fill}`,
+footerText: `${menu}`,
+buttons: gbutsan,
+headerType: 4
+}
+kurr.sendMessage(from, btnmenu, MessageType.buttonsMessage, {contextInfo :{text: 'hi',
+"forwardingScore": 1000000000,
+isForwarded: false,
+sendEphemeral: false,
+"externalAdReply": {
+"title": `hallo ${pushname}` ,
+"body": `${jmn} - ${week} ${weton} - ${calender}`,
+"mediaType": "2",
+"thumbnail": pporigi,
+},mentionedJid:[stod]}, quoted : ftrol})
+}
+break
+case 'ownermenu':
+  if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+        if(menusimpel == false){               
+                quotesnya = await fetchJson(`https://xnxxapi.herokuapp.com/api/randomquote?apikey=xnxx`)
+quotes = quotesnya.result.quotes
+                nomor = 1
+                stod = `${sender}`
+       stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status
+       menu = `╭─❒ 「 Bot Info 」 ❒
+き⃟🦈️ _Creator : *Akbarbarz*
+き⃟🦈️ _Battery : *35*_
+き⃟🦈️ _Battery : ${baterai.battery}_
+き⃟🦈️ _Mode : ${publik ? 'Public' : 'Self'}_
+き⃟🦈️ _Total Hit : ${cmhit.length}_
+き⃟🦈️ _Total menu : 385_
+き⃟🦈️ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
+き⃟🦈️ _Nama Bot : Akbar Botz AB07_
+き⃟🦈️ _Nama Owner : ${NamaOwner}_
+き⃟🦈️ _Nomor Owner : Akbarbarz
+き⃟🦈️ _Auto Composing : ${settings.autocomposing}_
+き⃟🦈️ _Auto Recording : ${settings.autorecording}_
+└❏
+
+╭─❒ 「 User Info 」 ❒
+き⃟🦈️ _Status : ${isOwner ? 'Owner' : 'User'}_
+き⃟🦈️ _Nama : ${pushname}_
+き⃟🦈️ _Bio : ${stst}_
+き⃟🦈️ _Nomor : @${stod.split('@')[0]}_
+└❏
+
+┌❏ TO DAY
+│ ${tampilUcapan}
+き⃟🦈️ Jam : ${jmn}
+き⃟🦈️ Hari : ${week} ${weton}
+き⃟🦈️ Tanggal : ${calender}
+└❏
+
+┌❏ INDONESIA TIME
+き⃟🦈️ Wib : ${timeWib}
+き⃟🦈️ Wita : ${timeWita}
+き⃟🦈️ Wit : ${timeWit}  
+└❏
+
+き⃟🦈️─❒ OWNER MENU
+${nomor++}. き⃟🦈️ ${prefix}autorespon [ _on/off_ ]
+${nomor++}. き⃟🦈️ ${prefix}antidelete [ _on/off_ ]
+${nomor++}. き⃟🦈️ ${prefix}bc [ _teks/reply gif/image/video with caption_ ]
+${nomor++}. き⃟🦈️ ${prefix}tobc [ _reply sticker/audio with caption_ ]
+${nomor++}. き⃟🦈️ ${prefix}return [ _javascript_ ]
+${nomor++}. き⃟🦈️ ${prefix}clearall
+${nomor++}. き⃟🦈️ ${prefix}delchat
+${nomor++}. き⃟🦈️ ${prefix}mute
+${nomor++}. き⃟🦈️ ${prefix}unmute
+${nomor++}. き⃟🦈️ ${prefix}public
+${nomor++}. き⃟🦈️ ${prefix}self
+${nomor++}. き⃟🦈️ ${prefix}spam [ _teks|jumlah_ ]
+${nomor++}. き⃟🦈️ ${prefix}demoteall
+${nomor++}. き⃟🦈️ ${prefix}promoteall
+${nomor++}. き⃟🦈️ ${prefix}addcmd [ _teks reply stc_ ]
+${nomor++}. き⃟🦈️ ${prefix}delcmd [ _reply stc_ ]
+${nomor++}. き⃟🦈️ ${prefix}listcmd
+${nomor++}. き⃟🦈️ ${prefix}spamsw [ _teks|jumlah_ ]
+${nomor++}. き⃟🦈️ ${prefix}upswteks [ _teks_ ]
+${nomor++}. き⃟🦈️ ${prefix}upswlokasi [ _teks_ ]
+${nomor++}. き⃟🦈️ ${prefix}upswaudio [ _reply audio_ ]
+${nomor++}. き⃟🦈️ ${prefix}upswvoice [ _reply audio_ ]
+${nomor++}. き⃟🦈️ ${prefix}upswsticker [ _reply sticker_ ]
+${nomor++}. き⃟🦈️ ${prefix}upswimage [ _reply image with caption_ ]
+${nomor++}. き⃟🦈️ ${prefix}upswgif [ _reply gif with caption_ ]
+${nomor++}. き⃟🦈️ ${prefix}upswvideo [ _reply video with caption_ ]
+${nomor++}. き⃟🦈️ ${prefix}shutdown
+${nomor++}. き⃟🦈️ ${prefix}offline [ _alasan_ ]
+${nomor++}. き⃟🦈️ ${prefix}online
+${nomor++}. き⃟🦈️ ${prefix}exif [ _nama|author_ ]
+${nomor++}. き⃟🦈️ ${prefix}setprofile [ _reply image_ ]
+${nomor++}. き⃟🦈️ ${prefix}setname [ _teks_ ]
+${nomor++}. き⃟🦈️ ${prefix}setprefix [ _multi/nopref/prefix_ ]
+${nomor++}. き⃟🦈️ ${prefix}setbio [ _teks_ ]
+${nomor++}. き⃟🦈️ ${prefix}leave
+${nomor++}. き⃟🦈️ ${prefix}restart
+${nomor++}. き⃟🦈️ ${prefix}addrespon [ _tanya|jawab_ ]
+${nomor++}. き⃟🦈️ ${prefix}delrespon [ _nama_ ]
+${nomor++}. き⃟🦈️ ${prefix}listrespon
+${nomor++}. き⃟🦈️ ${prefix}readall
+${nomor++}. き⃟🦈️ ${prefix}unreadall
+${nomor++}. き⃟🦈️ ${prefix}archive
+${nomor++}. き⃟🦈️ ${prefix}unarchiveall
+${nomor++}. き⃟🦈️ ${prefix}pin
+${nomor++}. き⃟🦈️ ${prefix}unpin
+${nomor++}. き⃟🦈️ ${prefix}setmenu [ _ori/simpel_ ]
+${nomor++}. き⃟🦈️ ${prefix}setallmenu [ _ori/simpel_ ]
+${nomor++}. き⃟🦈️ ${prefix}leavetime [ _detik/menit/jam_ ]
+${nomor++}. き⃟🦈️ ${prefix}bukatime [ _detik/menit/jam_ ]
+${nomor++}. き⃟🦈️ ${prefix}tutuptime [ _detik/menit/jam_ ]
+${nomor++}. き⃟🦈️ ${prefix}nano [ _nama file_ ]`
+sendButLocation(from, `${menu}`, "*_© Akbar Botz AB07_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'back to menu'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+}
+else if(menusimpel = true){
+        stod = `${sender}`
+fill =`Hai Kak ${pushname}, ${tampilUcapan}
+Silahkan Pilih Untuk Menampilkan Menu
+
+Jika Button Tidak Muncul Ketik .allmenu`
+menu =` Akbar Botz AB07き⃟🦈️`
+gbutsan = [
+{buttonId:`allmenu`,buttonText:{displayText:'き⃟🦈️SHOW MENUき⃟🦈️'},type:1},
+{buttonId:`store`,buttonText:{displayText:'🔰STORE MENU🔰'},type:1},
+{buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
+]
+mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
+const btnmenu = {
+imageMessage: mhan.message.imageMessage,
+contentText: `${fill}`,
+footerText: `${menu}`,
+buttons: gbutsan,
+headerType: 4
+}
+kurr.sendMessage(from, btnmenu, MessageType.buttonsMessage, {contextInfo :{text: 'hi',
+"forwardingScore": 1000000000,
+isForwarded: false,
+sendEphemeral: false,
+"externalAdReply": {
+"title": `hallo ${pushname}` ,
+"body": `${jmn} - ${week} ${weton} - ${calender}`,
+"mediaType": "2",
+"thumbnail": pporigi,
+},mentionedJid:[stod]}, quoted : ftrol})
+}
+break
+case 'funmenu':
+  if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+        if(menusimpel == false){               
+                quotesnya = await fetchJson(`https://xnxxapi.herokuapp.com/api/randomquote?apikey=xnxx`)
+quotes = quotesnya.result.quotes
+                nomor = 1
+                stod = `${sender}`
+       stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status
+       menu = `╭─❒ 「 Bot Info 」 ❒
+き⃟🦈️ _Creator : *Akbarbarz*
+き⃟🦈️ _Battery : *35*_
+き⃟🦈️ _Battery : ${baterai.battery}_
+き⃟🦈️ _Mode : ${publik ? 'Public' : 'Self'}_
+き⃟🦈️ _Total Hit : ${cmhit.length}_
+き⃟🦈️ _Total menu : 385_
+き⃟🦈️ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
+き⃟🦈️ _Nama Bot : Akbar Botz AB07_
+き⃟🦈️ _Nama Owner : ${NamaOwner}_
+き⃟🦈️ _Nomor Owner : Akbarbarz
+き⃟🦈️ _Auto Composing : ${settings.autocomposing}_
+き⃟🦈️ _Auto Recording : ${settings.autorecording}_
+└❏
+
+╭─❒ 「 User Info 」 ❒
+き⃟🦈️ _Status : ${isOwner ? 'Owner' : 'User'}_
+き⃟🦈️ _Nama : ${pushname}_
+き⃟🦈️ _Bio : ${stst}_
+き⃟🦈️ _Nomor : @${stod.split('@')[0]}_
+└❏
+
+┌❏ TO DAY
+│ ${tampilUcapan}
+き⃟🦈️ Jam : ${jmn}
+き⃟🦈️ Hari : ${week} ${weton}
+き⃟🦈️ Tanggal : ${calender}
+└❏
+
+┌❏ INDONESIA TIME
+き⃟🦈️ Wib : ${timeWib}
+き⃟🦈️ Wita : ${timeWita}
+き⃟🦈️ Wit : ${timeWit}  
+└❏
+
+き⃟🦈️─❒ FUN MENU NEW
+${nomor++}. き⃟🦈️ ${prefix}bego
+${nomor++}. き⃟🦈️ ${prefix}tolol
+${nomor++}. き⃟🦈️ ${prefix}pinter
+${nomor++}. き⃟🦈️ ${prefix}pintar
+${nomor++}. き⃟🦈️ ${prefix}asu
+${nomor++}. き⃟🦈️ ${prefix}bodoh
+${nomor++}. き⃟🦈️ ${prefix}gay
+${nomor++}. き⃟🦈️ ${prefix}lesby
+${nomor++}. き⃟🦈️ ${prefix}bajingan
+${nomor++}. き⃟🦈️ ${prefix}jancok
+${nomor++}. き⃟🦈️ ${prefix}anjing
+${nomor++}. き⃟🦈️ ${prefix}ngentod
+${nomor++}. き⃟🦈️ ${prefix}ngentot
+${nomor++}. き⃟🦈️ ${prefix}monyet
+${nomor++}. き⃟🦈️ ${prefix}mastah
+${nomor++}. き⃟🦈️ ${prefix}newbie
+${nomor++}. き⃟🦈️ ${prefix}bangsat
+${nomor++}. き⃟🦈️ ${prefix}bangke
+${nomor++}. き⃟🦈️ ${prefix}sange
+${nomor++}. き⃟🦈️ ${prefix}sangean
+${nomor++}. き⃟🦈️ ${prefix}dakjal
+${nomor++}. き⃟🦈️ ${prefix}horny
+${nomor++}. き⃟🦈️ ${prefix}wibu
+${nomor++}. き⃟🦈️ ${prefix}puki
+${nomor++}. き⃟🦈️ ${prefix}pantex`
+sendButLocation(from, `${menu}`, "*_© Akbar Botz AB07_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'back to menu'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+}
+else if(menusimpel = true){
+        stod = `${sender}`
+fill =`Hai Kak ${pushname}, ${tampilUcapan}
+Silahkan Pilih Untuk Menampilkan Menu
+
+Jika Button Tidak Muncul Ketik .allmenu`
+menu =` Akbar Botz AB07き⃟🦈️`
+gbutsan = [
+{buttonId:`allmenu`,buttonText:{displayText:'き⃟🦈️SHOW MENUき⃟🦈️'},type:1},
+{buttonId:`store`,buttonText:{displayText:'🔰STORE MENU🔰'},type:1},
+{buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
+]
+mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
+const btnmenu = {
+imageMessage: mhan.message.imageMessage,
+contentText: `${fill}`,
+footerText: `${menu}`,
+buttons: gbutsan,
+headerType: 4
+}
+kurr.sendMessage(from, btnmenu, MessageType.buttonsMessage, {contextInfo :{text: 'hi',
+"forwardingScore": 1000000000,
+isForwarded: false,
+sendEphemeral: false,
+"externalAdReply": {
+"title": `hallo ${pushname}` ,
+"body": `${jmn} - ${week} ${weton} - ${calender}`,
+"mediaType": "2",
+"thumbnail": pporigi,
+},mentionedJid:[stod]}, quoted : ftrol})
+}
+break
+case 'downloadmenu':
+  if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+        if(menusimpel == false){               
+                quotesnya = await fetchJson(`https://xnxxapi.herokuapp.com/api/randomquote?apikey=xnxx`)
+quotes = quotesnya.result.quotes
+                nomor = 1
+                stod = `${sender}`
+       stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status
+       menu = `╭─❒ 「 Bot Info 」 ❒
+き⃟🦈️ _Creator : *Akbarbarz*
+き⃟🦈️ _Battery : *35*_
+き⃟🦈️ _Battery : ${baterai.battery}_
+き⃟🦈️ _Mode : ${publik ? 'Public' : 'Self'}_
+き⃟🦈️ _Total Hit : ${cmhit.length}_
+き⃟🦈️ _Total menu : 385_
+き⃟🦈️ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
+き⃟🦈️ _Nama Bot : Akbar Botz AB07_
+き⃟🦈️ _Nama Owner : ${NamaOwner}_
+き⃟🦈️ _Nomor Owner : Akbarbarz
+き⃟🦈️ _Auto Composing : ${settings.autocomposing}_
+き⃟🦈️ _Auto Recording : ${settings.autorecording}_
+└❏
+
+╭─❒ 「 User Info 」 ❒
+き⃟🦈️ _Status : ${isOwner ? 'Owner' : 'User'}_
+き⃟🦈️ _Nama : ${pushname}_
+き⃟🦈️ _Bio : ${stst}_
+き⃟🦈️ _Nomor : @${stod.split('@')[0]}_
+└❏
+
+┌❏ TO DAY
+│ ${tampilUcapan}
+き⃟🦈️ Jam : ${jmn}
+き⃟🦈️ Hari : ${week} ${weton}
+き⃟🦈️ Tanggal : ${calender}
+└❏
+
+┌❏ INDONESIA TIME
+き⃟🦈️ Wib : ${timeWib}
+き⃟🦈️ Wita : ${timeWita}
+き⃟🦈️ Wit : ${timeWit}  
+└❏
+
+き⃟🦈️─❒ DOWNLOAD
+${nomor++}. き⃟🦈️ ${prefix}infogempa
+${nomor++}. き⃟🦈️ ${prefix}pinterest
+${nomor++}. き⃟🦈️ ${prefix}herolist
+${nomor++}. き⃟🦈️ ${prefix}herodetail [ _hero_ ]
+${nomor++}. き⃟🦈️ ${prefix}google [ _search_ ]
+${nomor++}. き⃟🦈️ ${prefix}gimage [ _search_ ]
+${nomor++}. き⃟🦈️ ${prefix}wiki [ _search_ ]
+${nomor++}. き⃟🦈️ ${prefix}mediafire [ _link_ ]
+${nomor++}. き⃟🦈️ ${prefix}ytsearch [ _judul_ ]
+${nomor++}. き⃟🦈️ ${prefix}ytmp4 [ _link yt_ ]
+${nomor++}. き⃟🦈️ ${prefix}ytmp3 [ _link yt_ ]
+${nomor++}. き⃟🦈️ ${prefix}play [ _judul lagu_ ]
+${nomor++}. き⃟🦈️ ${prefix}video [ _judul video_ ]
+${nomor++}. き⃟🦈️ ${prefix}tinyurl [ _link_ ]
+${nomor++}. き⃟🦈️ ${prefix}fetch [ _link_ ]
+${nomor++}. き⃟🦈️ ${prefix}igdl [ _link_ ]
+${nomor++}. き⃟🦈️ ${prefix}tiktokdl [ _link_ ]
+${nomor++}. き⃟🦈️ ${prefix}pinterest [ _search_ ]
+${nomor++}. き⃟🦈️ ${prefix}lirik [ _judul_ ]
+${nomor++}. き⃟🦈️ ${prefix}tourl [ _reply image/video_ ]
+${nomor++}. き⃟🦈️ ${prefix}resepmasakan [ _judul_ ]
+${nomor++}. き⃟🦈️ ${prefix}artimimpi [ _teks_ ]
+${nomor++}. き⃟🦈️ ${prefix}bilangangka [ _angka_ ]
+${nomor++}. き⃟🦈️ ${prefix}kalkulator [ _angka_ ]
+${nomor++}. き⃟🦈️ ${prefix}fancytext [ _teks_ ]
+${nomor++}. き⃟🦈️ ${prefix}githubstalk [ _username_ ]
+${nomor++}. き⃟🦈️ ${prefix}translate [ _teks kodebhs_ ]
+${nomor++}. き⃟🦈️ ${prefix}ss [ _link_ ]
+${nomor++}. き⃟🦈️ ${prefix}playstore [ _search_ ]
+${nomor++}. き⃟🦈️ ${prefix}tiktokaudio [ _link_ ]
+${nomor++}. き⃟🦈️ ${prefix}brainly [ _search_ ]
+${nomor++}. き⃟🦈️ ${prefix}igstory [ _search_ ]
+${nomor++}. き⃟🦈️ ${prefix}igstalk [ _link_ ]
+${nomor++}. き⃟🦈️ ${prefix}twitter [ _link_ ]
+${nomor++}. き⃟🦈️ ${prefix}twmp3 [ _link_ ]
+${nomor++}. き⃟🦈️ ${prefix}linkwa [ _search_ ]
+${nomor++}. き⃟🦈️ ${prefix}fb [ _link_ ]
+${nomor++}. き⃟🦈️ ${prefix}chara [ _search_ ]
+${nomor++}. き⃟🦈️ ${prefix}otaku [ _search_ ]
+${nomor++}. き⃟🦈️ ${prefix}komiku [ _search_ ]`
+sendButLocation(from, `${menu}`, "*_© Akbar Botz AB07_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'back to menu'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+}
+else if(menusimpel = true){
+        stod = `${sender}`
+fill =`Hai Kak ${pushname}, ${tampilUcapan}
+Silahkan Pilih Untuk Menampilkan Menu
+
+Jika Button Tidak Muncul Ketik .allmenu`
+menu =` Akbar Botz AB07き⃟🦈️`
+gbutsan = [
+{buttonId:`allmenu`,buttonText:{displayText:'き⃟🦈️SHOW MENUき⃟🦈️'},type:1},
+{buttonId:`store`,buttonText:{displayText:'🔰STORE MENU🔰'},type:1},
+{buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
+]
+mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
+const btnmenu = {
+imageMessage: mhan.message.imageMessage,
+contentText: `${fill}`,
+footerText: `${menu}`,
+buttons: gbutsan,
+headerType: 4
+}
+kurr.sendMessage(from, btnmenu, MessageType.buttonsMessage, {contextInfo :{text: 'hi',
+"forwardingScore": 1000000000,
+isForwarded: false,
+sendEphemeral: false,
+"externalAdReply": {
+"title": `hallo ${pushname}` ,
+"body": `${jmn} - ${week} ${weton} - ${calender}`,
+"mediaType": "2",
+"thumbnail": pporigi,
+},mentionedJid:[stod]}, quoted : ftrol})
+}
+break
+case 'gamemenu':
+  if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+        if(menusimpel == false){               
+                quotesnya = await fetchJson(`https://xnxxapi.herokuapp.com/api/randomquote?apikey=xnxx`)
+quotes = quotesnya.result.quotes
+                nomor = 1
+                stod = `${sender}`
+       stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status
+       menu = `╭─❒ 「 Bot Info 」 ❒
+き⃟🦈️ _Creator : *Akbarbarz*
+き⃟🦈️ _Battery : *35*_
+き⃟🦈️ _Battery : ${baterai.battery}_
+き⃟🦈️ _Mode : ${publik ? 'Public' : 'Self'}_
+き⃟🦈️ _Total Hit : ${cmhit.length}_
+き⃟🦈️ _Total menu : 385_
+き⃟🦈️ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
+き⃟🦈️ _Nama Bot : Akbar Botz AB07_
+き⃟🦈️ _Nama Owner : ${NamaOwner}_
+き⃟🦈️ _Nomor Owner : Akbarbarz
+き⃟🦈️ _Auto Composing : ${settings.autocomposing}_
+き⃟🦈️ _Auto Recording : ${settings.autorecording}_
+└❏
+
+╭─❒ 「 User Info 」 ❒
+き⃟🦈️ _Status : ${isOwner ? 'Owner' : 'User'}_
+き⃟🦈️ _Nama : ${pushname}_
+き⃟🦈️ _Bio : ${stst}_
+き⃟🦈️ _Nomor : @${stod.split('@')[0]}_
+└❏
+
+┌❏ TO DAY
+│ ${tampilUcapan}
+き⃟🦈️ Jam : ${jmn}
+き⃟🦈️ Hari : ${week} ${weton}
+き⃟🦈️ Tanggal : ${calender}
+└❏
+
+┌❏ INDONESIA TIME
+き⃟🦈️ Wib : ${timeWib}
+き⃟🦈️ Wita : ${timeWita}
+き⃟🦈️ Wit : ${timeWit}  
+└❏
+
+き⃟🦈️─❒GAME MENU
+${nomor++}. き⃟🦈️ ${prefix}tebakgambar
+${nomor++}. き⃟🦈️ ${prefix}caklontong`
+sendButLocation(from, `${menu}`, "*_© Akbar Botz AB07_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'back to menu'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+}
+else if(menusimpel = true){
+        stod = `${sender}`
+fill =`Hai Kak ${pushname}, ${tampilUcapan}
+Silahkan Pilih Untuk Menampilkan Menu
+
+Jika Button Tidak Muncul Ketik .allmenu`
+menu =` Akbar Botz AB07き⃟🦈️`
+gbutsan = [
+{buttonId:`allmenu`,buttonText:{displayText:'き⃟🦈️SHOW MENUき⃟🦈️'},type:1},
+{buttonId:`store`,buttonText:{displayText:'🔰STORE MENU🔰'},type:1},
+{buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
+]
+mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
+const btnmenu = {
+imageMessage: mhan.message.imageMessage,
+contentText: `${fill}`,
+footerText: `${menu}`,
+buttons: gbutsan,
+headerType: 4
+}
+kurr.sendMessage(from, btnmenu, MessageType.buttonsMessage, {contextInfo :{text: 'hi',
+"forwardingScore": 1000000000,
+isForwarded: false,
+sendEphemeral: false,
+"externalAdReply": {
+"title": `hallo ${pushname}` ,
+"body": `${jmn} - ${week} ${weton} - ${calender}`,
+"mediaType": "2",
+"thumbnail": pporigi,
+},mentionedJid:[stod]}, quoted : ftrol})
+}
+break
+case 'harammenu':
+  if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+        if(menusimpel == false){               
+                quotesnya = await fetchJson(`https://xnxxapi.herokuapp.com/api/randomquote?apikey=xnxx`)
+quotes = quotesnya.result.quotes
+                nomor = 1
+                stod = `${sender}`
+       stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status
+       menu = `╭─❒ 「 Bot Info 」 ❒
+き⃟🦈️ _Creator : *Akbarbarz*
+き⃟🦈️ _Battery : *35*_
+き⃟🦈️ _Battery : ${baterai.battery}_
+き⃟🦈️ _Mode : ${publik ? 'Public' : 'Self'}_
+き⃟🦈️ _Total Hit : ${cmhit.length}_
+き⃟🦈️ _Total menu : 385_
+き⃟🦈️ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
+き⃟🦈️ _Nama Bot : Akbar Botz AB07_
+き⃟🦈️ _Nama Owner : ${NamaOwner}_
+き⃟🦈️ _Nomor Owner : Akbarbarz
+き⃟🦈️ _Auto Composing : ${settings.autocomposing}_
+き⃟🦈️ _Auto Recording : ${settings.autorecording}_
+└❏
+
+╭─❒ 「 User Info 」 ❒
+き⃟🦈️ _Status : ${isOwner ? 'Owner' : 'User'}_
+き⃟🦈️ _Nama : ${pushname}_
+き⃟🦈️ _Bio : ${stst}_
+き⃟🦈️ _Nomor : @${stod.split('@')[0]}_
+└❏
+
+┌❏ TO DAY
+│ ${tampilUcapan}
+き⃟🦈️ Jam : ${jmn}
+き⃟🦈️ Hari : ${week} ${weton}
+き⃟🦈️ Tanggal : ${calender}
+└❏
+
+┌❏ INDONESIA TIME
+き⃟🦈️ Wib : ${timeWib}
+き⃟🦈️ Wita : ${timeWita}
+き⃟🦈️ Wit : ${timeWit}  
+└❏
+
+き⃟🦈️─❒ MENU HARAM
+${nomor++}. き⃟🦈️ ${prefix}neko
+${nomor++}. き⃟🦈️ ${prefix}kanna
+${nomor++}. き⃟🦈️ ${prefix}sagiri
+${nomor++}. き⃟🦈️ ${prefix}megumin
+${nomor++}. き⃟🦈️ ${prefix}wallnime
+${nomor++}. き⃟🦈️ ${prefix}hentai
+${nomor++}. き⃟🦈️ ${prefix}ass
+${nomor++}. き⃟🦈️ ${prefix}ahegao
+${nomor++}. き⃟🦈️ ${prefix}hentai
+${nomor++}. き⃟🦈️ ${prefix}yuri
+${nomor++}. き⃟🦈️ ${prefix}panties
+${nomor++}. き⃟🦈️ ${prefix}neko
+${nomor++}. き⃟🦈️ ${prefix}chiisaihentai
+${nomor++}. き⃟🦈️ ${prefix}trap
+${nomor++}. き⃟🦈️ ${prefix}blowjob
+${nomor++}. き⃟🦈️ ${prefix}yaoi
+${nomor++}. き⃟🦈️ ${prefix}ecchi
+${nomor++}. き⃟🦈️ ${prefix}ahegao
+${nomor++}. き⃟🦈️ ${prefix}hololewd
+${nomor++}. き⃟🦈️ ${prefix}sideoppai
+${nomor++}. き⃟🦈️ ${prefix}animefeets
+${nomor++}. き⃟🦈️ ${prefix}animebooty
+${nomor++}. き⃟🦈️ ${prefix}animethighss
+${nomor++}. き⃟🦈️ ${prefix}hentaiparadise
+${nomor++}. き⃟🦈️ ${prefix}animearmpits
+${nomor++}. き⃟🦈️ ${prefix}hentaifemdom
+${nomor++}. き⃟🦈️ ${prefix}lewdanimegirls
+${nomor++}. き⃟🦈️ ${prefix}biganimetiddies
+${nomor++}. き⃟🦈️ ${prefix}animebellybutton
+${nomor++}. き⃟🦈️ ${prefix}hentai4everyone
+${nomor++}. き⃟🦈️ ${prefix}bj
+${nomor++}. き⃟🦈️ ${prefix}ero
+${nomor++}. き⃟🦈️ ${prefix}cum
+${nomor++}. き⃟🦈️ ${prefix}feet
+${nomor++}. き⃟🦈️ ${prefix}yuri
+${nomor++}. き⃟🦈️ ${prefix}trap
+${nomor++}. き⃟🦈️ ${prefix}lewd
+${nomor++}. き⃟🦈️ ${prefix}feed
+${nomor++}. き⃟🦈️ ${prefix}eron
+${nomor++}. き⃟🦈️ ${prefix}solo
+${nomor++}. き⃟🦈️ ${prefix}gasm
+${nomor++}. き⃟🦈️ ${prefix}poke
+${nomor++}. き⃟🦈️ ${prefix}anal
+${nomor++}. き⃟🦈️ ${prefix}holo
+${nomor++}. き⃟🦈️ ${prefix}tits
+${nomor++}. き⃟🦈️ ${prefix}kuni
+${nomor++}. き⃟🦈️ ${prefix}kiss
+${nomor++}. き⃟🦈️ ${prefix}erok
+${nomor++}. き⃟🦈️ ${prefix}smug
+${nomor++}. き⃟🦈️ ${prefix}baka
+${nomor++}. き⃟🦈️ ${prefix}solog
+${nomor++}. き⃟🦈️ ${prefix}feetg
+${nomor++}. き⃟🦈️ ${prefix}lewdk
+${nomor++}. き⃟🦈️ ${prefix}waifu
+${nomor++}. き⃟🦈️ ${prefix}pussy
+${nomor++}. き⃟🦈️ ${prefix}femdom
+${nomor++}. き⃟🦈️ ${prefix}cuddle
+${nomor++}. き⃟🦈️ ${prefix}eroyuri
+${nomor++}. き⃟🦈️ ${prefix}cum_jpg
+${nomor++}. き⃟🦈️ ${prefix}blowjob
+${nomor++}. き⃟🦈️ ${prefix}erofeet
+${nomor++}. き⃟🦈️ ${prefix}holoero
+${nomor++}. き⃟🦈️ ${prefix}classic
+${nomor++}. き⃟🦈️ ${prefix}erokemo
+${nomor++}. き⃟🦈️ ${prefix}fox_girl
+${nomor++}. き⃟🦈️ ${prefix}futanari
+${nomor++}. き⃟🦈️ ${prefix}lewdkemo
+${nomor++}. き⃟🦈️ ${prefix}wallpaper
+${nomor++}. き⃟🦈️ ${prefix}pussy_jpg
+${nomor++}. き⃟🦈️ ${prefix}kemonomimi
+${nomor++}. き⃟🦈️ ${prefix}nsfw_avatar`
+sendButLocation(from, `${menu}`, "*_© Akbar Botz AB07_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'back to menu'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+}
+else if(menusimpel = true){
+        stod = `${sender}`
+fill =`Hai Kak ${pushname}, ${tampilUcapan}
+Silahkan Pilih Untuk Menampilkan Menu
+
+Jika Button Tidak Muncul Ketik .allmenu`
+menu =` Akbar Botz AB07き⃟🦈️`
+gbutsan = [
+{buttonId:`allmenu`,buttonText:{displayText:'き⃟🦈️SHOW MENUき⃟🦈️'},type:1},
+{buttonId:`store`,buttonText:{displayText:'🔰STORE MENU🔰'},type:1},
+{buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
+]
+mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
+const btnmenu = {
+imageMessage: mhan.message.imageMessage,
+contentText: `${fill}`,
+footerText: `${menu}`,
+buttons: gbutsan,
+headerType: 4
+}
+kurr.sendMessage(from, btnmenu, MessageType.buttonsMessage, {contextInfo :{text: 'hi',
+"forwardingScore": 1000000000,
+isForwarded: false,
+sendEphemeral: false,
+"externalAdReply": {
+"title": `hallo ${pushname}` ,
+"body": `${jmn} - ${week} ${weton} - ${calender}`,
+"mediaType": "2",
+"thumbnail": pporigi,
+},mentionedJid:[stod]}, quoted : ftrol})
+}
+break
+case 'wibumenu':
+  if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+        if(menusimpel == false){               
+                quotesnya = await fetchJson(`https://xnxxapi.herokuapp.com/api/randomquote?apikey=xnxx`)
+quotes = quotesnya.result.quotes
+                nomor = 1
+                stod = `${sender}`
+       stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status
+       menu = `╭─❒ 「 Bot Info 」 ❒
+き⃟🦈️ _Creator : *Akbarbarz*
+き⃟🦈️ _Battery : *35*_
+き⃟🦈️ _Battery : ${baterai.battery}_
+き⃟🦈️ _Mode : ${publik ? 'Public' : 'Self'}_
+き⃟🦈️ _Total Hit : ${cmhit.length}_
+き⃟🦈️ _Total menu : 385_
+き⃟🦈️ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
+き⃟🦈️ _Nama Bot : Akbar Botz AB07_
+き⃟🦈️ _Nama Owner : ${NamaOwner}_
+き⃟🦈️ _Nomor Owner : Akbarbarz
+き⃟🦈️ _Auto Composing : ${settings.autocomposing}_
+き⃟🦈️ _Auto Recording : ${settings.autorecording}_
+└❏
+
+╭─❒ 「 User Info 」 ❒
+き⃟🦈️ _Status : ${isOwner ? 'Owner' : 'User'}_
+き⃟🦈️ _Nama : ${pushname}_
+き⃟🦈️ _Bio : ${stst}_
+き⃟🦈️ _Nomor : @${stod.split('@')[0]}_
+└❏
+
+┌❏ TO DAY
+│ ${tampilUcapan}
+き⃟🦈️ Jam : ${jmn}
+き⃟🦈️ Hari : ${week} ${weton}
+き⃟🦈️ Tanggal : ${calender}
+└❏
+
+┌❏ INDONESIA TIME
+き⃟🦈️ Wib : ${timeWib}
+き⃟🦈️ Wita : ${timeWita}
+き⃟🦈️ Wit : ${timeWit}  
+└❏
+
+き⃟🦈️─❒ WIBU
+${nomor++}. き⃟🦈️ ${prefix}loli
+${nomor++}. き⃟🦈️ ${prefix}husbu
+${nomor++}. き⃟🦈️ ${prefix}milf
+${nomor++}. き⃟🦈️ ${prefix}cosplay
+${nomor++}. き⃟🦈️ ${prefix}wallml`
+sendButLocation(from, `${menu}`, "*_© Akbar Botz AB07_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'back to menu'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+}
+else if(menusimpel = true){
+        stod = `${sender}`
+fill =`Hai Kak ${pushname}, ${tampilUcapan}
+Silahkan Pilih Untuk Menampilkan Menu
+
+Jika Button Tidak Muncul Ketik .allmenu`
+menu =` Akbar Botz AB07き⃟🦈️`
+gbutsan = [
+{buttonId:`allmenu`,buttonText:{displayText:'き⃟🦈️SHOW MENUき⃟🦈️'},type:1},
+{buttonId:`store`,buttonText:{displayText:'🔰STORE MENU🔰'},type:1},
+{buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
+]
+mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
+const btnmenu = {
+imageMessage: mhan.message.imageMessage,
+contentText: `${fill}`,
+footerText: `${menu}`,
+buttons: gbutsan,
+headerType: 4
+}
+kurr.sendMessage(from, btnmenu, MessageType.buttonsMessage, {contextInfo :{text: 'hi',
+"forwardingScore": 1000000000,
+isForwarded: false,
+sendEphemeral: false,
+"externalAdReply": {
+"title": `hallo ${pushname}` ,
+"body": `${jmn} - ${week} ${weton} - ${calender}`,
+"mediaType": "2",
+"thumbnail": pporigi,
+},mentionedJid:[stod]}, quoted : ftrol})
+}
+break
+case 'storagemenu':
+  if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+        if(menusimpel == false){               
+                quotesnya = await fetchJson(`https://xnxxapi.herokuapp.com/api/randomquote?apikey=xnxx`)
+quotes = quotesnya.result.quotes
+                nomor = 1
+                stod = `${sender}`
+       stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status
+       menu = `╭─❒ 「 Bot Info 」 ❒
+き⃟🦈️ _Creator : *Akbarbarz*
+き⃟🦈️ _Battery : *35*_
+き⃟🦈️ _Battery : ${baterai.battery}_
+き⃟🦈️ _Mode : ${publik ? 'Public' : 'Self'}_
+き⃟🦈️ _Total Hit : ${cmhit.length}_
+き⃟🦈️ _Total menu : 385_
+き⃟🦈️ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
+き⃟🦈️ _Nama Bot : Akbar Botz AB07_
+き⃟🦈️ _Nama Owner : ${NamaOwner}_
+き⃟🦈️ _Nomor Owner : Akbarbarz
+き⃟🦈️ _Auto Composing : ${settings.autocomposing}_
+き⃟🦈️ _Auto Recording : ${settings.autorecording}_
+└❏
+
+╭─❒ 「 User Info 」 ❒
+き⃟🦈️ _Status : ${isOwner ? 'Owner' : 'User'}_
+き⃟🦈️ _Nama : ${pushname}_
+き⃟🦈️ _Bio : ${stst}_
+き⃟🦈️ _Nomor : @${stod.split('@')[0]}_
+└❏
+
+┌❏ TO DAY
+│ ${tampilUcapan}
+き⃟🦈️ Jam : ${jmn}
+き⃟🦈️ Hari : ${week} ${weton}
+き⃟🦈️ Tanggal : ${calender}
+└❏
+
+┌❏ INDONESIA TIME
+き⃟🦈️ Wib : ${timeWib}
+き⃟🦈️ Wita : ${timeWita}
+き⃟🦈️ Wit : ${timeWit}  
+└❏
+
+き⃟🦈️─❒ STORAGE
+${nomor++}. き⃟🦈️ ${prefix}listimage
+${nomor++}. き⃟🦈️ ${prefix}liststicker
+${nomor++}. き⃟🦈️ ${prefix}listvn
+${nomor++}. き⃟🦈️ ${prefix}addsticker [ _nama_ ]
+${nomor++}. き⃟🦈️ ${prefix}delsticker [ _nama_ ]
+${nomor++}. き⃟🦈️ ${prefix}addvn [ _nama_ ]
+${nomor++}. き⃟🦈️ ${prefix}delvn [ _nama_ ]
+${nomor++}. き⃟🦈️ ${prefix}addimage [ _nama_ ]
+${nomor++}. き⃟🦈️ ${prefix}delimage [ _nama_ ]`
+sendButLocation(from, `${menu}`, "*_© Akbar Botz AB07_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'back to menu'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+}
+else if(menusimpel = true){
+        stod = `${sender}`
+fill =`Hai Kak ${pushname}, ${tampilUcapan}
+Silahkan Pilih Untuk Menampilkan Menu
+
+Jika Button Tidak Muncul Ketik .allmenu`
+menu =` Akbar Botz AB07き⃟🦈️`
+gbutsan = [
+{buttonId:`allmenu`,buttonText:{displayText:'き⃟🦈️SHOW MENUき⃟🦈️'},type:1},
+{buttonId:`store`,buttonText:{displayText:'🔰STORE MENU🔰'},type:1},
+{buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
+]
+mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
+const btnmenu = {
+imageMessage: mhan.message.imageMessage,
+contentText: `${fill}`,
+footerText: `${menu}`,
+buttons: gbutsan,
+headerType: 4
+}
+kurr.sendMessage(from, btnmenu, MessageType.buttonsMessage, {contextInfo :{text: 'hi',
+"forwardingScore": 1000000000,
+isForwarded: false,
+sendEphemeral: false,
+"externalAdReply": {
+"title": `hallo ${pushname}` ,
+"body": `${jmn} - ${week} ${weton} - ${calender}`,
+"mediaType": "2",
+"thumbnail": pporigi,
+},mentionedJid:[stod]}, quoted : ftrol})
+}
+break
+
+case 'toolsmenu':
+  if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+        if(menusimpel == false){               
+                quotesnya = await fetchJson(`https://xnxxapi.herokuapp.com/api/randomquote?apikey=xnxx`)
+quotes = quotesnya.result.quotes
+                nomor = 1
+                stod = `${sender}`
+       stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status
+       menu = `╭─❒ 「 Bot Info 」 ❒
+き⃟🦈️ _Creator : *Akbarbarz*
+き⃟🦈️ _Battery : *35*_
+き⃟🦈️ _Battery : ${baterai.battery}_
+き⃟🦈️ _Mode : ${publik ? 'Public' : 'Self'}_
+き⃟🦈️ _Total Hit : ${cmhit.length}_
+き⃟🦈️ _Total menu : 385_
+き⃟🦈️ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
+き⃟🦈️ _Nama Bot : Akbar Botz AB07_
+き⃟🦈️ _Nama Owner : ${NamaOwner}_
+き⃟🦈️ _Nomor Owner : Akbarbarz
+き⃟🦈️ _Auto Composing : ${settings.autocomposing}_
+き⃟🦈️ _Auto Recording : ${settings.autorecording}_
+└❏
+
+╭─❒ 「 User Info 」 ❒
+き⃟🦈️ _Status : ${isOwner ? 'Owner' : 'User'}_
+き⃟🦈️ _Nama : ${pushname}_
+き⃟🦈️ _Bio : ${stst}_
+き⃟🦈️ _Nomor : @${stod.split('@')[0]}_
+└❏
+
+┌❏ TO DAY
+│ ${tampilUcapan}
+き⃟🦈️ Jam : ${jmn}
+き⃟🦈️ Hari : ${week} ${weton}
+き⃟🦈️ Tanggal : ${calender}
+└❏
+
+┌❏ INDONESIA TIME
+き⃟🦈️ Wib : ${timeWib}
+き⃟🦈️ Wita : ${timeWita}
+き⃟🦈️ Wit : ${timeWit}  
+└❏
+
+き⃟🦈️─❒ TOOLS
+${nomor++}. き⃟🦈️ ${prefix}sticker
+${nomor++}. き⃟🦈️ ${prefix}stickerwm [ _nama|author_ ]
+${nomor++}. き⃟🦈️ ${prefix}takestick [ _nama|author_ ]
+${nomor++}. き⃟🦈️ ${prefix}colong [ _reply sticker_ ]
+${nomor++}. き⃟🦈️ ${prefix}dadu
+${nomor++}. き⃟🦈️ ${prefix}semoji [ _emoji_ ]
+${nomor++}. き⃟🦈️ ${prefix}attp [ _teks_ ]
+${nomor++}. き⃟🦈️ ${prefix}ttp [ _teks_ ]
+${nomor++}. き⃟🦈️ ${prefix}ttp2 [ _teks_ ]
+${nomor++}. き⃟🦈️ ${prefix}ttp3 [ _teks_ ]
+${nomor++}. き⃟🦈️ ${prefix}ttp4 [ _teks_ ]
+${nomor++}. き⃟🦈️ ${prefix}toimg
+${nomor++}. き⃟🦈️ ${prefix}tomp3 [ _reply video_ ]
+${nomor++}. き⃟🦈️ ${prefix}tomp4 [ _reply sticker gif_ ]
+${nomor++}. き⃟🦈️ ${prefix}robot [ _reply audio_ ]
+${nomor++}. き⃟🦈️ ${prefix}balik [ _reply audio_ ]
+${nomor++}. き⃟🦈️ ${prefix}bass [ _reply audio_ ]
+${nomor++}. き⃟🦈️ ${prefix}gemuk [ _reply audio_ ]
+${nomor++}. き⃟🦈️ ${prefix}detikvn [ _reply audio caption angka_ ]
+${nomor++}. き⃟🦈️ ${prefix}detikvideo [ _reply video caption angka_ ]`
+sendButLocation(from, `${menu}`, "*_© Akbar Botz AB07_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'back to menu'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+}
+else if(menusimpel = true){
+        stod = `${sender}`
+fill =`Hai Kak ${pushname}, ${tampilUcapan}
+Silahkan Pilih Untuk Menampilkan Menu
+
+Jika Button Tidak Muncul Ketik .allmenu`
+menu =` Akbar Botz AB07き⃟🦈️`
+gbutsan = [
+{buttonId:`allmenu`,buttonText:{displayText:'き⃟🦈️SHOW MENUき⃟🦈️'},type:1},
+{buttonId:`store`,buttonText:{displayText:'🔰STORE MENU🔰'},type:1},
+{buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
+]
+mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
+const btnmenu = {
+imageMessage: mhan.message.imageMessage,
+contentText: `${fill}`,
+footerText: `${menu}`,
+buttons: gbutsan,
+headerType: 4
+}
+kurr.sendMessage(from, btnmenu, MessageType.buttonsMessage, {contextInfo :{text: 'hi',
+"forwardingScore": 1000000000,
+isForwarded: false,
+sendEphemeral: false,
+"externalAdReply": {
+"title": `hallo ${pushname}` ,
+"body": `${jmn} - ${week} ${weton} - ${calender}`,
+"mediaType": "2",
+"thumbnail": pporigi,
+},mentionedJid:[stod]}, quoted : ftrol})
+}
+break
+case 'othermenu':
+  if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+        if(menusimpel == false){               
+                quotesnya = await fetchJson(`https://xnxxapi.herokuapp.com/api/randomquote?apikey=xnxx`)
+quotes = quotesnya.result.quotes
+                nomor = 1
+                stod = `${sender}`
+       stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status
+       menu = `╭─❒ 「 Bot Info 」 ❒
+き⃟🦈️ _Creator : *Akbarbarz*
+き⃟🦈️ _Battery : *35*_
+き⃟🦈️ _Battery : ${baterai.battery}_
+き⃟🦈️ _Mode : ${publik ? 'Public' : 'Self'}_
+き⃟🦈️ _Total Hit : ${cmhit.length}_
+き⃟🦈️ _Total menu : 385_
+き⃟🦈️ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
+き⃟🦈️ _Nama Bot : Akbar Botz AB07_
+き⃟🦈️ _Nama Owner : ${NamaOwner}_
+き⃟🦈️ _Nomor Owner : Akbarbarz
+き⃟🦈️ _Auto Composing : ${settings.autocomposing}_
+き⃟🦈️ _Auto Recording : ${settings.autorecording}_
+└❏
+
+╭─❒ 「 User Info 」 ❒
+き⃟🦈️ _Status : ${isOwner ? 'Owner' : 'User'}_
+き⃟🦈️ _Nama : ${pushname}_
+き⃟🦈️ _Bio : ${stst}_
+き⃟🦈️ _Nomor : @${stod.split('@')[0]}_
+└❏
+
+┌❏ TO DAY
+│ ${tampilUcapan}
+き⃟🦈️ Jam : ${jmn}
+き⃟🦈️ Hari : ${week} ${weton}
+き⃟🦈️ Tanggal : ${calender}
+└❏
+
+┌❏ INDONESIA TIME
+き⃟🦈️ Wib : ${timeWib}
+き⃟🦈️ Wita : ${timeWita}
+き⃟🦈️ Wit : ${timeWit}  
+└❏
+
+き⃟🦈️─❒ OTHER / FUN
+${nomor++}. き⃟🦈️ ${prefix}quotes
+${nomor++}. き⃟🦈️ ${prefix}meme
+${nomor++}. き⃟🦈️ ${prefix}darkjoke
+${nomor++}. き⃟🦈️ ${prefix}rate
+${nomor++}. き⃟🦈️ ${prefix}kapankah
+${nomor++}. き⃟🦈️ ${prefix}apakah
+${nomor++}. き⃟🦈️ ${prefix}bisakah
+${nomor++}. き⃟🦈️ ${prefix}caripesan [ _teks|jumlah_ ]
+${nomor++}. き⃟🦈️ ${prefix}slots
+${nomor++}. き⃟🦈️ ${prefix}suit [ _gunting/batu/kertas_ ]
+${nomor++}. き⃟🦈️ ${prefix}tag [ _nomor_ ]
+${nomor++}. き⃟🦈️ ${prefix}tagme
+${nomor++}. き⃟🦈️ ${prefix}tts [ _kodebhs teks_ ]
+${nomor++}. き⃟🦈️ ${prefix}readmore [ _teks1|teks2_ ]
+${nomor++}. き⃟🦈️ ${prefix}fitnahpc [ _nomor|teks1|teks2_ ]
+${nomor++}. き⃟🦈️ ${prefix}chat [ _nomor|teks_ ]
+${nomor++}. き⃟🦈️ ${prefix}fdeface [ _replyimg link|teks1|teks2_ ]
+${nomor++}. き⃟🦈️ ${prefix}listgrup
+${nomor++}. き⃟🦈️ ${prefix}baileys [ _reply message_ ]
+${nomor++}. き⃟🦈️ ${prefix}q [ _reply message_ ]
+${nomor++}. き⃟🦈️ ${prefix}getcaption [ _reply message_ ]
+${nomor++}. き⃟🦈️ ${prefix}tospam [ _reply audio/sticker/image|jumlah_ ]
+${nomor++}. き⃟🦈️ ${prefix}sharelock [ _teks1|teks2_ ]`
+sendButLocation(from, `${menu}`, "*_© Akbar Botz AB07_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'back to menu'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+}
+else if(menusimpel = true){
+        stod = `${sender}`
+fill =`Hai Kak ${pushname}, ${tampilUcapan}
+Silahkan Pilih Untuk Menampilkan Menu
+
+Jika Button Tidak Muncul Ketik .allmenu`
+menu =` Akbar Botz AB07き⃟🦈️`
+gbutsan = [
+{buttonId:`allmenu`,buttonText:{displayText:'き⃟🦈️SHOW MENUき⃟🦈️'},type:1},
+{buttonId:`store`,buttonText:{displayText:'🔰STORE MENU🔰'},type:1},
+{buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
+]
+mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
+const btnmenu = {
+imageMessage: mhan.message.imageMessage,
+contentText: `${fill}`,
+footerText: `${menu}`,
+buttons: gbutsan,
+headerType: 4
+}
+kurr.sendMessage(from, btnmenu, MessageType.buttonsMessage, {contextInfo :{text: 'hi',
+"forwardingScore": 1000000000,
+isForwarded: false,
+sendEphemeral: false,
+"externalAdReply": {
+"title": `hallo ${pushname}` ,
+"body": `${jmn} - ${week} ${weton} - ${calender}`,
+"mediaType": "2",
+"thumbnail": pporigi,
+},mentionedJid:[stod]}, quoted : ftrol})
+}
+break
+case 'grupmenu':
+  if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+        if(menusimpel == false){               
+                quotesnya = await fetchJson(`https://xnxxapi.herokuapp.com/api/randomquote?apikey=xnxx`)
+quotes = quotesnya.result.quotes
+                nomor = 1
+                stod = `${sender}`
+       stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status
+       menu = `╭─❒ 「 Bot Info 」 ❒
+き⃟🦈️ _Creator : *Akbarbarz*
+き⃟🦈️ _Battery : *35*_
+き⃟🦈️ _Battery : ${baterai.battery}_
+き⃟🦈️ _Mode : ${publik ? 'Public' : 'Self'}_
+き⃟🦈️ _Total Hit : ${cmhit.length}_
+き⃟🦈️ _Total menu : 385_
+き⃟🦈️ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
+き⃟🦈️ _Nama Bot : Akbar Botz AB07_
+き⃟🦈️ _Nama Owner : ${NamaOwner}_
+き⃟🦈️ _Nomor Owner : Akbarbarz
+き⃟🦈️ _Auto Composing : ${settings.autocomposing}_
+き⃟🦈️ _Auto Recording : ${settings.autorecording}_
+└❏
+
+╭─❒ 「 User Info 」 ❒
+き⃟🦈️ _Status : ${isOwner ? 'Owner' : 'User'}_
+き⃟🦈️ _Nama : ${pushname}_
+き⃟🦈️ _Bio : ${stst}_
+き⃟🦈️ _Nomor : @${stod.split('@')[0]}_
+└❏
+
+┌❏ TO DAY
+│ ${tampilUcapan}
+き⃟🦈️ Jam : ${jmn}
+き⃟🦈️ Hari : ${week} ${weton}
+き⃟🦈️ Tanggal : ${calender}
+└❏
+
+┌❏ INDONESIA TIME
+き⃟🦈️ Wib : ${timeWib}
+き⃟🦈️ Wita : ${timeWita}
+き⃟🦈️ Wit : ${timeWit}  
+└❏
+
+き⃟🦈️──❒ GROUP
+${nomor++}. き⃟🦈️ ${prefix}getpict [ _@tag_ ]
+${nomor++}. き⃟🦈️ ${prefix}getname [ _reply target_ ]
+${nomor++}. き⃟🦈️ ${prefix}getbio [ _reply target_ ]
+${nomor++}. き⃟🦈️ ${prefix}promote [ _@tag_ ]
+${nomor++}. き⃟🦈️ ${prefix}demote [ _@tag_ ]
+${nomor++}. き⃟🦈️ ${prefix}antilink [ _on/off_ ]
+${nomor++}. き⃟🦈️ ${prefix}antivirtex [ _on/off_ ]
+${nomor++}. き⃟🦈️ ${prefix}antiwame [ _on/off_ ]
+${nomor++}. き⃟🦈️ ${prefix} welcome [ _on/off_ ]
+${nomor++}. き⃟🦈️ ${prefix}creategrup [ _nama|@tag_ ]
+${nomor++}. き⃟🦈️ ${prefix}tictactoe [ _@tag_ ]
+${nomor++}. き⃟🦈️ ${prefix}delttt
+${nomor++}. き⃟🦈️ ${prefix}kick
+${nomor++}. き⃟🦈️ ${prefix}add
+${nomor++}. き⃟🦈️ ${prefix}getpp
+${nomor++}. き⃟🦈️ ${prefix}antiwame
+${nomor++}. き⃟🦈️ ${prefix}getdeskgc
+${nomor++}. き⃟🦈️ ${prefix}sider [ _reply pesan bot_ ]
+${nomor++}. き⃟🦈️ ${prefix}hacked [ _teks_ ]
+${nomor++}. き⃟🦈️ ${prefix}setnamegc [ _teks_ ]
+${nomor++}. き⃟🦈️ ${prefix}setdeskgc [ _teks_ ]
+${nomor++}. き⃟🦈️ ${prefix}fitnah [ _@tag|teks1|teks2_ ]
+${nomor++}. き⃟🦈️ ${prefix}kontak [ _@tag|nama_ ]
+${nomor++}. き⃟🦈️ ${prefix}kontag [ _@tag|nama_ ]
+${nomor++}. き⃟🦈️ ${prefix}opengc
+${nomor++}. き⃟🦈️ ${prefix}closegc
+${nomor++}. き⃟🦈️ ${prefix}resetlinkgc
+${nomor++}. き⃟🦈️ ${prefix}linkgrup
+${nomor++}. き⃟🦈️ ${prefix}hidetag [ _teks_ ]
+${nomor++}. き⃟🦈️ ${prefix}sticktag [ _nama sticker_ ]
+${nomor++}. き⃟🦈️ ${prefix}totag [ _reply media_ ]`
+sendButLocation(from, `${menu}`, "*_© Akbar Botz AB07_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'back to menu'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+}
+else if(menusimpel = true){
+        stod = `${sender}`
+fill =`Hai Kak ${pushname}, ${tampilUcapan}
+Silahkan Pilih Untuk Menampilkan Menu
+
+Jika Button Tidak Muncul Ketik .allmenu`
+menu =` Akbar Botz AB07き⃟🦈️`
+gbutsan = [
+{buttonId:`allmenu`,buttonText:{displayText:'き⃟🦈️SHOW MENUき⃟🦈️'},type:1},
+{buttonId:`store`,buttonText:{displayText:'🔰STORE MENU🔰'},type:1},
+{buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
+]
+mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
+const btnmenu = {
+imageMessage: mhan.message.imageMessage,
+contentText: `${fill}`,
+footerText: `${menu}`,
+buttons: gbutsan,
+headerType: 4
+}
+kurr.sendMessage(from, btnmenu, MessageType.buttonsMessage, {contextInfo :{text: 'hi',
+"forwardingScore": 1000000000,
+isForwarded: false,
+sendEphemeral: false,
+"externalAdReply": {
+"title": `hallo ${pushname}` ,
+"body": `${jmn} - ${week} ${weton} - ${calender}`,
+"mediaType": "2",
+"thumbnail": pporigi,
+},mentionedJid:[stod]}, quoted : ftrol})
+}
+break
