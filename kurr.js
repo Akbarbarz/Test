@@ -1353,422 +1353,422 @@ runtime = process.uptime()
                 stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
-       menu = ` [ *き⃟🌐ALL MENUき⃟🌐* ]
+       menu = ` [ *き⃟🌹ALL MENUき⃟🌹* ]
 
-*き⃟🌐OWNER: ${NamaOwner}*
-*き⃟🌐NOMER OWNER: ${NomorOwner}*
-*き⃟🌐Lib: Baileys*
-*き⃟🌐speed bot: ${latensyi.toFixed(4)} Second*
-*き⃟🌐prefix : Multi Prefix* 
-*き⃟🌐runtime : ${waktu(runtime)}* 
+*き⃟🌹OWNER: ${NamaOwner}*
+*き⃟🌹NOMER OWNER: ${NomorOwner}*
+*き⃟🌹Lib: Baileys*
+*き⃟🌹speed bot: ${latensyi.toFixed(4)} Second*
+*き⃟🌹prefix : Multi Prefix* 
+*き⃟🌹runtime : ${waktu(runtime)}* 
 
 ─❒ FUN MENU NEW
-き⃟🌐 ${prefix}bego
-き⃟🌐 ${prefix}tolol
-き⃟🌐 ${prefix}pinter
-き⃟🌐 ${prefix}pintar
-き⃟🌐 ${prefix}asu
-き⃟🌐 ${prefix}bodoh
-き⃟🌐 ${prefix}gay
-き⃟🌐 ${prefix}lesby
-き⃟🌐 ${prefix}bajingan
-き⃟🌐 ${prefix}jancok
-き⃟🌐 ${prefix}anjing
-き⃟🌐 ${prefix}ngentod
-き⃟🌐 ${prefix}ngentot
-き⃟🌐 ${prefix}monyet
-き⃟🌐 ${prefix}mastah
-き⃟🌐 ${prefix}newbie
-き⃟🌐 ${prefix}bangsat
-き⃟🌐 ${prefix}bangke
-き⃟🌐 ${prefix}sange
-き⃟🌐 ${prefix}sangean
-き⃟🌐 ${prefix}dakjal
-き⃟🌐 ${prefix}horny
-き⃟🌐 ${prefix}wibu
-き⃟🌐 ${prefix}puki
-き⃟🌐 ${prefix}pantexpantek
+き⃟🌹 ${prefix}bego
+き⃟🌹 ${prefix}tolol
+き⃟🌹 ${prefix}pinter
+き⃟🌹 ${prefix}pintar
+き⃟🌹 ${prefix}asu
+き⃟🌹 ${prefix}bodoh
+き⃟🌹 ${prefix}gay
+き⃟🌹 ${prefix}lesby
+き⃟🌹 ${prefix}bajingan
+き⃟🌹 ${prefix}jancok
+き⃟🌹 ${prefix}anjing
+き⃟🌹 ${prefix}ngentod
+き⃟🌹 ${prefix}ngentot
+き⃟🌹 ${prefix}monyet
+き⃟🌹 ${prefix}mastah
+き⃟🌹 ${prefix}newbie
+き⃟🌹 ${prefix}bangsat
+き⃟🌹 ${prefix}bangke
+き⃟🌹 ${prefix}sange
+き⃟🌹 ${prefix}sangean
+き⃟🌹 ${prefix}dakjal
+き⃟🌹 ${prefix}horny
+き⃟🌹 ${prefix}wibu
+き⃟🌹 ${prefix}puki
+き⃟🌹 ${prefix}pantexpantek
 │
 ─❒ OWNER
-き⃟🌐 ${prefix}autorespon [ _on/off_ ]
-き⃟🌐 ${prefix}bc [ _teks/reply gif/image/video with caption_ ]
-き⃟🌐 ${prefix}tobc [ _reply sticker/audio with caption_ ]
-き⃟🌐 ${prefix}return [ _javascript_ ]
-き⃟🌐 ${prefix}clearall
-き⃟🌐 ${prefix}delchat
-き⃟🌐 ${prefix}mute
-き⃟🌐 ${prefix}unmute
-き⃟🌐 ${prefix}public
-き⃟🌐 ${prefix}self
-き⃟🌐 ${prefix}spam [ _teks|jumlah_ ]
-き⃟🌐 ${prefix}addcmd [ _teks reply stc_ ]
-き⃟🌐 ${prefix}delcmd [ _reply stc_ ]
-き⃟🌐 ${prefix}listcmd
-き⃟🌐 ${prefix}spamsw [ _teks|jumlah_ ]
-き⃟🌐 ${prefix}upswteks [ _teks_ ]
-き⃟🌐 ${prefix}upswlokasi [ _teks_ ]
-き⃟🌐 ${prefix}upswaudio [ _reply audio_ ]
-き⃟🌐 ${prefix}upswvoice [ _reply audio_ ]
-き⃟🌐 ${prefix}upswsticker [ _reply sticker_ ]
-き⃟🌐 ${prefix}upswimage [ _reply image with caption_ ]
-き⃟🌐 ${prefix}upswgif [ _reply gif with caption_ ]
-き⃟🌐 ${prefix}upswvideo [ _reply video with caption_ ]
-き⃟🌐 ${prefix}shutdown
-き⃟🌐 ${prefix}offline [ _alasan_ ]
-き⃟🌐 ${prefix}online
-き⃟🌐 ${prefix}exif [ _nama|author_ ]
-き⃟🌐 ${prefix}setprofile [ _reply image_ ]
-き⃟🌐 ${prefix}setname [ _teks_ ]
-き⃟🌐 ${prefix}setprefix [ _multi/nopref/prefix_ ]
-き⃟🌐 ${prefix}setbio [ _teks_ ]
-き⃟🌐 ${prefix}leave
-き⃟🌐 ${prefix}restart
-き⃟🌐 ${prefix}addrespon [ _tanya|jawab_ ]
-き⃟🌐 ${prefix}delrespon [ _nama_ ]
-き⃟🌐 ${prefix}listrespon
-き⃟🌐 ${prefix}readall
-き⃟🌐 ${prefix}unreadall
-き⃟🌐 ${prefix}archive
-き⃟🌐 ${prefix}unarchiveall
-き⃟🌐 ${prefix}pin
-き⃟🌐 ${prefix}unpin
-き⃟🌐 ${prefix}setmenu [ _ori/simpel_ ]
-き⃟🌐 ${prefix}setallmenu [ _ori/simpel_ ]
-き⃟🌐 ${prefix}leavetime [ _detik/menit/jam_ ]
-き⃟🌐 ${prefix}bukatime [ _detik/menit/jam_ ]
-き⃟🌐 ${prefix}tutuptime [ _detik/menit/jam_ ]
-き⃟🌐 ${prefix}nano [ _nama file_ ]
+き⃟🌹 ${prefix}autorespon [ _on/off_ ]
+き⃟🌹 ${prefix}bc [ _teks/reply gif/image/video with caption_ ]
+き⃟🌹 ${prefix}tobc [ _reply sticker/audio with caption_ ]
+き⃟🌹 ${prefix}return [ _javascript_ ]
+き⃟🌹 ${prefix}clearall
+き⃟🌹 ${prefix}delchat
+き⃟🌹 ${prefix}mute
+き⃟🌹 ${prefix}unmute
+き⃟🌹 ${prefix}public
+き⃟🌹 ${prefix}self
+き⃟🌹 ${prefix}spam [ _teks|jumlah_ ]
+き⃟🌹 ${prefix}addcmd [ _teks reply stc_ ]
+き⃟🌹 ${prefix}delcmd [ _reply stc_ ]
+き⃟🌹 ${prefix}listcmd
+き⃟🌹 ${prefix}spamsw [ _teks|jumlah_ ]
+き⃟🌹 ${prefix}upswteks [ _teks_ ]
+き⃟🌹 ${prefix}upswlokasi [ _teks_ ]
+き⃟🌹 ${prefix}upswaudio [ _reply audio_ ]
+き⃟🌹 ${prefix}upswvoice [ _reply audio_ ]
+き⃟🌹 ${prefix}upswsticker [ _reply sticker_ ]
+き⃟🌹 ${prefix}upswimage [ _reply image with caption_ ]
+き⃟🌹 ${prefix}upswgif [ _reply gif with caption_ ]
+き⃟🌹 ${prefix}upswvideo [ _reply video with caption_ ]
+き⃟🌹 ${prefix}shutdown
+き⃟🌹 ${prefix}offline [ _alasan_ ]
+き⃟🌹 ${prefix}online
+き⃟🌹 ${prefix}exif [ _nama|author_ ]
+き⃟🌹 ${prefix}setprofile [ _reply image_ ]
+き⃟🌹 ${prefix}setname [ _teks_ ]
+き⃟🌹 ${prefix}setprefix [ _multi/nopref/prefix_ ]
+き⃟🌹 ${prefix}setbio [ _teks_ ]
+き⃟🌹 ${prefix}leave
+き⃟🌹 ${prefix}restart
+き⃟🌹 ${prefix}addrespon [ _tanya|jawab_ ]
+き⃟🌹 ${prefix}delrespon [ _nama_ ]
+き⃟🌹 ${prefix}listrespon
+き⃟🌹 ${prefix}readall
+き⃟🌹 ${prefix}unreadall
+き⃟🌹 ${prefix}archive
+き⃟🌹 ${prefix}unarchiveall
+き⃟🌹 ${prefix}pin
+き⃟🌹 ${prefix}unpin
+き⃟🌹 ${prefix}setmenu [ _ori/simpel_ ]
+き⃟🌹 ${prefix}setallmenu [ _ori/simpel_ ]
+き⃟🌹 ${prefix}leavetime [ _detik/menit/jam_ ]
+き⃟🌹 ${prefix}bukatime [ _detik/menit/jam_ ]
+き⃟🌹 ${prefix}tutuptime [ _detik/menit/jam_ ]
+き⃟🌹 ${prefix}nano [ _nama file_ ]
 │
 ─❒GAME MENU
-き⃟🌐 ${prefix}tebakgambar
-き⃟🌐 ${prefix}caklontong
+き⃟🌹 ${prefix}tebakgambar
+き⃟🌹 ${prefix}caklontong
 │
 ─❒ WIBU
-き⃟🌐 ${prefix}loli
-き⃟🌐 ${prefix}husbu
-き⃟🌐 ${prefix}milf
-き⃟🌐 ${prefix}cosplay
-き⃟🌐 ${prefix}wallml
+き⃟🌹 ${prefix}loli
+き⃟🌹 ${prefix}husbu
+き⃟🌹 ${prefix}milf
+き⃟🌹 ${prefix}cosplay
+き⃟🌹 ${prefix}wallml
 │
 ─❒ DOWNLOAD
-き⃟🌐 ${prefix}infogempa
-き⃟🌐 ${prefix}pinterest
-き⃟🌐 ${prefix}herolist
-き⃟🌐 ${prefix}herodetail [ _hero_ ]
-き⃟🌐 ${prefix}google [ _search_ ]
-き⃟🌐 ${prefix}gimage [ _search_ ]
-き⃟🌐 ${prefix}wiki [ _search_ ]
-き⃟🌐 ${prefix}mediafire [ _link_ ]
-き⃟🌐 ${prefix}ytsearch [ _judul_ ]
-き⃟🌐 ${prefix}ytmp4 [ _link yt_ ]
-き⃟🌐 ${prefix}ytmp3 [ _link yt_ ]
-き⃟🌐 ${prefix}play [ _judul lagu_ ]
-き⃟🌐 ${prefix}video [ _judul video_ ]
-き⃟🌐 ${prefix}tinyurl [ _link_ ]
-き⃟🌐 ${prefix}fetch [ _link_ ]
-き⃟🌐 ${prefix}igdl [ _link_ ]
-き⃟🌐 ${prefix}tiktokdl [ _link_ ]
-き⃟🌐 ${prefix}pinterest [ _search_ ]
-き⃟🌐 ${prefix}lirik [ _judul_ ]
-き⃟🌐 ${prefix}tourl [ _reply image/video_ ]
-き⃟🌐 ${prefix}resepmasakan [ _judul_ ]
-き⃟🌐 ${prefix}artimimpi [ _teks_ ]
-き⃟🌐 ${prefix}bilangangka [ _angka_ ]
-き⃟🌐 ${prefix}kalkulator [ _angka_ ]
-き⃟🌐 ${prefix}fancytext [ _teks_ ]
-き⃟🌐 ${prefix}githubstalk [ _username_ ]
-き⃟🌐 ${prefix}translate [ _teks kodebhs_ ]
-き⃟🌐 ${prefix}ss [ _link_ ]
-き⃟🌐 ${prefix}playstore [ _search_ ]
-き⃟🌐 ${prefix}tiktokaudio [ _link_ ]
-き⃟🌐 ${prefix}brainly [ _search_ ]
-き⃟🌐 ${prefix}igstory [ _search_ ]
-き⃟🌐 ${prefix}igstalk [ _link_ ]
-き⃟🌐 ${prefix}twitter [ _link_ ]
-き⃟🌐 ${prefix}twmp3 [ _link_ ]
-き⃟🌐 ${prefix}linkwa [ _search_ ]
-き⃟🌐 ${prefix}fb [ _link_ ]
-き⃟🌐 ${prefix}chara [ _search_ ]
-き⃟🌐 ${prefix}otaku [ _search_ ]
-き⃟🌐 ${prefix}komiku [ _search_ ]
+き⃟🌹 ${prefix}infogempa
+き⃟🌹 ${prefix}pinterest
+き⃟🌹 ${prefix}herolist
+き⃟🌹 ${prefix}herodetail [ _hero_ ]
+き⃟🌹 ${prefix}google [ _search_ ]
+き⃟🌹 ${prefix}gimage [ _search_ ]
+き⃟🌹 ${prefix}wiki [ _search_ ]
+き⃟🌹 ${prefix}mediafire [ _link_ ]
+き⃟🌹 ${prefix}ytsearch [ _judul_ ]
+き⃟🌹 ${prefix}ytmp4 [ _link yt_ ]
+き⃟🌹 ${prefix}ytmp3 [ _link yt_ ]
+き⃟🌹 ${prefix}play [ _judul lagu_ ]
+き⃟🌹 ${prefix}video [ _judul video_ ]
+き⃟🌹 ${prefix}tinyurl [ _link_ ]
+き⃟🌹 ${prefix}fetch [ _link_ ]
+き⃟🌹 ${prefix}igdl [ _link_ ]
+き⃟🌹 ${prefix}tiktokdl [ _link_ ]
+き⃟🌹 ${prefix}pinterest [ _search_ ]
+き⃟🌹 ${prefix}lirik [ _judul_ ]
+き⃟🌹 ${prefix}tourl [ _reply image/video_ ]
+き⃟🌹 ${prefix}resepmasakan [ _judul_ ]
+き⃟🌹 ${prefix}artimimpi [ _teks_ ]
+き⃟🌹 ${prefix}bilangangka [ _angka_ ]
+き⃟🌹 ${prefix}kalkulator [ _angka_ ]
+き⃟🌹 ${prefix}fancytext [ _teks_ ]
+き⃟🌹 ${prefix}githubstalk [ _username_ ]
+き⃟🌹 ${prefix}translate [ _teks kodebhs_ ]
+き⃟🌹 ${prefix}ss [ _link_ ]
+き⃟🌹 ${prefix}playstore [ _search_ ]
+き⃟🌹 ${prefix}tiktokaudio [ _link_ ]
+き⃟🌹 ${prefix}brainly [ _search_ ]
+き⃟🌹 ${prefix}igstory [ _search_ ]
+き⃟🌹 ${prefix}igstalk [ _link_ ]
+き⃟🌹 ${prefix}twitter [ _link_ ]
+き⃟🌹 ${prefix}twmp3 [ _link_ ]
+き⃟🌹 ${prefix}linkwa [ _search_ ]
+き⃟🌹 ${prefix}fb [ _link_ ]
+き⃟🌹 ${prefix}chara [ _search_ ]
+き⃟🌹 ${prefix}otaku [ _search_ ]
+き⃟🌹 ${prefix}komiku [ _search_ ]
 │
 ─❒ MAKER
-き⃟🌐 ${prefix}blackpink
-き⃟🌐 ${prefix}neon
-き⃟🌐 ${prefix}greenneon
-き⃟🌐 ${prefix}advanceglow
-き⃟🌐 ${prefix}futureneon
-き⃟🌐 ${prefix}sandwriting
-き⃟🌐 ${prefix}sandsummer
-き⃟🌐 ${prefix}sandengraved
-き⃟🌐 ${prefix}metaldark
-き⃟🌐 ${prefix}neonlight
-き⃟🌐 ${prefix}holographic
-き⃟🌐 ${prefix}text1917
-き⃟🌐 ${prefix}minion
-き⃟🌐 ${prefix}deluxesilver
-き⃟🌐 ${prefix}newyearcard
-き⃟🌐 ${prefix}bloodfrosted
-き⃟🌐 ${prefix}halloween
-き⃟🌐 ${prefix}jokerlogo
-き⃟🌐 ${prefix}fireworksparkle
-き⃟🌐 ${prefix}natureleaves
-き⃟🌐 ${prefix}bokeh
-き⃟🌐 ${prefix}toxic
-き⃟🌐 ${prefix}strawberry
-き⃟🌐 ${prefix}box3d
-き⃟🌐 ${prefix}roadwarning
-き⃟🌐 ${prefix}breakwall
-き⃟🌐 ${prefix}icecold
-き⃟🌐 ${prefix}luxury
-き⃟🌐 ${prefix}cloud
-き⃟🌐 ${prefix}summersand
-き⃟🌐 ${prefix}horrorblood
-き⃟🌐 ${prefix}thunder
-き⃟🌐 ${prefix}pornhub
-き⃟🌐 ${prefix}glitch
-き⃟🌐 ${prefix}avenger
-き⃟🌐 ${prefix}space
-き⃟🌐 ${prefix}ninjalogo
-き⃟🌐 ${prefix}marvelstudio
-き⃟🌐 ${prefix}lionlogo
-き⃟🌐 ${prefix}wolflogo
-き⃟🌐 ${prefix}steel3d
-き⃟🌐 ${prefix}wallgravity
-き⃟🌐 ${prefix}shadow
-き⃟🌐 ${prefix}cup
-き⃟🌐 ${prefix}cup1
-き⃟🌐 ${prefix}romance
-き⃟🌐 ${prefix}smoke
-き⃟🌐 ${prefix}burnpaper
-き⃟🌐 ${prefix}lovemessage
-き⃟🌐 ${prefix}undergrass
-き⃟🌐 ${prefix}love
-き⃟🌐 ${prefix}coffe
-き⃟🌐 ${prefix}woodheart
-き⃟🌐 ${prefix}woodenboard
-き⃟🌐 ${prefix}summer3d
-き⃟🌐 ${prefix}wolfmetal
-き⃟🌐 ${prefix}nature3d
-き⃟🌐 ${prefix}underwater
-き⃟🌐 ${prefix}golderrose
-き⃟🌐 ${prefix}summernature
-き⃟🌐 ${prefix}letterleaves
-き⃟🌐 ${prefix}glowingneon
-き⃟🌐 ${prefix}fallleaves
-き⃟🌐 ${prefix}flamming
-き⃟🌐 ${prefix}harrypotter
-き⃟🌐 ${prefix}carvedwood
-き⃟🌐 ${prefix}arcade8bit
-き⃟🌐 ${prefix}battlefield4
-き⃟🌐 ${prefix}pubg
-き⃟🌐 ${prefix}wetglass
-き⃟🌐 ${prefix}multicolor3d
-き⃟🌐 ${prefix}watercolor
-き⃟🌐 ${prefix}luxurygold
-き⃟🌐 ${prefix}galaxywallpaper
-き⃟🌐 ${prefix}lighttext
-き⃟🌐 ${prefix}beautifulflower
-き⃟🌐 ${prefix}puppycute
-き⃟🌐 ${prefix}royaltext
-き⃟🌐 ${prefix}heartshaped
-き⃟🌐 ${prefix}birthdaycake
-き⃟🌐 ${prefix}galaxystyle
-き⃟🌐 ${prefix}hologram3d
-き⃟🌐 ${prefix}greenneon
-き⃟🌐 ${prefix}glossychrome
-き⃟🌐 ${prefix}greenbush
-き⃟🌐 ${prefix}metallogo
-き⃟🌐 ${prefix}noeltext
-き⃟🌐 ${prefix}glittergold
-き⃟🌐 ${prefix}textcake
-き⃟🌐 ${prefix}starsnight
-き⃟🌐 ${prefix}wooden3d
-き⃟🌐 ${prefix}textbyname
-き⃟🌐 ${prefix}writegalacy
-き⃟🌐 ${prefix}galaxybat
-き⃟🌐 ${prefix}snow3d
-き⃟🌐 ${prefix}birthdayday
-き⃟🌐 ${prefix}goldplaybutton
-き⃟🌐 ${prefix}silverplaybutton
-き⃟🌐 ${prefix}freefire
-き⃟🌐 ${prefix}foliokanan [ _text_ ]
-き⃟🌐 ${prefix}foliokiri [ _text_ ]
-き⃟🌐 ${prefix}nuliskanan [ _text_ ]
-き⃟🌐 ${prefix}nuliskiri [ _text_ ]
-き⃟🌐 ${prefix}maker3d [ _text_ ]
-き⃟🌐 ${prefix}maker2d [ _text_ ]
-き⃟🌐 ${prefix}epepserti [ _text_ ]
+き⃟🌹 ${prefix}blackpink
+き⃟🌹 ${prefix}neon
+き⃟🌹 ${prefix}greenneon
+き⃟🌹 ${prefix}advanceglow
+き⃟🌹 ${prefix}futureneon
+き⃟🌹 ${prefix}sandwriting
+き⃟🌹 ${prefix}sandsummer
+き⃟🌹 ${prefix}sandengraved
+き⃟🌹 ${prefix}metaldark
+き⃟🌹 ${prefix}neonlight
+き⃟🌹 ${prefix}holographic
+き⃟🌹 ${prefix}text1917
+き⃟🌹 ${prefix}minion
+き⃟🌹 ${prefix}deluxesilver
+き⃟🌹 ${prefix}newyearcard
+き⃟🌹 ${prefix}bloodfrosted
+き⃟🌹 ${prefix}halloween
+き⃟🌹 ${prefix}jokerlogo
+き⃟🌹 ${prefix}fireworksparkle
+き⃟🌹 ${prefix}natureleaves
+き⃟🌹 ${prefix}bokeh
+き⃟🌹 ${prefix}toxic
+き⃟🌹 ${prefix}strawberry
+き⃟🌹 ${prefix}box3d
+き⃟🌹 ${prefix}roadwarning
+き⃟🌹 ${prefix}breakwall
+き⃟🌹 ${prefix}icecold
+き⃟🌹 ${prefix}luxury
+き⃟🌹 ${prefix}cloud
+き⃟🌹 ${prefix}summersand
+き⃟🌹 ${prefix}horrorblood
+き⃟🌹 ${prefix}thunder
+き⃟🌹 ${prefix}pornhub
+き⃟🌹 ${prefix}glitch
+き⃟🌹 ${prefix}avenger
+き⃟🌹 ${prefix}space
+き⃟🌹 ${prefix}ninjalogo
+き⃟🌹 ${prefix}marvelstudio
+き⃟🌹 ${prefix}lionlogo
+き⃟🌹 ${prefix}wolflogo
+き⃟🌹 ${prefix}steel3d
+き⃟🌹 ${prefix}wallgravity
+き⃟🌹 ${prefix}shadow
+き⃟🌹 ${prefix}cup
+き⃟🌹 ${prefix}cup1
+き⃟🌹 ${prefix}romance
+き⃟🌹 ${prefix}smoke
+き⃟🌹 ${prefix}burnpaper
+き⃟🌹 ${prefix}lovemessage
+き⃟🌹 ${prefix}undergrass
+き⃟🌹 ${prefix}love
+き⃟🌹 ${prefix}coffe
+き⃟🌹 ${prefix}woodheart
+き⃟🌹 ${prefix}woodenboard
+き⃟🌹 ${prefix}summer3d
+き⃟🌹 ${prefix}wolfmetal
+き⃟🌹 ${prefix}nature3d
+き⃟🌹 ${prefix}underwater
+き⃟🌹 ${prefix}golderrose
+き⃟🌹 ${prefix}summernature
+き⃟🌹 ${prefix}letterleaves
+き⃟🌹 ${prefix}glowingneon
+き⃟🌹 ${prefix}fallleaves
+き⃟🌹 ${prefix}flamming
+き⃟🌹 ${prefix}harrypotter
+き⃟🌹 ${prefix}carvedwood
+き⃟🌹 ${prefix}arcade8bit
+き⃟🌹 ${prefix}battlefield4
+き⃟🌹 ${prefix}pubg
+き⃟🌹 ${prefix}wetglass
+き⃟🌹 ${prefix}multicolor3d
+き⃟🌹 ${prefix}watercolor
+き⃟🌹 ${prefix}luxurygold
+き⃟🌹 ${prefix}galaxywallpaper
+き⃟🌹 ${prefix}lighttext
+き⃟🌹 ${prefix}beautifulflower
+き⃟🌹 ${prefix}puppycute
+き⃟🌹 ${prefix}royaltext
+き⃟🌹 ${prefix}heartshaped
+き⃟🌹 ${prefix}birthdaycake
+き⃟🌹 ${prefix}galaxystyle
+き⃟🌹 ${prefix}hologram3d
+き⃟🌹 ${prefix}greenneon
+き⃟🌹 ${prefix}glossychrome
+き⃟🌹 ${prefix}greenbush
+き⃟🌹 ${prefix}metallogo
+き⃟🌹 ${prefix}noeltext
+き⃟🌹 ${prefix}glittergold
+き⃟🌹 ${prefix}textcake
+き⃟🌹 ${prefix}starsnight
+き⃟🌹 ${prefix}wooden3d
+き⃟🌹 ${prefix}textbyname
+き⃟🌹 ${prefix}writegalacy
+き⃟🌹 ${prefix}galaxybat
+き⃟🌹 ${prefix}snow3d
+き⃟🌹 ${prefix}birthdayday
+き⃟🌹 ${prefix}goldplaybutton
+き⃟🌹 ${prefix}silverplaybutton
+き⃟🌹 ${prefix}freefire
+き⃟🌹 ${prefix}foliokanan [ _text_ ]
+き⃟🌹 ${prefix}foliokiri [ _text_ ]
+き⃟🌹 ${prefix}nuliskanan [ _text_ ]
+き⃟🌹 ${prefix}nuliskiri [ _text_ ]
+き⃟🌹 ${prefix}maker3d [ _text_ ]
+き⃟🌹 ${prefix}maker2d [ _text_ ]
+き⃟🌹 ${prefix}epepserti [ _text_ ]
 │
 ──❒ GROUP
-き⃟🌐 ${prefix}getpict [ _@tag_ ]
-き⃟🌐 ${prefix}getname [ _reply target_ ]
-き⃟🌐 ${prefix}getbio [ _reply target_ ]
-き⃟🌐 ${prefix}antilink [ _on/off_ ]
-き⃟🌐 ${prefix}antivirtex [ _on/off_ ]
-き⃟🌐 ${prefix}antiwame [ _on/off_ ]
-き⃟🌐 ${prefix} welcome [ _on/off_ ]
-き⃟🌐 ${prefix}creategrup [ _nama|@tag_ ]
-き⃟🌐 ${prefix}tictactoe [ _@tag_ ]
-き⃟🌐 ${prefix}delttt
-き⃟🌐 ${prefix}kick
-き⃟🌐 ${prefix}add
-き⃟🌐 ${prefix}setgrupname
-き⃟🌐 ${prefix}getpp
-き⃟🌐 ${prefix}antiwame
-き⃟🌐 ${prefix}getdeskgc
-き⃟🌐 ${prefix}sider [ _reply pesan bot_ ]
-き⃟🌐 ${prefix}hacked [ _teks_ ]
-き⃟🌐 ${prefix}setnamegc [ _teks_ ]
-き⃟🌐 ${prefix}setdeskgc [ _teks_ ]
-き⃟🌐 ${prefix}fitnah [ _@tag|teks1|teks2_ ]
-き⃟🌐 ${prefix}kontak [ _@tag|nama_ ]
-き⃟🌐 ${prefix}kontag [ _@tag|nama_ ]
-き⃟🌐 ${prefix}opengc
-き⃟🌐 ${prefix}closegc
-き⃟🌐 ${prefix}resetlinkgc
-き⃟🌐 ${prefix}linkgrup
-き⃟🌐 ${prefix}hidetag [ _teks_ ]
-き⃟🌐 ${prefix}sticktag [ _nama sticker_ ]
-き⃟🌐 ${prefix}totag [ _reply media_ ]
+き⃟🌹 ${prefix}getpict [ _@tag_ ]
+き⃟🌹 ${prefix}getname [ _reply target_ ]
+き⃟🌹 ${prefix}getbio [ _reply target_ ]
+き⃟🌹 ${prefix}antilink [ _on/off_ ]
+き⃟🌹 ${prefix}antivirtex [ _on/off_ ]
+き⃟🌹 ${prefix}antiwame [ _on/off_ ]
+き⃟🌹 ${prefix} welcome [ _on/off_ ]
+き⃟🌹 ${prefix}creategrup [ _nama|@tag_ ]
+き⃟🌹 ${prefix}tictactoe [ _@tag_ ]
+き⃟🌹 ${prefix}delttt
+き⃟🌹 ${prefix}kick
+き⃟🌹 ${prefix}add
+き⃟🌹 ${prefix}setgrupname
+き⃟🌹 ${prefix}getpp
+き⃟🌹 ${prefix}antiwame
+き⃟🌹 ${prefix}getdeskgc
+き⃟🌹 ${prefix}sider [ _reply pesan bot_ ]
+き⃟🌹 ${prefix}hacked [ _teks_ ]
+き⃟🌹 ${prefix}setnamegc [ _teks_ ]
+き⃟🌹 ${prefix}setdeskgc [ _teks_ ]
+き⃟🌹 ${prefix}fitnah [ _@tag|teks1|teks2_ ]
+き⃟🌹 ${prefix}kontak [ _@tag|nama_ ]
+き⃟🌹 ${prefix}kontag [ _@tag|nama_ ]
+き⃟🌹 ${prefix}opengc
+き⃟🌹 ${prefix}closegc
+き⃟🌹 ${prefix}resetlinkgc
+き⃟🌹 ${prefix}linkgrup
+き⃟🌹 ${prefix}hidetag [ _teks_ ]
+き⃟🌹 ${prefix}sticktag [ _nama sticker_ ]
+き⃟🌹 ${prefix}totag [ _reply media_ ]
 │
 ─❒ TOOLS
-き⃟🌐 ${prefix}sticker
-き⃟🌐 ${prefix}stickerwm [ _nama|author_ ]
-き⃟🌐 ${prefix}dadu
-き⃟🌐 ${prefix}semoji [ _emoji_ ]
-き⃟🌐 ${prefix}attp [ _teks_ ]
-き⃟🌐 ${prefix}ttp [ _teks_ ]
-き⃟🌐 ${prefix}ttp2 [ _teks_ ]
-き⃟🌐 ${prefix}ttp3 [ _teks_ ]
-き⃟🌐 ${prefix}ttp4 [ _teks_ ]
-き⃟🌐 ${prefix}toimg
-き⃟🌐 ${prefix}tomp3 [ _reply video_ ]
-き⃟🌐 ${prefix}tomp4 [ _reply sticker gif_ ]
-き⃟🌐 ${prefix}robot [ _reply audio_ ]
-き⃟🌐 ${prefix}balik [ _reply audio_ ]
-き⃟🌐 ${prefix}bass [ _reply audio_ ]
-き⃟🌐 ${prefix}gemuk [ _reply audio_ ]
-き⃟🌐 ${prefix}detikvn [ _reply audio caption angka_ ]
-き⃟🌐 ${prefix}detikvideo [ _reply video caption angka_ ]
+き⃟🌹 ${prefix}sticker
+き⃟🌹 ${prefix}stickerwm [ _nama|author_ ]
+き⃟🌹 ${prefix}dadu
+き⃟🌹 ${prefix}semoji [ _emoji_ ]
+き⃟🌹 ${prefix}attp [ _teks_ ]
+き⃟🌹 ${prefix}ttp [ _teks_ ]
+き⃟🌹 ${prefix}ttp2 [ _teks_ ]
+き⃟🌹 ${prefix}ttp3 [ _teks_ ]
+き⃟🌹 ${prefix}ttp4 [ _teks_ ]
+き⃟🌹 ${prefix}toimg
+き⃟🌹 ${prefix}tomp3 [ _reply video_ ]
+き⃟🌹 ${prefix}tomp4 [ _reply sticker gif_ ]
+き⃟🌹 ${prefix}robot [ _reply audio_ ]
+き⃟🌹 ${prefix}balik [ _reply audio_ ]
+き⃟🌹 ${prefix}bass [ _reply audio_ ]
+き⃟🌹 ${prefix}gemuk [ _reply audio_ ]
+き⃟🌹 ${prefix}detikvn [ _reply audio caption angka_ ]
+き⃟🌹 ${prefix}detikvideo [ _reply video caption angka_ ]
 │
 │
 ─❒ STORAGE
-き⃟🌐 ${prefix}listimage
-き⃟🌐 ${prefix}liststicker
-き⃟🌐 ${prefix}listvn
-き⃟🌐 ${prefix}addsticker [ _nama_ ]
-き⃟🌐 ${prefix}delsticker [ _nama_ ]
-き⃟🌐 ${prefix}addvn [ _nama_ ]
-き⃟🌐 ${prefix}delvn [ _nama_ ]
-き⃟🌐 ${prefix}addimage [ _nama_ ]
-き⃟🌐 ${prefix}delimage [ _nama_ ]
+き⃟🌹 ${prefix}listimage
+き⃟🌹 ${prefix}liststicker
+き⃟🌹 ${prefix}listvn
+き⃟🌹 ${prefix}addsticker [ _nama_ ]
+き⃟🌹 ${prefix}delsticker [ _nama_ ]
+き⃟🌹 ${prefix}addvn [ _nama_ ]
+き⃟🌹 ${prefix}delvn [ _nama_ ]
+き⃟🌹 ${prefix}addimage [ _nama_ ]
+き⃟🌹 ${prefix}delimage [ _nama_ ]
 │
 ─❒ MENU HARAM
-き⃟🌐 ${prefix}bokep
-き⃟🌐 ${prefix}neko
-き⃟🌐 ${prefix}kanna
-き⃟🌐 ${prefix}sagiri
-き⃟🌐 ${prefix}megumin
-き⃟🌐 ${prefix}wallnime
-き⃟🌐 ${prefix}ass
-き⃟🌐 ${prefix}ahegao
-き⃟🌐 ${prefix}hentai
-き⃟🌐 ${prefix}yuri
-き⃟🌐 ${prefix}panties
-き⃟🌐 ${prefix}neko
-き⃟🌐 ${prefix}chiisaihentai
-き⃟🌐 ${prefix}trap
-き⃟🌐 ${prefix}blowjob
-き⃟🌐 ${prefix}yaoi
-き⃟🌐 ${prefix}ecchi
-き⃟🌐 ${prefix}ahegao
-き⃟🌐 ${prefix}hololewd
-き⃟🌐 ${prefix}sideoppai
-き⃟🌐 ${prefix}animefeets
-き⃟🌐 ${prefix}animebooty
-き⃟🌐 ${prefix}animethighss
-き⃟🌐 ${prefix}hentaiparadise
-き⃟🌐 ${prefix}animearmpits
-き⃟🌐 ${prefix}hentaifemdom
-き⃟🌐 ${prefix}lewdanimegirls
-き⃟🌐 ${prefix}biganimetiddies
-き⃟🌐 ${prefix}animebellybutton
-き⃟🌐 ${prefix}hentai4everyone
-き⃟🌐 ${prefix}bj
-き⃟🌐 ${prefix}ero
-き⃟🌐 ${prefix}cum
-き⃟🌐 ${prefix}feet
-き⃟🌐 ${prefix}yuri
-き⃟🌐 ${prefix}trap
-き⃟🌐 ${prefix}lewd
-き⃟🌐 ${prefix}feed
-き⃟🌐 ${prefix}eron
-き⃟🌐 ${prefix}solo
-き⃟🌐 ${prefix}gasm
-き⃟🌐 ${prefix}poke
-き⃟🌐 ${prefix}anal
-き⃟🌐 ${prefix}holo
-き⃟🌐 ${prefix}tits
-き⃟🌐 ${prefix}kuni
-き⃟🌐 ${prefix}kiss
-き⃟🌐 ${prefix}erok
-き⃟🌐 ${prefix}smug
-き⃟🌐 ${prefix}baka
-き⃟🌐 ${prefix}solog
-き⃟🌐 ${prefix}feetg
-き⃟🌐 ${prefix}lewdk
-き⃟🌐 ${prefix}waifu
-き⃟🌐 ${prefix}pussy
-き⃟🌐 ${prefix}femdom
-き⃟🌐 ${prefix}cuddle
-き⃟🌐 ${prefix}eroyuri
-き⃟🌐 ${prefix}cum_jpg
-き⃟🌐 ${prefix}blowjob
-き⃟🌐 ${prefix}erofeet
-き⃟🌐 ${prefix}holoero
-き⃟🌐 ${prefix}classic
-き⃟🌐 ${prefix}erokemo
-き⃟🌐 ${prefix}fox_girl
-き⃟🌐 ${prefix}futanari
-き⃟🌐 ${prefix}lewdkemo
-き⃟🌐 ${prefix}wallpaper
-き⃟🌐 ${prefix}pussy_jpg
-き⃟🌐 ${prefix}kemonomimi
-き⃟🌐 ${prefix}nsfw_avatar
+き⃟🌹 ${prefix}bokep
+き⃟🌹 ${prefix}neko
+き⃟🌹 ${prefix}kanna
+き⃟🌹 ${prefix}sagiri
+き⃟🌹 ${prefix}megumin
+き⃟🌹 ${prefix}wallnime
+き⃟🌹 ${prefix}ass
+き⃟🌹 ${prefix}ahegao
+き⃟🌹 ${prefix}hentai
+き⃟🌹 ${prefix}yuri
+き⃟🌹 ${prefix}panties
+き⃟🌹 ${prefix}neko
+き⃟🌹 ${prefix}chiisaihentai
+き⃟🌹 ${prefix}trap
+き⃟🌹 ${prefix}blowjob
+き⃟🌹 ${prefix}yaoi
+き⃟🌹 ${prefix}ecchi
+き⃟🌹 ${prefix}ahegao
+き⃟🌹 ${prefix}hololewd
+き⃟🌹 ${prefix}sideoppai
+き⃟🌹 ${prefix}animefeets
+き⃟🌹 ${prefix}animebooty
+き⃟🌹 ${prefix}animethighss
+き⃟🌹 ${prefix}hentaiparadise
+き⃟🌹 ${prefix}animearmpits
+き⃟🌹 ${prefix}hentaifemdom
+き⃟🌹 ${prefix}lewdanimegirls
+き⃟🌹 ${prefix}biganimetiddies
+き⃟🌹 ${prefix}animebellybutton
+き⃟🌹 ${prefix}hentai4everyone
+き⃟🌹 ${prefix}bj
+き⃟🌹 ${prefix}ero
+き⃟🌹 ${prefix}cum
+き⃟🌹 ${prefix}feet
+き⃟🌹 ${prefix}yuri
+き⃟🌹 ${prefix}trap
+き⃟🌹 ${prefix}lewd
+き⃟🌹 ${prefix}feed
+き⃟🌹 ${prefix}eron
+き⃟🌹 ${prefix}solo
+き⃟🌹 ${prefix}gasm
+き⃟🌹 ${prefix}poke
+き⃟🌹 ${prefix}anal
+き⃟🌹 ${prefix}holo
+き⃟🌹 ${prefix}tits
+き⃟🌹 ${prefix}kuni
+き⃟🌹 ${prefix}kiss
+き⃟🌹 ${prefix}erok
+き⃟🌹 ${prefix}smug
+き⃟🌹 ${prefix}baka
+き⃟🌹 ${prefix}solog
+き⃟🌹 ${prefix}feetg
+き⃟🌹 ${prefix}lewdk
+き⃟🌹 ${prefix}waifu
+き⃟🌹 ${prefix}pussy
+き⃟🌹 ${prefix}femdom
+き⃟🌹 ${prefix}cuddle
+き⃟🌹 ${prefix}eroyuri
+き⃟🌹 ${prefix}cum_jpg
+き⃟🌹 ${prefix}blowjob
+き⃟🌹 ${prefix}erofeet
+き⃟🌹 ${prefix}holoero
+き⃟🌹 ${prefix}classic
+き⃟🌹 ${prefix}erokemo
+き⃟🌹 ${prefix}fox_girl
+き⃟🌹 ${prefix}futanari
+き⃟🌹 ${prefix}lewdkemo
+き⃟🌹 ${prefix}wallpaper
+き⃟🌹 ${prefix}pussy_jpg
+き⃟🌹 ${prefix}kemonomimi
+き⃟🌹 ${prefix}nsfw_avatar
 │
 ─❒ EVAL
-き⃟🌐 *x*
-き⃟🌐 *>*
-き⃟🌐 *=>*
-き⃟🌐 *$*
+き⃟🌹 *x*
+き⃟🌹 *>*
+き⃟🌹 *=>*
+き⃟🌹 *$*
 │
 ─❒ OTHER / FUN
 
-き⃟🌐 ${prefix}meme
-き⃟🌐 ${prefix}darkjoke
-き⃟🌐 ${prefix}rate
-き⃟🌐 ${prefix}kapankah
-き⃟🌐 ${prefix}apakah
-き⃟🌐 ${prefix}bisakah
-き⃟🌐 ${prefix}caripesan [ _teks|jumlah_ ]
-き⃟🌐 ${prefix}slots
-き⃟🌐 ${prefix}suit [ _gunting/batu/kertas_ ]
-き⃟🌐 ${prefix}tag [ _nomor_ ]
-き⃟🌐 ${prefix}tagme
-き⃟🌐 ${prefix}tts [ _kodebhs teks_ ]
-き⃟🌐 ${prefix}readmore [ _teks1|teks2_ ]
-き⃟🌐 ${prefix}fitnahpc [ _nomor|teks1|teks2_ ]
-き⃟🌐 ${prefix}chat [ _nomor|teks_ ]
-き⃟🌐 ${prefix}fdeface [ _replyimg link|teks1|teks2_ ]
-き⃟🌐 ${prefix}listgrup
-き⃟🌐 ${prefix}baileys [ _reply message_ ]
-き⃟🌐 ${prefix}q [ _reply message_ ]
-き⃟🌐 ${prefix}getcaption [ _reply message_ ]
-き⃟🌐 ${prefix}tospam [ _reply audio/sticker/image|jumlah_ ]
-き⃟🌐 ${prefix}sharelock [ _teks1|teks2_ ]
+き⃟🌹 ${prefix}meme
+き⃟🌹 ${prefix}darkjoke
+き⃟🌹 ${prefix}rate
+き⃟🌹 ${prefix}kapankah
+き⃟🌹 ${prefix}apakah
+き⃟🌹 ${prefix}bisakah
+き⃟🌹 ${prefix}caripesan [ _teks|jumlah_ ]
+き⃟🌹 ${prefix}slots
+き⃟🌹 ${prefix}suit [ _gunting/batu/kertas_ ]
+き⃟🌹 ${prefix}tag [ _nomor_ ]
+き⃟🌹 ${prefix}tagme
+き⃟🌹 ${prefix}tts [ _kodebhs teks_ ]
+き⃟🌹 ${prefix}readmore [ _teks1|teks2_ ]
+き⃟🌹 ${prefix}fitnahpc [ _nomor|teks1|teks2_ ]
+き⃟🌹 ${prefix}chat [ _nomor|teks_ ]
+き⃟🌹 ${prefix}fdeface [ _replyimg link|teks1|teks2_ ]
+き⃟🌹 ${prefix}listgrup
+き⃟🌹 ${prefix}baileys [ _reply message_ ]
+き⃟🌹 ${prefix}q [ _reply message_ ]
+き⃟🌹 ${prefix}getcaption [ _reply message_ ]
+き⃟🌹 ${prefix}tospam [ _reply audio/sticker/image|jumlah_ ]
+き⃟🌹 ${prefix}sharelock [ _teks1|teks2_ ]
 ─❒ SOUND MENU
-き⃟🌐 ${prefix}sound1 - き⃟🌐 ${prefix}sound75
+き⃟🌹 ${prefix}sound1 - き⃟🌹 ${prefix}sound75
 
 
 └─────────────────❒`
@@ -1926,13 +1926,13 @@ runtime = process.uptime()
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
        menu = `╭─❒ 「 Akbarbarz Botz AB07 Info 」
-*き⃟🌐TOTAL MENU :464*
-*き⃟🌐OWNER: ${NamaOwner}*
-*き⃟🌐NOMER OWNER: ${NomorOwner}*
-*き⃟🌐Lib: Baileys*
-*き⃟🌐speed bot: ${latensyi.toFixed(4)} Second*
-*き⃟🌐prefix : Multi Prefix* 
-*き⃟🌐runtime : ${waktu(runtime)}* 
+*き⃟🌹TOTAL MENU :464*
+*き⃟🌹OWNER: ${NamaOwner}*
+*き⃟🌹NOMER OWNER: ${NomorOwner}*
+*き⃟🌹Lib: Baileys*
+*き⃟🌹speed bot: ${latensyi.toFixed(4)} Second*
+*き⃟🌹prefix : Multi Prefix* 
+*き⃟🌹runtime : ${waktu(runtime)}* 
 
 `
 sendButLocation(from, `${menu}`, "*_© Akbarbarz _*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`allmenu`,buttonText:{displayText:'ALL MENU'},type:1},{buttonId:`rules`,buttonText:{displayText:'RULES'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
@@ -2023,413 +2023,413 @@ case 'catalog':
                 stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
-       menunya = ` [ *き⃟🌐ALL MENUき⃟🌐* ]
+       menunya = ` [ *き⃟🌹ALL MENUき⃟🌹* ]
 
 ─❒ FUN MENU NEW
-き⃟🌐 ${prefix}bego
-き⃟🌐 ${prefix}tolol
-き⃟🌐 ${prefix}pinter
-き⃟🌐 ${prefix}pintar
-き⃟🌐 ${prefix}asu
-き⃟🌐 ${prefix}bodoh
-き⃟🌐 ${prefix}gay
-き⃟🌐 ${prefix}lesby
-き⃟🌐 ${prefix}bajingan
-き⃟🌐 ${prefix}jancok
-き⃟🌐 ${prefix}anjing
-き⃟🌐 ${prefix}ngentod
-き⃟🌐 ${prefix}ngentot
-き⃟🌐 ${prefix}monyet
-き⃟🌐 ${prefix}mastah
-き⃟🌐 ${prefix}newbie
-き⃟🌐 ${prefix}bangsat
-き⃟🌐 ${prefix}bangke
-き⃟🌐 ${prefix}sange
-き⃟🌐 ${prefix}sangean
-き⃟🌐 ${prefix}dakjal
-き⃟🌐 ${prefix}horny
-き⃟🌐 ${prefix}wibu
-き⃟🌐 ${prefix}puki
-き⃟🌐 ${prefix}pantexpantek
+き⃟🌹 ${prefix}bego
+き⃟🌹 ${prefix}tolol
+き⃟🌹 ${prefix}pinter
+き⃟🌹 ${prefix}pintar
+き⃟🌹 ${prefix}asu
+き⃟🌹 ${prefix}bodoh
+き⃟🌹 ${prefix}gay
+き⃟🌹 ${prefix}lesby
+き⃟🌹 ${prefix}bajingan
+き⃟🌹 ${prefix}jancok
+き⃟🌹 ${prefix}anjing
+き⃟🌹 ${prefix}ngentod
+き⃟🌹 ${prefix}ngentot
+き⃟🌹 ${prefix}monyet
+き⃟🌹 ${prefix}mastah
+き⃟🌹 ${prefix}newbie
+き⃟🌹 ${prefix}bangsat
+き⃟🌹 ${prefix}bangke
+き⃟🌹 ${prefix}sange
+き⃟🌹 ${prefix}sangean
+き⃟🌹 ${prefix}dakjal
+き⃟🌹 ${prefix}horny
+き⃟🌹 ${prefix}wibu
+き⃟🌹 ${prefix}puki
+き⃟🌹 ${prefix}pantexpantek
 │
 ─❒ OWNER
-き⃟🌐 ${prefix}autorespon [ _on/off_ ]
-き⃟🌐 ${prefix}bc [ _teks/reply gif/image/video with caption_ ]
-き⃟🌐 ${prefix}tobc [ _reply sticker/audio with caption_ ]
-き⃟🌐 ${prefix}return [ _javascript_ ]
-き⃟🌐 ${prefix}clearall
-き⃟🌐 ${prefix}delchat
-き⃟🌐 ${prefix}mute
-き⃟🌐 ${prefix}unmute
-き⃟🌐 ${prefix}public
-き⃟🌐 ${prefix}self
-き⃟🌐 ${prefix}spam [ _teks|jumlah_ ]
-き⃟🌐 ${prefix}addcmd [ _teks reply stc_ ]
-き⃟🌐 ${prefix}delcmd [ _reply stc_ ]
-き⃟🌐 ${prefix}listcmd
-き⃟🌐 ${prefix}spamsw [ _teks|jumlah_ ]
-き⃟🌐 ${prefix}upswteks [ _teks_ ]
-き⃟🌐 ${prefix}upswlokasi [ _teks_ ]
-き⃟🌐 ${prefix}upswaudio [ _reply audio_ ]
-き⃟🌐 ${prefix}upswvoice [ _reply audio_ ]
-き⃟🌐 ${prefix}upswsticker [ _reply sticker_ ]
-き⃟🌐 ${prefix}upswimage [ _reply image with caption_ ]
-き⃟🌐 ${prefix}upswgif [ _reply gif with caption_ ]
-き⃟🌐 ${prefix}upswvideo [ _reply video with caption_ ]
-き⃟🌐 ${prefix}shutdown
-き⃟🌐 ${prefix}offline [ _alasan_ ]
-き⃟🌐 ${prefix}online
-き⃟🌐 ${prefix}exif [ _nama|author_ ]
-き⃟🌐 ${prefix}setprofile [ _reply image_ ]
-き⃟🌐 ${prefix}setname [ _teks_ ]
-き⃟🌐 ${prefix}setprefix [ _multi/nopref/prefix_ ]
-き⃟🌐 ${prefix}setbio [ _teks_ ]
-き⃟🌐 ${prefix}leave
-き⃟🌐 ${prefix}restart
-き⃟🌐 ${prefix}addrespon [ _tanya|jawab_ ]
-き⃟🌐 ${prefix}delrespon [ _nama_ ]
-き⃟🌐 ${prefix}listrespon
-き⃟🌐 ${prefix}readall
-き⃟🌐 ${prefix}unreadall
-き⃟🌐 ${prefix}archive
-き⃟🌐 ${prefix}unarchiveall
-き⃟🌐 ${prefix}pin
-き⃟🌐 ${prefix}unpin
-き⃟🌐 ${prefix}setmenu [ _ori/simpel_ ]
-き⃟🌐 ${prefix}setallmenu [ _ori/simpel_ ]
-き⃟🌐 ${prefix}leavetime [ _detik/menit/jam_ ]
-き⃟🌐 ${prefix}bukatime [ _detik/menit/jam_ ]
-き⃟🌐 ${prefix}tutuptime [ _detik/menit/jam_ ]
-き⃟🌐 ${prefix}nano [ _nama file_ ]
+き⃟🌹 ${prefix}autorespon [ _on/off_ ]
+き⃟🌹 ${prefix}bc [ _teks/reply gif/image/video with caption_ ]
+き⃟🌹 ${prefix}tobc [ _reply sticker/audio with caption_ ]
+き⃟🌹 ${prefix}return [ _javascript_ ]
+き⃟🌹 ${prefix}clearall
+き⃟🌹 ${prefix}delchat
+き⃟🌹 ${prefix}mute
+き⃟🌹 ${prefix}unmute
+き⃟🌹 ${prefix}public
+き⃟🌹 ${prefix}self
+き⃟🌹 ${prefix}spam [ _teks|jumlah_ ]
+き⃟🌹 ${prefix}addcmd [ _teks reply stc_ ]
+き⃟🌹 ${prefix}delcmd [ _reply stc_ ]
+き⃟🌹 ${prefix}listcmd
+き⃟🌹 ${prefix}spamsw [ _teks|jumlah_ ]
+き⃟🌹 ${prefix}upswteks [ _teks_ ]
+き⃟🌹 ${prefix}upswlokasi [ _teks_ ]
+き⃟🌹 ${prefix}upswaudio [ _reply audio_ ]
+き⃟🌹 ${prefix}upswvoice [ _reply audio_ ]
+き⃟🌹 ${prefix}upswsticker [ _reply sticker_ ]
+き⃟🌹 ${prefix}upswimage [ _reply image with caption_ ]
+き⃟🌹 ${prefix}upswgif [ _reply gif with caption_ ]
+き⃟🌹 ${prefix}upswvideo [ _reply video with caption_ ]
+き⃟🌹 ${prefix}shutdown
+き⃟🌹 ${prefix}offline [ _alasan_ ]
+き⃟🌹 ${prefix}online
+き⃟🌹 ${prefix}exif [ _nama|author_ ]
+き⃟🌹 ${prefix}setprofile [ _reply image_ ]
+き⃟🌹 ${prefix}setname [ _teks_ ]
+き⃟🌹 ${prefix}setprefix [ _multi/nopref/prefix_ ]
+き⃟🌹 ${prefix}setbio [ _teks_ ]
+き⃟🌹 ${prefix}leave
+き⃟🌹 ${prefix}restart
+き⃟🌹 ${prefix}addrespon [ _tanya|jawab_ ]
+き⃟🌹 ${prefix}delrespon [ _nama_ ]
+き⃟🌹 ${prefix}listrespon
+き⃟🌹 ${prefix}readall
+き⃟🌹 ${prefix}unreadall
+き⃟🌹 ${prefix}archive
+き⃟🌹 ${prefix}unarchiveall
+き⃟🌹 ${prefix}pin
+き⃟🌹 ${prefix}unpin
+き⃟🌹 ${prefix}setmenu [ _ori/simpel_ ]
+き⃟🌹 ${prefix}setallmenu [ _ori/simpel_ ]
+き⃟🌹 ${prefix}leavetime [ _detik/menit/jam_ ]
+き⃟🌹 ${prefix}bukatime [ _detik/menit/jam_ ]
+き⃟🌹 ${prefix}tutuptime [ _detik/menit/jam_ ]
+き⃟🌹 ${prefix}nano [ _nama file_ ]
 │
 ─❒GAME MENU
-き⃟🌐 ${prefix}tebakgambar
-き⃟🌐 ${prefix}caklontong
+き⃟🌹 ${prefix}tebakgambar
+き⃟🌹 ${prefix}caklontong
 │
 ─❒ WIBU
-き⃟🌐 ${prefix}loli
-き⃟🌐 ${prefix}husbu
-き⃟🌐 ${prefix}milf
-き⃟🌐 ${prefix}cosplay
-き⃟🌐 ${prefix}wallml
+き⃟🌹 ${prefix}loli
+き⃟🌹 ${prefix}husbu
+き⃟🌹 ${prefix}milf
+き⃟🌹 ${prefix}cosplay
+き⃟🌹 ${prefix}wallml
 │
 ─❒ DOWNLOAD
-き⃟🌐 ${prefix}infogempa
-き⃟🌐 ${prefix}pinterest
-き⃟🌐 ${prefix}herolist
-き⃟🌐 ${prefix}herodetail [ _hero_ ]
-き⃟🌐 ${prefix}google [ _search_ ]
-き⃟🌐 ${prefix}gimage [ _search_ ]
-き⃟🌐 ${prefix}wiki [ _search_ ]
-き⃟🌐 ${prefix}mediafire [ _link_ ]
-き⃟🌐 ${prefix}ytsearch [ _judul_ ]
-き⃟🌐 ${prefix}ytmp4 [ _link yt_ ]
-き⃟🌐 ${prefix}ytmp3 [ _link yt_ ]
-き⃟🌐 ${prefix}play [ _judul lagu_ ]
-き⃟🌐 ${prefix}video [ _judul video_ ]
-き⃟🌐 ${prefix}tinyurl [ _link_ ]
-き⃟🌐 ${prefix}fetch [ _link_ ]
-き⃟🌐 ${prefix}igdl [ _link_ ]
-き⃟🌐 ${prefix}tiktokdl [ _link_ ]
-き⃟🌐 ${prefix}pinterest [ _search_ ]
-き⃟🌐 ${prefix}lirik [ _judul_ ]
-き⃟🌐 ${prefix}tourl [ _reply image/video_ ]
-き⃟🌐 ${prefix}resepmasakan [ _judul_ ]
-き⃟🌐 ${prefix}artimimpi [ _teks_ ]
-き⃟🌐 ${prefix}bilangangka [ _angka_ ]
-き⃟🌐 ${prefix}kalkulator [ _angka_ ]
-き⃟🌐 ${prefix}fancytext [ _teks_ ]
-き⃟🌐 ${prefix}githubstalk [ _username_ ]
-き⃟🌐 ${prefix}translate [ _teks kodebhs_ ]
-き⃟🌐 ${prefix}ss [ _link_ ]
-き⃟🌐 ${prefix}playstore [ _search_ ]
-き⃟🌐 ${prefix}tiktokaudio [ _link_ ]
-き⃟🌐 ${prefix}brainly [ _search_ ]
-き⃟🌐 ${prefix}igstory [ _search_ ]
-き⃟🌐 ${prefix}igstalk [ _link_ ]
-き⃟🌐 ${prefix}twitter [ _link_ ]
-き⃟🌐 ${prefix}twmp3 [ _link_ ]
-き⃟🌐 ${prefix}linkwa [ _search_ ]
-き⃟🌐 ${prefix}fb [ _link_ ]
-き⃟🌐 ${prefix}chara [ _search_ ]
-き⃟🌐 ${prefix}otaku [ _search_ ]
-き⃟🌐 ${prefix}komiku [ _search_ ]
+き⃟🌹 ${prefix}infogempa
+き⃟🌹 ${prefix}pinterest
+き⃟🌹 ${prefix}herolist
+き⃟🌹 ${prefix}herodetail [ _hero_ ]
+き⃟🌹 ${prefix}google [ _search_ ]
+き⃟🌹 ${prefix}gimage [ _search_ ]
+き⃟🌹 ${prefix}wiki [ _search_ ]
+き⃟🌹 ${prefix}mediafire [ _link_ ]
+き⃟🌹 ${prefix}ytsearch [ _judul_ ]
+き⃟🌹 ${prefix}ytmp4 [ _link yt_ ]
+き⃟🌹 ${prefix}ytmp3 [ _link yt_ ]
+き⃟🌹 ${prefix}play [ _judul lagu_ ]
+き⃟🌹 ${prefix}video [ _judul video_ ]
+き⃟🌹 ${prefix}tinyurl [ _link_ ]
+き⃟🌹 ${prefix}fetch [ _link_ ]
+き⃟🌹 ${prefix}igdl [ _link_ ]
+き⃟🌹 ${prefix}tiktokdl [ _link_ ]
+き⃟🌹 ${prefix}pinterest [ _search_ ]
+き⃟🌹 ${prefix}lirik [ _judul_ ]
+き⃟🌹 ${prefix}tourl [ _reply image/video_ ]
+き⃟🌹 ${prefix}resepmasakan [ _judul_ ]
+き⃟🌹 ${prefix}artimimpi [ _teks_ ]
+き⃟🌹 ${prefix}bilangangka [ _angka_ ]
+き⃟🌹 ${prefix}kalkulator [ _angka_ ]
+き⃟🌹 ${prefix}fancytext [ _teks_ ]
+き⃟🌹 ${prefix}githubstalk [ _username_ ]
+き⃟🌹 ${prefix}translate [ _teks kodebhs_ ]
+き⃟🌹 ${prefix}ss [ _link_ ]
+き⃟🌹 ${prefix}playstore [ _search_ ]
+き⃟🌹 ${prefix}tiktokaudio [ _link_ ]
+き⃟🌹 ${prefix}brainly [ _search_ ]
+き⃟🌹 ${prefix}igstory [ _search_ ]
+き⃟🌹 ${prefix}igstalk [ _link_ ]
+き⃟🌹 ${prefix}twitter [ _link_ ]
+き⃟🌹 ${prefix}twmp3 [ _link_ ]
+き⃟🌹 ${prefix}linkwa [ _search_ ]
+き⃟🌹 ${prefix}fb [ _link_ ]
+き⃟🌹 ${prefix}chara [ _search_ ]
+き⃟🌹 ${prefix}otaku [ _search_ ]
+き⃟🌹 ${prefix}komiku [ _search_ ]
 │
 ─❒ MAKER
-き⃟🌐 ${prefix}blackpink
-き⃟🌐 ${prefix}neon
-き⃟🌐 ${prefix}greenneon
-き⃟🌐 ${prefix}advanceglow
-き⃟🌐 ${prefix}futureneon
-き⃟🌐 ${prefix}sandwriting
-き⃟🌐 ${prefix}sandsummer
-き⃟🌐 ${prefix}sandengraved
-き⃟🌐 ${prefix}metaldark
-き⃟🌐 ${prefix}neonlight
-き⃟🌐 ${prefix}holographic
-き⃟🌐 ${prefix}text1917
-き⃟🌐 ${prefix}minion
-き⃟🌐 ${prefix}deluxesilver
-き⃟🌐 ${prefix}newyearcard
-き⃟🌐 ${prefix}bloodfrosted
-き⃟🌐 ${prefix}halloween
-き⃟🌐 ${prefix}jokerlogo
-き⃟🌐 ${prefix}fireworksparkle
-き⃟🌐 ${prefix}natureleaves
-き⃟🌐 ${prefix}bokeh
-き⃟🌐 ${prefix}toxic
-き⃟🌐 ${prefix}strawberry
-き⃟🌐 ${prefix}box3d
-き⃟🌐 ${prefix}roadwarning
-き⃟🌐 ${prefix}breakwall
-き⃟🌐 ${prefix}icecold
-き⃟🌐 ${prefix}luxury
-き⃟🌐 ${prefix}cloud
-き⃟🌐 ${prefix}summersand
-き⃟🌐 ${prefix}horrorblood
-き⃟🌐 ${prefix}thunder
-き⃟🌐 ${prefix}pornhub
-き⃟🌐 ${prefix}glitch
-き⃟🌐 ${prefix}avenger
-き⃟🌐 ${prefix}space
-き⃟🌐 ${prefix}ninjalogo
-き⃟🌐 ${prefix}marvelstudio
-き⃟🌐 ${prefix}lionlogo
-き⃟🌐 ${prefix}wolflogo
-き⃟🌐 ${prefix}steel3d
-き⃟🌐 ${prefix}wallgravity
-き⃟🌐 ${prefix}shadow
-き⃟🌐 ${prefix}cup
-き⃟🌐 ${prefix}cup1
-き⃟🌐 ${prefix}romance
-き⃟🌐 ${prefix}smoke
-き⃟🌐 ${prefix}burnpaper
-き⃟🌐 ${prefix}lovemessage
-き⃟🌐 ${prefix}undergrass
-き⃟🌐 ${prefix}love
-き⃟🌐 ${prefix}coffe
-き⃟🌐 ${prefix}woodheart
-き⃟🌐 ${prefix}woodenboard
-き⃟🌐 ${prefix}summer3d
-き⃟🌐 ${prefix}wolfmetal
-き⃟🌐 ${prefix}nature3d
-き⃟🌐 ${prefix}underwater
-き⃟🌐 ${prefix}golderrose
-き⃟🌐 ${prefix}summernature
-き⃟🌐 ${prefix}letterleaves
-き⃟🌐 ${prefix}glowingneon
-き⃟🌐 ${prefix}fallleaves
-き⃟🌐 ${prefix}flamming
-き⃟🌐 ${prefix}harrypotter
-き⃟🌐 ${prefix}carvedwood
-き⃟🌐 ${prefix}arcade8bit
-き⃟🌐 ${prefix}battlefield4
-き⃟🌐 ${prefix}pubg
-き⃟🌐 ${prefix}wetglass
-き⃟🌐 ${prefix}multicolor3d
-き⃟🌐 ${prefix}watercolor
-き⃟🌐 ${prefix}luxurygold
-き⃟🌐 ${prefix}galaxywallpaper
-き⃟🌐 ${prefix}lighttext
-き⃟🌐 ${prefix}beautifulflower
-き⃟🌐 ${prefix}puppycute
-き⃟🌐 ${prefix}royaltext
-き⃟🌐 ${prefix}heartshaped
-き⃟🌐 ${prefix}birthdaycake
-き⃟🌐 ${prefix}galaxystyle
-き⃟🌐 ${prefix}hologram3d
-き⃟🌐 ${prefix}greenneon
-き⃟🌐 ${prefix}glossychrome
-き⃟🌐 ${prefix}greenbush
-き⃟🌐 ${prefix}metallogo
-き⃟🌐 ${prefix}noeltext
-き⃟🌐 ${prefix}glittergold
-き⃟🌐 ${prefix}textcake
-き⃟🌐 ${prefix}starsnight
-き⃟🌐 ${prefix}wooden3d
-き⃟🌐 ${prefix}textbyname
-き⃟🌐 ${prefix}writegalacy
-き⃟🌐 ${prefix}galaxybat
-き⃟🌐 ${prefix}snow3d
-き⃟🌐 ${prefix}birthdayday
-き⃟🌐 ${prefix}goldplaybutton
-き⃟🌐 ${prefix}silverplaybutton
-き⃟🌐 ${prefix}freefire
-き⃟🌐 ${prefix}foliokanan [ _text_ ]
-き⃟🌐 ${prefix}foliokiri [ _text_ ]
-き⃟🌐 ${prefix}nuliskanan [ _text_ ]
-き⃟🌐 ${prefix}nuliskiri [ _text_ ]
-き⃟🌐 ${prefix}maker3d [ _text_ ]
-き⃟🌐 ${prefix}maker2d [ _text_ ]
-き⃟🌐 ${prefix}epepserti [ _text_ ]
+き⃟🌹 ${prefix}blackpink
+き⃟🌹 ${prefix}neon
+き⃟🌹 ${prefix}greenneon
+き⃟🌹 ${prefix}advanceglow
+き⃟🌹 ${prefix}futureneon
+き⃟🌹 ${prefix}sandwriting
+き⃟🌹 ${prefix}sandsummer
+き⃟🌹 ${prefix}sandengraved
+き⃟🌹 ${prefix}metaldark
+き⃟🌹 ${prefix}neonlight
+き⃟🌹 ${prefix}holographic
+き⃟🌹 ${prefix}text1917
+き⃟🌹 ${prefix}minion
+き⃟🌹 ${prefix}deluxesilver
+き⃟🌹 ${prefix}newyearcard
+き⃟🌹 ${prefix}bloodfrosted
+き⃟🌹 ${prefix}halloween
+き⃟🌹 ${prefix}jokerlogo
+き⃟🌹 ${prefix}fireworksparkle
+き⃟🌹 ${prefix}natureleaves
+き⃟🌹 ${prefix}bokeh
+き⃟🌹 ${prefix}toxic
+き⃟🌹 ${prefix}strawberry
+き⃟🌹 ${prefix}box3d
+き⃟🌹 ${prefix}roadwarning
+き⃟🌹 ${prefix}breakwall
+き⃟🌹 ${prefix}icecold
+き⃟🌹 ${prefix}luxury
+き⃟🌹 ${prefix}cloud
+き⃟🌹 ${prefix}summersand
+き⃟🌹 ${prefix}horrorblood
+き⃟🌹 ${prefix}thunder
+き⃟🌹 ${prefix}pornhub
+き⃟🌹 ${prefix}glitch
+き⃟🌹 ${prefix}avenger
+き⃟🌹 ${prefix}space
+き⃟🌹 ${prefix}ninjalogo
+き⃟🌹 ${prefix}marvelstudio
+き⃟🌹 ${prefix}lionlogo
+き⃟🌹 ${prefix}wolflogo
+き⃟🌹 ${prefix}steel3d
+き⃟🌹 ${prefix}wallgravity
+き⃟🌹 ${prefix}shadow
+き⃟🌹 ${prefix}cup
+き⃟🌹 ${prefix}cup1
+き⃟🌹 ${prefix}romance
+き⃟🌹 ${prefix}smoke
+き⃟🌹 ${prefix}burnpaper
+き⃟🌹 ${prefix}lovemessage
+き⃟🌹 ${prefix}undergrass
+き⃟🌹 ${prefix}love
+き⃟🌹 ${prefix}coffe
+き⃟🌹 ${prefix}woodheart
+き⃟🌹 ${prefix}woodenboard
+き⃟🌹 ${prefix}summer3d
+き⃟🌹 ${prefix}wolfmetal
+き⃟🌹 ${prefix}nature3d
+き⃟🌹 ${prefix}underwater
+き⃟🌹 ${prefix}golderrose
+き⃟🌹 ${prefix}summernature
+き⃟🌹 ${prefix}letterleaves
+き⃟🌹 ${prefix}glowingneon
+き⃟🌹 ${prefix}fallleaves
+き⃟🌹 ${prefix}flamming
+き⃟🌹 ${prefix}harrypotter
+き⃟🌹 ${prefix}carvedwood
+き⃟🌹 ${prefix}arcade8bit
+き⃟🌹 ${prefix}battlefield4
+き⃟🌹 ${prefix}pubg
+き⃟🌹 ${prefix}wetglass
+き⃟🌹 ${prefix}multicolor3d
+き⃟🌹 ${prefix}watercolor
+き⃟🌹 ${prefix}luxurygold
+き⃟🌹 ${prefix}galaxywallpaper
+き⃟🌹 ${prefix}lighttext
+き⃟🌹 ${prefix}beautifulflower
+き⃟🌹 ${prefix}puppycute
+き⃟🌹 ${prefix}royaltext
+き⃟🌹 ${prefix}heartshaped
+き⃟🌹 ${prefix}birthdaycake
+き⃟🌹 ${prefix}galaxystyle
+き⃟🌹 ${prefix}hologram3d
+き⃟🌹 ${prefix}greenneon
+き⃟🌹 ${prefix}glossychrome
+き⃟🌹 ${prefix}greenbush
+き⃟🌹 ${prefix}metallogo
+き⃟🌹 ${prefix}noeltext
+き⃟🌹 ${prefix}glittergold
+き⃟🌹 ${prefix}textcake
+き⃟🌹 ${prefix}starsnight
+き⃟🌹 ${prefix}wooden3d
+き⃟🌹 ${prefix}textbyname
+き⃟🌹 ${prefix}writegalacy
+き⃟🌹 ${prefix}galaxybat
+き⃟🌹 ${prefix}snow3d
+き⃟🌹 ${prefix}birthdayday
+き⃟🌹 ${prefix}goldplaybutton
+き⃟🌹 ${prefix}silverplaybutton
+き⃟🌹 ${prefix}freefire
+き⃟🌹 ${prefix}foliokanan [ _text_ ]
+き⃟🌹 ${prefix}foliokiri [ _text_ ]
+き⃟🌹 ${prefix}nuliskanan [ _text_ ]
+き⃟🌹 ${prefix}nuliskiri [ _text_ ]
+き⃟🌹 ${prefix}maker3d [ _text_ ]
+き⃟🌹 ${prefix}maker2d [ _text_ ]
+き⃟🌹 ${prefix}epepserti [ _text_ ]
 │
 ──❒ GROUP
-き⃟🌐 ${prefix}getpict [ _@tag_ ]
-き⃟🌐 ${prefix}getname [ _reply target_ ]
-き⃟🌐 ${prefix}getbio [ _reply target_ ]
-き⃟🌐 ${prefix}antilink [ _on/off_ ]
-き⃟🌐 ${prefix}antivirtex [ _on/off_ ]
-き⃟🌐 ${prefix}antiwame [ _on/off_ ]
-き⃟🌐 ${prefix} welcome [ _on/off_ ]
-き⃟🌐 ${prefix}creategrup [ _nama|@tag_ ]
-き⃟🌐 ${prefix}tictactoe [ _@tag_ ]
-き⃟🌐 ${prefix}delttt
-き⃟🌐 ${prefix}kick
-き⃟🌐 ${prefix}add
-き⃟🌐 ${prefix}getpp
-き⃟🌐 ${prefix}antiwame
-き⃟🌐 ${prefix}getdeskgc
-き⃟🌐 ${prefix}sider [ _reply pesan bot_ ]
-き⃟🌐 ${prefix}hacked [ _teks_ ]
-き⃟🌐 ${prefix}setnamegc [ _teks_ ]
-き⃟🌐 ${prefix}setdeskgc [ _teks_ ]
-き⃟🌐 ${prefix}fitnah [ _@tag|teks1|teks2_ ]
-き⃟🌐 ${prefix}kontak [ _@tag|nama_ ]
-き⃟🌐 ${prefix}kontag [ _@tag|nama_ ]
-き⃟🌐 ${prefix}opengc
-き⃟🌐 ${prefix}closegc
-き⃟🌐 ${prefix}resetlinkgc
-き⃟🌐 ${prefix}linkgrup
-き⃟🌐 ${prefix}hidetag [ _teks_ ]
-き⃟🌐 ${prefix}sticktag [ _nama sticker_ ]
-き⃟🌐 ${prefix}totag [ _reply media_ ]
+き⃟🌹 ${prefix}getpict [ _@tag_ ]
+き⃟🌹 ${prefix}getname [ _reply target_ ]
+き⃟🌹 ${prefix}getbio [ _reply target_ ]
+き⃟🌹 ${prefix}antilink [ _on/off_ ]
+き⃟🌹 ${prefix}antivirtex [ _on/off_ ]
+き⃟🌹 ${prefix}antiwame [ _on/off_ ]
+き⃟🌹 ${prefix} welcome [ _on/off_ ]
+き⃟🌹 ${prefix}creategrup [ _nama|@tag_ ]
+き⃟🌹 ${prefix}tictactoe [ _@tag_ ]
+き⃟🌹 ${prefix}delttt
+き⃟🌹 ${prefix}kick
+き⃟🌹 ${prefix}add
+き⃟🌹 ${prefix}getpp
+き⃟🌹 ${prefix}antiwame
+き⃟🌹 ${prefix}getdeskgc
+き⃟🌹 ${prefix}sider [ _reply pesan bot_ ]
+き⃟🌹 ${prefix}hacked [ _teks_ ]
+き⃟🌹 ${prefix}setnamegc [ _teks_ ]
+き⃟🌹 ${prefix}setdeskgc [ _teks_ ]
+き⃟🌹 ${prefix}fitnah [ _@tag|teks1|teks2_ ]
+き⃟🌹 ${prefix}kontak [ _@tag|nama_ ]
+き⃟🌹 ${prefix}kontag [ _@tag|nama_ ]
+き⃟🌹 ${prefix}opengc
+き⃟🌹 ${prefix}closegc
+き⃟🌹 ${prefix}resetlinkgc
+き⃟🌹 ${prefix}linkgrup
+き⃟🌹 ${prefix}hidetag [ _teks_ ]
+き⃟🌹 ${prefix}sticktag [ _nama sticker_ ]
+き⃟🌹 ${prefix}totag [ _reply media_ ]
 │
 ─❒ TOOLS
-き⃟🌐 ${prefix}sticker
-き⃟🌐 ${prefix}stickerwm [ _nama|author_ ]
-き⃟🌐 ${prefix}dadu
-き⃟🌐 ${prefix}semoji [ _emoji_ ]
-き⃟🌐 ${prefix}attp [ _teks_ ]
-き⃟🌐 ${prefix}ttp [ _teks_ ]
-き⃟🌐 ${prefix}ttp2 [ _teks_ ]
-き⃟🌐 ${prefix}ttp3 [ _teks_ ]
-き⃟🌐 ${prefix}ttp4 [ _teks_ ]
-き⃟🌐 ${prefix}toimg
-き⃟🌐 ${prefix}tomp3 [ _reply video_ ]
-き⃟🌐 ${prefix}tomp4 [ _reply sticker gif_ ]
-き⃟🌐 ${prefix}robot [ _reply audio_ ]
-き⃟🌐 ${prefix}balik [ _reply audio_ ]
-き⃟🌐 ${prefix}bass [ _reply audio_ ]
-き⃟🌐 ${prefix}gemuk [ _reply audio_ ]
-き⃟🌐 ${prefix}detikvn [ _reply audio caption angka_ ]
-き⃟🌐 ${prefix}detikvideo [ _reply video caption angka_ ]
+き⃟🌹 ${prefix}sticker
+き⃟🌹 ${prefix}stickerwm [ _nama|author_ ]
+き⃟🌹 ${prefix}dadu
+き⃟🌹 ${prefix}semoji [ _emoji_ ]
+き⃟🌹 ${prefix}attp [ _teks_ ]
+き⃟🌹 ${prefix}ttp [ _teks_ ]
+き⃟🌹 ${prefix}ttp2 [ _teks_ ]
+き⃟🌹 ${prefix}ttp3 [ _teks_ ]
+き⃟🌹 ${prefix}ttp4 [ _teks_ ]
+き⃟🌹 ${prefix}toimg
+き⃟🌹 ${prefix}tomp3 [ _reply video_ ]
+き⃟🌹 ${prefix}tomp4 [ _reply sticker gif_ ]
+き⃟🌹 ${prefix}robot [ _reply audio_ ]
+き⃟🌹 ${prefix}balik [ _reply audio_ ]
+き⃟🌹 ${prefix}bass [ _reply audio_ ]
+き⃟🌹 ${prefix}gemuk [ _reply audio_ ]
+き⃟🌹 ${prefix}detikvn [ _reply audio caption angka_ ]
+き⃟🌹 ${prefix}detikvideo [ _reply video caption angka_ ]
 │
 │
 ─❒ STORAGE
-き⃟🌐 ${prefix}listimage
-き⃟🌐 ${prefix}liststicker
-き⃟🌐 ${prefix}listvn
-き⃟🌐 ${prefix}addsticker [ _nama_ ]
-き⃟🌐 ${prefix}delsticker [ _nama_ ]
-き⃟🌐 ${prefix}addvn [ _nama_ ]
-き⃟🌐 ${prefix}delvn [ _nama_ ]
-き⃟🌐 ${prefix}addimage [ _nama_ ]
-き⃟🌐 ${prefix}delimage [ _nama_ ]
+き⃟🌹 ${prefix}listimage
+き⃟🌹 ${prefix}liststicker
+き⃟🌹 ${prefix}listvn
+き⃟🌹 ${prefix}addsticker [ _nama_ ]
+き⃟🌹 ${prefix}delsticker [ _nama_ ]
+き⃟🌹 ${prefix}addvn [ _nama_ ]
+き⃟🌹 ${prefix}delvn [ _nama_ ]
+き⃟🌹 ${prefix}addimage [ _nama_ ]
+き⃟🌹 ${prefix}delimage [ _nama_ ]
 │
 ─❒ MENU HARAM
-き⃟🌐 ${prefix}bokep
-き⃟🌐 ${prefix}neko
-き⃟🌐 ${prefix}kanna
-き⃟🌐 ${prefix}sagiri
-き⃟🌐 ${prefix}megumin
-き⃟🌐 ${prefix}wallnime
-き⃟🌐 ${prefix}ass
-き⃟🌐 ${prefix}ahegao
-き⃟🌐 ${prefix}hentai
-き⃟🌐 ${prefix}yuri
-き⃟🌐 ${prefix}panties
-き⃟🌐 ${prefix}neko
-き⃟🌐 ${prefix}chiisaihentai
-き⃟🌐 ${prefix}trap
-き⃟🌐 ${prefix}blowjob
-き⃟🌐 ${prefix}yaoi
-き⃟🌐 ${prefix}ecchi
-き⃟🌐 ${prefix}ahegao
-き⃟🌐 ${prefix}hololewd
-き⃟🌐 ${prefix}sideoppai
-き⃟🌐 ${prefix}animefeets
-き⃟🌐 ${prefix}animebooty
-き⃟🌐 ${prefix}animethighss
-き⃟🌐 ${prefix}hentaiparadise
-き⃟🌐 ${prefix}animearmpits
-き⃟🌐 ${prefix}hentaifemdom
-き⃟🌐 ${prefix}lewdanimegirls
-き⃟🌐 ${prefix}biganimetiddies
-き⃟🌐 ${prefix}animebellybutton
-き⃟🌐 ${prefix}hentai4everyone
-き⃟🌐 ${prefix}bj
-き⃟🌐 ${prefix}ero
-き⃟🌐 ${prefix}cum
-き⃟🌐 ${prefix}feet
-き⃟🌐 ${prefix}yuri
-き⃟🌐 ${prefix}trap
-き⃟🌐 ${prefix}lewd
-き⃟🌐 ${prefix}feed
-き⃟🌐 ${prefix}eron
-き⃟🌐 ${prefix}solo
-き⃟🌐 ${prefix}gasm
-き⃟🌐 ${prefix}poke
-き⃟🌐 ${prefix}anal
-き⃟🌐 ${prefix}holo
-き⃟🌐 ${prefix}tits
-き⃟🌐 ${prefix}kuni
-き⃟🌐 ${prefix}kiss
-き⃟🌐 ${prefix}erok
-き⃟🌐 ${prefix}smug
-き⃟🌐 ${prefix}baka
-き⃟🌐 ${prefix}solog
-き⃟🌐 ${prefix}feetg
-き⃟🌐 ${prefix}lewdk
-き⃟🌐 ${prefix}waifu
-き⃟🌐 ${prefix}pussy
-き⃟🌐 ${prefix}femdom
-き⃟🌐 ${prefix}cuddle
-き⃟🌐 ${prefix}eroyuri
-き⃟🌐 ${prefix}cum_jpg
-き⃟🌐 ${prefix}blowjob
-き⃟🌐 ${prefix}erofeet
-き⃟🌐 ${prefix}holoero
-き⃟🌐 ${prefix}classic
-き⃟🌐 ${prefix}erokemo
-き⃟🌐 ${prefix}fox_girl
-き⃟🌐 ${prefix}futanari
-き⃟🌐 ${prefix}lewdkemo
-き⃟🌐 ${prefix}wallpaper
-き⃟🌐 ${prefix}pussy_jpg
-き⃟🌐 ${prefix}kemonomimi
-き⃟🌐 ${prefix}nsfw_avatar
+き⃟🌹 ${prefix}bokep
+き⃟🌹 ${prefix}neko
+き⃟🌹 ${prefix}kanna
+き⃟🌹 ${prefix}sagiri
+き⃟🌹 ${prefix}megumin
+き⃟🌹 ${prefix}wallnime
+き⃟🌹 ${prefix}ass
+き⃟🌹 ${prefix}ahegao
+き⃟🌹 ${prefix}hentai
+き⃟🌹 ${prefix}yuri
+き⃟🌹 ${prefix}panties
+き⃟🌹 ${prefix}neko
+き⃟🌹 ${prefix}chiisaihentai
+き⃟🌹 ${prefix}trap
+き⃟🌹 ${prefix}blowjob
+き⃟🌹 ${prefix}yaoi
+き⃟🌹 ${prefix}ecchi
+き⃟🌹 ${prefix}ahegao
+き⃟🌹 ${prefix}hololewd
+き⃟🌹 ${prefix}sideoppai
+き⃟🌹 ${prefix}animefeets
+き⃟🌹 ${prefix}animebooty
+き⃟🌹 ${prefix}animethighss
+き⃟🌹 ${prefix}hentaiparadise
+き⃟🌹 ${prefix}animearmpits
+き⃟🌹 ${prefix}hentaifemdom
+き⃟🌹 ${prefix}lewdanimegirls
+き⃟🌹 ${prefix}biganimetiddies
+き⃟🌹 ${prefix}animebellybutton
+き⃟🌹 ${prefix}hentai4everyone
+き⃟🌹 ${prefix}bj
+き⃟🌹 ${prefix}ero
+き⃟🌹 ${prefix}cum
+き⃟🌹 ${prefix}feet
+き⃟🌹 ${prefix}yuri
+き⃟🌹 ${prefix}trap
+き⃟🌹 ${prefix}lewd
+き⃟🌹 ${prefix}feed
+き⃟🌹 ${prefix}eron
+き⃟🌹 ${prefix}solo
+き⃟🌹 ${prefix}gasm
+き⃟🌹 ${prefix}poke
+き⃟🌹 ${prefix}anal
+き⃟🌹 ${prefix}holo
+き⃟🌹 ${prefix}tits
+き⃟🌹 ${prefix}kuni
+き⃟🌹 ${prefix}kiss
+き⃟🌹 ${prefix}erok
+き⃟🌹 ${prefix}smug
+き⃟🌹 ${prefix}baka
+き⃟🌹 ${prefix}solog
+き⃟🌹 ${prefix}feetg
+き⃟🌹 ${prefix}lewdk
+き⃟🌹 ${prefix}waifu
+き⃟🌹 ${prefix}pussy
+き⃟🌹 ${prefix}femdom
+き⃟🌹 ${prefix}cuddle
+き⃟🌹 ${prefix}eroyuri
+き⃟🌹 ${prefix}cum_jpg
+き⃟🌹 ${prefix}blowjob
+き⃟🌹 ${prefix}erofeet
+き⃟🌹 ${prefix}holoero
+き⃟🌹 ${prefix}classic
+き⃟🌹 ${prefix}erokemo
+き⃟🌹 ${prefix}fox_girl
+き⃟🌹 ${prefix}futanari
+き⃟🌹 ${prefix}lewdkemo
+き⃟🌹 ${prefix}wallpaper
+き⃟🌹 ${prefix}pussy_jpg
+き⃟🌹 ${prefix}kemonomimi
+き⃟🌹 ${prefix}nsfw_avatar
 │
 ─❒ EVAL
-き⃟🌐 *x*
-き⃟🌐 *>*
-き⃟🌐 *=>*
-き⃟🌐 *$*
+き⃟🌹 *x*
+き⃟🌹 *>*
+き⃟🌹 *=>*
+き⃟🌹 *$*
 │
 ─❒ OTHER / FUN
-き⃟🌐 ${prefix}meme
-き⃟🌐 ${prefix}darkjoke
-き⃟🌐 ${prefix}rate
-き⃟🌐 ${prefix}kapankah
-き⃟🌐 ${prefix}apakah
-き⃟🌐 ${prefix}bisakah
-き⃟🌐 ${prefix}caripesan [ _teks|jumlah_ ]
-き⃟🌐 ${prefix}slots
-き⃟🌐 ${prefix}suit [ _gunting/batu/kertas_ ]
-き⃟🌐 ${prefix}tag [ _nomor_ ]
-き⃟🌐 ${prefix}tagme
-き⃟🌐 ${prefix}tts [ _kodebhs teks_ ]
-き⃟🌐 ${prefix}readmore [ _teks1|teks2_ ]
-き⃟🌐 ${prefix}fitnahpc [ _nomor|teks1|teks2_ ]
-き⃟🌐 ${prefix}chat [ _nomor|teks_ ]
-き⃟🌐 ${prefix}fdeface [ _replyimg link|teks1|teks2_ ]
-き⃟🌐 ${prefix}listgrup
-き⃟🌐 ${prefix}baileys [ _reply message_ ]
-き⃟🌐 ${prefix}q [ _reply message_ ]
-き⃟🌐 ${prefix}getcaption [ _reply message_ ]
-き⃟🌐 ${prefix}tospam [ _reply audio/sticker/image|jumlah_ ]
-き⃟🌐 ${prefix}sharelock [ _teks1|teks2_ ]
+き⃟🌹 ${prefix}meme
+き⃟🌹 ${prefix}darkjoke
+き⃟🌹 ${prefix}rate
+き⃟🌹 ${prefix}kapankah
+き⃟🌹 ${prefix}apakah
+き⃟🌹 ${prefix}bisakah
+き⃟🌹 ${prefix}caripesan [ _teks|jumlah_ ]
+き⃟🌹 ${prefix}slots
+き⃟🌹 ${prefix}suit [ _gunting/batu/kertas_ ]
+き⃟🌹 ${prefix}tag [ _nomor_ ]
+き⃟🌹 ${prefix}tagme
+き⃟🌹 ${prefix}tts [ _kodebhs teks_ ]
+き⃟🌹 ${prefix}readmore [ _teks1|teks2_ ]
+き⃟🌹 ${prefix}fitnahpc [ _nomor|teks1|teks2_ ]
+き⃟🌹 ${prefix}chat [ _nomor|teks_ ]
+き⃟🌹 ${prefix}fdeface [ _replyimg link|teks1|teks2_ ]
+き⃟🌹 ${prefix}listgrup
+き⃟🌹 ${prefix}baileys [ _reply message_ ]
+き⃟🌹 ${prefix}q [ _reply message_ ]
+き⃟🌹 ${prefix}getcaption [ _reply message_ ]
+き⃟🌹 ${prefix}tospam [ _reply audio/sticker/image|jumlah_ ]
+き⃟🌹 ${prefix}sharelock [ _teks1|teks2_ ]
 ─❒ SOUND MENU
-き⃟🌐 ${prefix}sound1 - き⃟🌐 ${prefix}sound75
+き⃟🌹 ${prefix}sound1 - き⃟🌹 ${prefix}sound75
 
 └─────────────────❒`
 if(menuall == false){
